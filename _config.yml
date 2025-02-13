@@ -8,13 +8,13 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Gao, Songyang(Phebe, 高颂扬) " # "Your name / Site Title"
+title                    : "Zhu, Xianyu(Mike, 朱先语) " # "Your name / Site Title"
 title_separator          : "-"
-name                     : &name "Songyang Gao（高颂扬）" # "Your name"
+name                     : &name "Zhu, Xianyu(朱先语)" # "Your name"
 description              : &description "personal description"
-url                      : https://songyang0603.github.io # https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://zhuxy-USTC.github.io # https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "songyang0603/songyang0603.github.io" # "academicpages/academicpages.github.io"
+repository               : "zhuxy-USTC/zhuxy-USTC.github.io" # "academicpages/academicpages.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -22,28 +22,28 @@ repository               : "songyang0603/songyang0603.github.io" # "academicpage
 author:
   # Biographic information
   avatar           : "pro.jpg"
-  name             : "Songyang Gao" # "Your Sidebar Name"
+  name             : "Xianyu Zhu" # "Your Sidebar Name"
   pronouns         : # example: "she/her"  
   bio              : "Junior@NCU AI"
-  location         : "Jiangxi, China"
-  employer         : "Nanchang University"
+  location         : "Hefei, Anhui, China"
+  employer         : "University of Science and Technology of China"
   uri              : # URL
-  email            : "gaosongyang@email.ncu.edu.cn" 
+  email            : "zhuxy@mail.ustc.edu.cn" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com.hk/citations?user=1OyMQr0AAAAJ&hl=zh-CN"
+  googlescholar    : "https://scholar.google.com/citations?user=k2ajuuEAAAAJ&hl"
   impactstory      : # URL
-  orcid            : "https://orcid.org/my-orcid?orcid=0009-0003-4900-0458"
+  orcid            : "https://orcid.org/0000-0002-1889-6103"
   semantic         : # URL
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  researchgate     : "https://www.researchgate.net/profile/Zhu-Xianyu?ev=hdr_xprf"
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "songyang0603"
+  github           : "zhuxy-USTC"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
