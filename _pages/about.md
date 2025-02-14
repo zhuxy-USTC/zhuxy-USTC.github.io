@@ -11,6 +11,7 @@ I am currently a graduate student in the [School of Computer Science and Technol
 
 **Now, I am seeking related PhD opportunities.**
 
+***********************************************************
 
 Education
 ======
@@ -27,6 +28,8 @@ Education
 * GPA : 90.5 (3.77/4.0)
 * Rank: 2 / 132
   
+***********************************************************
+
 
 Publications
 ======
@@ -39,7 +42,10 @@ Publications
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul> -->
-  
+
+
+***********************************************************
+
 Project
 ======
   <ul>{% for post in site.teaching reversed %}
