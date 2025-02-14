@@ -15,13 +15,13 @@ I am currently a graduate student in the [School of Computer Science and Technol
 Education
 ======
 **Master of Engineering** (2023--Now)
-* University of Science and Technology of China (C9 League, Project 985\&211)
+* University of Science and Technology of China (C9 League, Project 985&211)
 * Organization: school of computer science and technology
 * Major: computer science and technology
 * GPA : 90 (3.87/4.3)
 
 **Bachelor of Engineering** (2019--2023)
-* Northwest A\&F University (Project 985\&211)
+* Northwest A\&F University (Project 985&211)
 * Organization: college of information engineering
 * Major: computer science and technology
 * GPA : 90.5 (3.77/4.0)
