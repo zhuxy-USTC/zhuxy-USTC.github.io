@@ -22,7 +22,7 @@ Education
 * GPA : 90 (3.87/4.3)
 
 **Bachelor of Engineering** (2019--2023)
-* Northwest A\&F University (Project 985&211)
+* Northwest A&F University (Project 985&211)
 * Organization: college of information engineering
 * Major: computer science and technology
 * GPA : 90.5 (3.77/4.0)
