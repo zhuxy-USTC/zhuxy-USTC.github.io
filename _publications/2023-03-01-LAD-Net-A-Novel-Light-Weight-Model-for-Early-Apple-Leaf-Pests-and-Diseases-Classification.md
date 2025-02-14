@@ -4,11 +4,11 @@ collection: publications
 permalink: /publication/2023-03-01-LAD-Net-A-Novel-Light-Weight-Model-for-Early-Apple-Leaf-Pests-and-Diseases-Classification
 date: 2023-03-01
 venue: 'IEEE/ACM Transactions on Computational Biology and Bioinformatics'
-paperurl: 'http://dx.doi.org/10.1109/TCBB.2022.3191854'
+# paperurl: 'http://dx.doi.org/10.1109/TCBB.2022.3191854'
 citation: ' Xianyu Zhu,  Jinjiang Li,  Runchang Jia,  Bin Liu,  Zhuohan Yao,  Aihong Yuan,  Yingqiu Huo,  Haixi Zhang, &quot;LAD-Net: A Novel Light Weight Model for Early Apple Leaf Pests and Diseases Classification.&quot; IEEE/ACM Transactions on Computational Biology and Bioinformatics, 2023.'
 ---
 
-## Abstract 
+## Abstract
 
 Aphids, brown spots, mosaics, rusts, powdery mildew and Alternaria blotches are common types of early apple leaf pests and diseases. These pests and diseases severely affect the yield and quality of apples.
 Recently, deep learning has been regarded as the best classification model for apple leaf pests and diseases. However, models with large parameters have difficulty providing an accurate and fast diagnosis of apple leaf pests and diseases on mobile terminals.
