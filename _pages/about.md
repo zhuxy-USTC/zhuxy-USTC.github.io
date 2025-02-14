@@ -14,6 +14,8 @@ Specially, I am focusing on the "Gradient Compression" algorithm in distributed 
 
 **Now, I am seeking related PhD opportunities.**
 
+*************************************************************
+
 ### Basic information and Contact Way
 * My resume: [CV](https://zhuxy-USTC.github.io/files/ZhuXY-CV.pdf)
 * Mail : <zhuxy@mail.ustc.edu.cn>
