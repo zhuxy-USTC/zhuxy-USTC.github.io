@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Project involved"
+title: "Project Involved"
 permalink: /talks/
 author_profile: true
 ---
