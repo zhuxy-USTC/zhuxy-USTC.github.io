@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: ""
+title: "Education"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -8,9 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-**************************************************
-Education
-======
+
 **Master of Engineering** (2023--Now)
 * University of Science and Technology of China (C9 League, Project 985&211)
 * Organization: school of computer science and technology
