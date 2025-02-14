@@ -1,7 +1,7 @@
 ---
 title: "CGAN-IRB: a novel data augmentation method for apple leaf diseases"
 collection: publications
-permalink: /publication2/2021-01-01-CGAN-IRB-a-novel-data-augmentation-method-for-apple-leaf-diseases
+permalink: /publication/swPredicter
 date: 2021-01-01
 venue: 'In the proceedings of 2021 IEEE 45th Annual Computers, Software, and Applications Conference (COMPSAC)'
 citation: ' Xinbin Yuan,  Cong Yu,  Bin Liu,  Henan Sun,  Xianyu Zhu, &quot;CGAN-IRB: a novel data augmentation method for apple leaf diseases.&quot; In the proceedings of 2021 IEEE 45th Annual Computers, Software, and Applications Conference (COMPSAC), 2021.'
