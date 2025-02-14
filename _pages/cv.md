@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-
+**************************************************
 Education
 ======
 **Master of Engineering** (2023--Now)
@@ -24,6 +24,7 @@ Education
 * GPA : 90.5 (3.77/4.0)
 * Rank: 2 / 132
 
+**************************************************
 
 Competition
 ======
