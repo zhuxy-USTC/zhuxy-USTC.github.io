@@ -28,7 +28,7 @@ Education
 
 Competition
 ======
-* 11th Student RDMA Programming Competition, Third Prize
+* "11th Student RDMA Programming Competition", Third Prize
 * "2022 Mathematical Contest In Modeling(MCM)", Meritorious Winner
 * "12th Blue Bridge Cup Competition", Provincial Competition First prize
 * "2021 Group Programming Ladder Tournament", National Third Prize
