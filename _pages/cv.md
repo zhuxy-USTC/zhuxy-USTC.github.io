@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: ""
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -25,11 +25,11 @@ Education
 * Rank: 2 / 132
 
 
-Skills
+Competition
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* 11th Student RDMA Programming Competition, Third Prize
+* "2022 Mathematical Contest In Modeling(MCM)", Meritorious Winner
+* "12th Blue Bridge Cup Competition", Provincial Competition First prize
+* "2021 Group Programming Ladder Tournament", National Third Prize
+* "2022 The Competition of Computer Design", First prize in Northwest Region
+* "12th National Mathematics Competition for College Students", Second Prize
