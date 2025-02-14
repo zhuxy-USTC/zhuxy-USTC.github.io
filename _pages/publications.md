@@ -5,12 +5,12 @@ permalink: /publications/
 author_profile: true
 ---
 
-<b>Accepted<b>
+## Accepted
 <ul>{% for post in site.publications reversed %}
   {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-<b>Submitted<b>
+## Submitted
 <ul>{% for post in site.publications2 reversed %}
   {% include archive-single-cv.html %}
   {% endfor %}</ul>
