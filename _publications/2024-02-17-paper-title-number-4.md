@@ -1,5 +1,5 @@
 ---
-title: "Paper Title Number 4"
+title: "LAD-Net: A novel light weight model for early apple leaf pests and diseases classification"
 collection: publications
 category: conferences
 permalink: /publication/2024-02-17-paper-title-number-4
