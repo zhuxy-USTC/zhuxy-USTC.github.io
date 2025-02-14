@@ -11,7 +11,7 @@ I am currently a master student in the [School of Computer Science and Technolog
 
 **Now, I am seeking related PhD opportunities.**
 
-
+My resume: [CV](https://zhuxy-USTC.github.io/files/ZhuXY-CV.pdf)
 
 ***********************************************************
 <!-- 
