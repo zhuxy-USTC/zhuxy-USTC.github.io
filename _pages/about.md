@@ -13,8 +13,18 @@ I am currently a graduate student in the [Department of Computer Science and Tec
 
 Education
 ======
-* M.S. in computer science and technology, at school of computer science and technology, University of Science and Technology of China, 2023-now
-* B.S. in computer science and technology, at college of information engineering, Northwest A\&F University, 2019-2023
+**Master of Engineering** (2023--Now)
+* University of Science and Technology of China (C9 League, Project 985\&211)
+* Organization: school of computer science and technology
+* Major: computer science and technology
+* GPA : 90 (3.87/4.3)
+
+**Bachelor of Engineering** (2019--2023)
+* Northwest A\&F University (Project 985\&211)
+* Organization: college of information engineering
+* Major: computer science and technology
+* GPA : 90.5 (3.77/4.0)
+* Rank: 2 / 132
   
 
 Publications
@@ -23,11 +33,11 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+<!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 Teaching
 ======
@@ -35,6 +45,6 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+<!-- Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
