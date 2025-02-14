@@ -1,9 +1,10 @@
 ---
 layout: archive
-title: "project involved"
+title: "Project involved"
 permalink: /talks/
 author_profile: true
 ---
+
 
 {% if site.talkmap_link == true %}
 
