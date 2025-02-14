@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Project"
+title: "Eduction"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -11,27 +11,20 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+**Master of Engineering** (2023--Now)
+* University of Science and Technology of China (C9 League, Project 985&211)
+* Organization: school of computer science and technology
+* Major: computer science and technology
+* GPA : 90 (3.87/4.3)
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+**Bachelor of Engineering** (2019--2023)
+* Northwest A&F University (Project 985&211)
+* Organization: college of information engineering
+* Major: computer science and technology
+* GPA : 90.5 (3.77/4.0)
+* Rank: 2 / 132
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
 * Skill 1
@@ -40,31 +33,3 @@ Skills
   * Sub-skill 2.2
   * Sub-skill 2.3
 * Skill 3
-
-<!-- Publications
-======
-## Submitted
-* As first-author, the paper "swPredicter: A Data-Driven Performance Model for Distributed Data Parallelism Training on Large-Scale HPC Clusters" has been submitted to IEEE Transactions on Parallel and Distributed Systems **(TPDS)**
-* As second-author, the paper "SwFormer: Enabling Faster Foundation Models on new Sunway Supercomputer via Holistic Kernel Tiling and Scheduling" has been submitted to Journal of Computer Science and Technology **(JCST)**
-
-## Accepted
-<ul>{% for post in site.publications reversed %}
-  {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
-
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
