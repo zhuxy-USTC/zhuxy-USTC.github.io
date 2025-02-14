@@ -10,7 +10,7 @@ author_profile: true
   {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-<h2>Submitted<h2>
+<b>Submitted<b>
 <ul>{% for post in site.publications2 reversed %}
   {% include archive-single-cv.html %}
   {% endfor %}</ul>
