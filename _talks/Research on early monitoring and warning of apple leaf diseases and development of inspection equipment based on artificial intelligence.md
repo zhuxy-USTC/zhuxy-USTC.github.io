@@ -1,5 +1,5 @@
 ---
-title: "Conference Proceeding talk 3 on Relevant Topic in Your Field"
+title: "Research on early monitoring and warning of apple leaf diseases and development of inspection equipment based on artificial intelligence"
 collection: talks
 type: "Conference proceedings talk"
 permalink: /talks/2014-03-01-talk-3

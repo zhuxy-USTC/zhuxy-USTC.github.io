@@ -1,5 +1,5 @@
 ---
-title: "Talk 2 on Relevant Topic in Your Field"
+title: "Identification and Detection of Apple Leaf Diseases Based on Cloud Collaboration and Convolutional Neural Network"
 collection: talks
 type: "Talk"
 permalink: /talks/2014-02-01-talk-2

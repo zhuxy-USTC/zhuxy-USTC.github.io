@@ -1,6 +1,6 @@
 ---
 title: "Apple-YOLO: A novel mobile terminal detector based on YOLOv5 for early apple leaf diseases"
-collection: publications
+collection: publications2
 permalink: /publication/2022-01-01-Apple-YOLO-A-novel-mobile-terminal-detector-based-on-YOLOv5-for-early-apple-leaf-diseases
 date: 2022-01-01
 venue: 'In the proceedings of 2022 IEEE 46th Annual Computers, Software, and Applications Conference (COMPSAC)'
