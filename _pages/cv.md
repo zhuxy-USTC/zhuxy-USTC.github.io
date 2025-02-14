@@ -44,6 +44,6 @@ Award
 * First-Class Professional Scholarship
 
 **Honor**
-* Outstanding Communist Youth League Member
+* Outstanding Graduate
 * Excellent College Student
 * Advanced Individual in Social Practice
