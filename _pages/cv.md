@@ -41,7 +41,7 @@ Skills
   * Sub-skill 2.3
 * Skill 3
 
-Publications
+<!-- Publications
 ======
 ## Submitted
 * As first-author, the paper "swPredicter: A Data-Driven Performance Model for Distributed Data Parallelism Training on Large-Scale HPC Clusters" has been submitted to IEEE Transactions on Parallel and Distributed Systems **(TPDS)**
@@ -50,7 +50,7 @@ Publications
 ## Accepted
 <ul>{% for post in site.publications reversed %}
   {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
 
   
 Talks
