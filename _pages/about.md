@@ -7,7 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a graduate student in the [Department of Computer Science and Technology](https://cs.ustc.edu.cn) at the [University of Science and Technology of China(USTC)](https://ustc.edu.cn/). I primarily conduct research in high-performance computing, machine learning systems, and distributed training.
+I am currently a graduate student in the [School of Computer Science and Technology](https://cs.ustc.edu.cn) at the [University of Science and Technology of China(USTC)](https://ustc.edu.cn/). I primarily conduct research in high-performance computing, machine learning systems, and distributed training.
+
 **Now, I am seeking related PhD opportunities.**
 
 
@@ -39,7 +40,7 @@ Publications
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul> -->
   
-Teaching
+Project
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
