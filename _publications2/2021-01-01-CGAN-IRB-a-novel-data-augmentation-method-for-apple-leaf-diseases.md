@@ -1,6 +1,6 @@
 ---
 title: "CGAN-IRB: a novel data augmentation method for apple leaf diseases"
-collection: publications
+collection: publications2
 permalink: /publication/swPredicter
 date: 2021-01-01
 venue: 'In the proceedings of 2021 IEEE 45th Annual Computers, Software, and Applications Conference (COMPSAC)'
