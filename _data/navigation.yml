@@ -23,5 +23,5 @@ main:
   # - title: "Blog Posts"
   #   url: /year-archive/
     
-  - title: "Contact me"
-    url: /markdown/
+  # - title: "Contact me"
+  #   url: /markdown/
