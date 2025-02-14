@@ -8,4 +8,6 @@ date: 2012-03-01
 location: "San Francisco, California"
 ---
 
-This is a description of your talk, which is a markdown file that can be all markdown-ified like any other post. Yay markdown!
+* Propose Asymmetric and Dilated convolution, and construct a multi - scale feature extraction module named LAD-Inception.
+* Develop LAD - Net, achieving comprehensive optimization in terms of size, accuracy, and speed.
+* Transplant LAD - Net to Jetson TX2. Combine Jetson TX2 with a wheeled chassis to form an inspection robot, enabling the inspection and monitoring of the orchard.

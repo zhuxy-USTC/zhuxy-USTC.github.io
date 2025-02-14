@@ -8,7 +8,5 @@ venue: "London School of Testing"
 # location: "London, UK"
 ---
 
-
-This is a description of the project as below:
 * Build MEAN-SSD to detect the apple leaf diseases and pests
 * Detection the diseases on mobile device based on cloud collaboration
