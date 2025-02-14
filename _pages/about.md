@@ -36,6 +36,16 @@ Publications
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
+## Accepted
+<ul>{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+## Submitted
+<ul>{% for post in site.publications2 reversed %}
+  {% include archive-single-cv.html %}
+  {% endfor %}</ul>
   
 <!-- Talks
 ======
