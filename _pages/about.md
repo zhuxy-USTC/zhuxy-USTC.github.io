@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
+
 I am currently a master student in the [School of Computer Science and Technology](https://cs.ustc.edu.cn) at the [University of Science and Technology of China(USTC)](https://ustc.edu.cn/). I primarily conduct research in high-performance computing, machine learning systems, and distributed training.
+Specially, I am focusing on the "Gradient Compression" algorithm in distributed training.
 
 **Now, I am seeking related PhD opportunities.**
-
-******************************************************
 
 #### Basic information and Contact Way
 * My resume: [CV](https://zhuxy-USTC.github.io/files/ZhuXY-CV.pdf)
