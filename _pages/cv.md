@@ -35,12 +35,14 @@ Competition
 
 
 **************************************************
+
 Award
 ======
 **Scholarship**
 * National Scholarship
 * President Scholarship
 * First-Class Professional Scholarship
+
 **Honor**
 * Outstanding Communist Youth League Member
 * Excellent College Student
