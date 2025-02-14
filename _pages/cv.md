@@ -32,3 +32,16 @@ Competition
 * "2021 Group Programming Ladder Tournament", National Third Prize
 * "2022 The Competition of Computer Design", First prize in Northwest Region
 * "12th National Mathematics Competition for College Students", Second Prize
+
+
+**************************************************
+Award
+======
+**Scholarship**
+* National Scholarship
+* President Scholarship
+* First-Class Professional Scholarship
+**Honor**
+* Outstanding Communist Youth League Member
+* Excellent College Student
+* Advanced Individual in Social Practice
