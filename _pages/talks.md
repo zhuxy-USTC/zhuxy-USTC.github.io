@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Project Involved"
-permalink: /talks/
+permalink: /project/
 author_profile: true
 ---
 
