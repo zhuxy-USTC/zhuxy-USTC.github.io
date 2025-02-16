@@ -49,6 +49,8 @@ Award
 * Excellent College Student
 * Advanced Individual in Social Practice
 
+
+***********************************************************
 Social Practice
 ======
 * 2019--2020, New Media Center of college, responsible for writing, interview and operation of official account
