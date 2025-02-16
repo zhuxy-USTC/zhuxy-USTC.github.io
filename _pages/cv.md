@@ -48,3 +48,8 @@ Award
 * Outstanding Graduate
 * Excellent College Student
 * Advanced Individual in Social Practice
+
+Social Practice
+======
+* 2019--2020, New Media Center, responsible for writing, interview and operation of official account
+* 2019--2020 Sum., Baidu AI Talents Camp, learning machine learning and Paddle
