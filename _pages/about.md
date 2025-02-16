@@ -12,16 +12,18 @@ I am currently a master student in the [School of Computer Science and Technolog
 
 Specially, I am focusing on the "Gradient Compression" algorithm in distributed training.
 
-**Now, I am seeking related PhD opportunities.**
+**Now, I am seeking related PhD opportunities!**
 
 *************************************************************
 
 ### Basic information and Contact Way
-* My resume: [CV](https://zhuxy-USTC.github.io/files/ZhuXY-CV.pdf)
+* My resume: [Download CV](https://zhuxy-USTC.github.io/files/ZhuXY-CV.pdf)
 * Mail : <zhuxy@mail.ustc.edu.cn>
 * Google Scholar Profile: [Google Scholar](https://scholar.google.com/citations?user=k2ajuuEAAAAJ&hl)
 * ResearchGate: [ResearchGate](https://www.researchgate.net/profile/Zhu-Xianyu?ev=hdr_xprf)
 
+
+Last updated: Feb 16, 2025
 
 <!-- 
 Education
