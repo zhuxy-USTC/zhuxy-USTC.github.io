@@ -51,5 +51,6 @@ Award
 
 Social Practice
 ======
-* 2019--2020, New Media Center, responsible for writing, interview and operation of official account
-* 2019--2020 Sum., Baidu AI Talents Camp, learning machine learning and Paddle
+* 2019--2020, New Media Center of college, responsible for writing, interview and operation of official account
+* 2019--2020 Summer, Baidu AI Talents Camp, learning machine learning and AI framework PaddlePaddle
+* 2019 Winter and 2020 Winter, the event about outstanding student coming back to Alma Mater
