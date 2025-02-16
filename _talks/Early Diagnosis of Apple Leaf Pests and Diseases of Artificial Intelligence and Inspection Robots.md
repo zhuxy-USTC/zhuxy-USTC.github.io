@@ -2,7 +2,7 @@
 title: "Early Diagnosis of Apple Leaf Pests and Diseases of Artificial Intelligence and Inspection Robots"
 collection: talks
 type: "Talk"
-permalink: /talks/Early Diagnosis of Apple Leaf Pests and Diseases of Artificial Intelligence and Inspection Robots
+permalink: /project/Early Diagnosis of Apple Leaf Pests and Diseases of Artificial Intelligence and Inspection Robots
 # venue: "UC San Francisco, Department of Testing"
 # date: 2012-03-01
 # location: "San Francisco, California"
