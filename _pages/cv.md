@@ -41,6 +41,7 @@ Award
 **Scholarship**
 * National Scholarship
 * President Scholarship
+* Thanksgiving Scholarship for Modern Chinese Scientists
 * First-Class Professional Scholarship
 
 **Honor**
