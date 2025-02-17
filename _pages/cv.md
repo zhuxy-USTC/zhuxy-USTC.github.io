@@ -51,6 +51,8 @@ Award
 
 
 ***********************************************************
+
+
 Social Practice
 ======
 * 2019--2020, New Media Center of college, responsible for writing, interview and operation of official account
