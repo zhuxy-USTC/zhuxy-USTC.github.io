@@ -14,4 +14,6 @@ This work proposes SWattention, a highly efficient method for computing the exac
 Compared with the standard attention, SWattention achieves around 2.0x speedup for FP32 training and 2.5x speedup for mixed-precision training. The sequence lengths range from 1k to 8k and scale up to 16k without being out of memory. As for the end-to-end performance, SWattention achieves up to 1.26x speedup for training GPT - style models, which demonstrates that SWattention enables longer sequence length for LLM training.
 <p>
 
-[Original paper](http://zhuxy-USTC.github.io/files/swattention.pdf) and [Google Scholar Link](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2ajuuEAAAAJ&citation_for_view=k2ajuuEAAAAJ:qjMakFHDy7sC){:target="_blank"}
+<!-- [Original paper](http://zhuxy-USTC.github.io/files/swattention.pdf) and [Google Scholar Link](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2ajuuEAAAAJ&citation_for_view=k2ajuuEAAAAJ:qjMakFHDy7sC){:target="_blank"} -->
+
+<a href="http://zhuxy-USTC.github.io/files/swattention.pdf">Original paper</a> and <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2ajuuEAAAAJ&citation_for_view=k2ajuuEAAAAJ:qjMakFHDy7sC" target="_blank">Google Scholar Link</a>
