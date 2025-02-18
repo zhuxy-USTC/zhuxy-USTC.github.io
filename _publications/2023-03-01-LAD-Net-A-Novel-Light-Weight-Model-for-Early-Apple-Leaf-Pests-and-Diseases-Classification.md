@@ -9,6 +9,7 @@ citation: ' Xianyu Zhu,  Jinjiang Li,  Runchang Jia,  Bin Liu,  Zhuohan Yao,  Ai
 ---
 
 ## Abstract
+
 <p style="text-align: justify;">
 Aphids, brown spots, mosaics, rusts, powdery mildew and Alternaria blotches are common types of early apple leaf pests and diseases. These pests and diseases severely affect the yield and quality of apples.
 Recently, deep learning has been regarded as the best classification model for apple leaf pests and diseases. However, models with large parameters have difficulty providing an accurate and fast diagnosis of apple leaf pests and diseases on mobile terminals.
