@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2022-03-02-Lightweight-identification-model-for-apple-leaf-diseases-and-pests-based-on-mobile-terminals
 date: 2022-03-02
 venue: 'Transactions of the Chinese Society of Agricultural Engineering (TCSAE)'
-citation: ' Bin Liu, Runchang Jia, Xianyu Zhu, Cong Yu, Zhuohan Yao, Haixi Zhang, Dongjian He, &quot;Lightweight identification model for apple leaf diseases and pests based on mobile terminals.&quot; Transactions of the Chinese Society of Agricultural Engineering (TCSAE).'
+citation: ' Bin Liu, Runchang Jia, Xianyu Zhu, Cong Yu, Zhuohan Yao, Haixi Zhang, Dongjian He, &quot;Lightweight identification model for apple leaf diseases and pests based on mobile terminals.&quot; Transactions of the Chinese Society of Agricultural Engineering (TCSAE). 2022'
 ---
 
 ## Abstract
