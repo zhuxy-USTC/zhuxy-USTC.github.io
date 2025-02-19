@@ -10,9 +10,9 @@ redirect_from:
 <h1>About Me</h1>
 <div style="font-family: 'Times New Roman', Times, serif;">
 I am currently a master student in the <a href="https://cs.ustc.edu.cn">School of Computer Science and Technology</a> at the <a href="https://ustc.edu.cn/">University of Science and Technology of China(USTC)</a>. I primarily conduct research in high - performance computing, machine learning systems, and distributed training.
-
+<br>
 Specially, I am focusing on the "Gradient Compression" algorithm in distributed training.
-
+<br>
 <strong>Now, I am seeking related PhD opportunities!</strong>
 </div>
 
