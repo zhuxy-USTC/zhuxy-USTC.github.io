@@ -9,8 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-
-<h2>Education</h2>
 <div style="font-family: 'Times New Roman', Times, serif;">
 <p><strong>Master of Engineering</strong> (2023--Now)</p>
 <ul>
