@@ -12,12 +12,13 @@ I am currently a master student in the <a href="https://cs.ustc.edu.cn">School o
 <br>
 Specially, I am focusing on the "Gradient Compression" algorithm in distributed training.
 <br>
+<br>
 <strong>Now, I am seeking related PhD opportunities!</strong>
 </div>
 
 *************************************************************
 
-### Basic information and Contact Way
+## Basic information and Contact Way
 
 <div style="font-family: 'Times New Roman', Times, serif;">
 <ul>
