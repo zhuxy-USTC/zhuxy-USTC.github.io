@@ -9,8 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-<div style="font-family: 'Times New Roman', Times, serif;">
+
 <h2>Education</h2>
+<div style="font-family: 'Times New Roman', Times, serif;">
 <p><strong>Master of Engineering</strong> (2023--Now)</p>
 <ul>
     <li>University of Science and Technology of China (C9 League, Project 985&211)</li>
@@ -27,6 +28,9 @@ redirect_from:
     <li>Rank: 2 / 132</li>
 </ul>
 
+</div>
+<div style="font-family: 'Times New Roman', Times, serif;">
+
 <h2>Competition</h2>
 <ul>
     <li>"11th Student RDMA Programming Competition", Third Prize</li>
@@ -36,6 +40,8 @@ redirect_from:
     <li>"2022 The Competition of Computer Design", First prize in Northwest Region</li>
     <li>"12th National Mathematics Competition for College Students", Second Prize</li>
 </ul>
+</div>
+<div style="font-family: 'Times New Roman', Times, serif;">
 
 <h2>Award</h2>
 <h3>Scholarship</h3>
@@ -51,6 +57,8 @@ redirect_from:
     <li>Excellent College Student</li>
     <li>Advanced Individual in Social Practice</li>
 </ul>
+</div>
+<div style="font-family: 'Times New Roman', Times, serif;">
 
 <h2>Social Practice</h2>
 <ul>
