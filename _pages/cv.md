@@ -27,6 +27,9 @@ redirect_from:
 </ul>
 
 </div>
+
+****************************************************************
+
 <div style="font-family: 'Times New Roman', Times, serif;">
 
 <h2>Competition</h2>
@@ -39,6 +42,9 @@ redirect_from:
     <li>"12th National Mathematics Competition for College Students", Second Prize</li>
 </ul>
 </div>
+
+****************************************************************
+
 <div style="font-family: 'Times New Roman', Times, serif;">
 
 <h2>Award</h2>
@@ -56,6 +62,9 @@ redirect_from:
     <li>Advanced Individual in Social Practice</li>
 </ul>
 </div>
+
+
+****************************************************************
 <div style="font-family: 'Times New Roman', Times, serif;">
 
 <h2>Social Practice</h2>
