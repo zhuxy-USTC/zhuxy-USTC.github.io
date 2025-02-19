@@ -7,21 +7,9 @@ venue: 'The Journal of Supercomputing'
 citation: ' Ruohan Wu,  Xianyu Zhu,  Junshi Chen,  Sha Liu,  Tianyu Zheng,  Xin Liu,  Hong An, &quot;SWattention: designing fast and memory-efficient attention for a new Sunway Supercomputer.&quot; The Journal of Supercomputing, 2024.'
 ---
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inline Math Formula with MathJax</title>
-    <!-- 引入 MathJax 库 -->
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script>
-        MathJax = {
-            tex: {
-                inlineMath: [['$', '$'], ['\\(', '\\)']] // 设置行内公式的分隔符
-            }
-        };
-    </script>
-</head>
+<div style="font-family: 'Times New Roman', Times, serif;">
+<b>Keywords: <b>
+</div>
 
 ## Abstract
 <div style="font-family: 'Times New Roman', Times, serif;">
@@ -33,3 +21,15 @@ Compared with the standard attention, SWattention achieves around 2.0x speedup f
 
 
 <a href="http://zhuxy-USTC.github.io/files/swattention.pdf">Original paper</a> and <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2ajuuEAAAAJ&citation_for_view=k2ajuuEAAAAJ:qjMakFHDy7sC" target="_blank">Google Scholar Link</a>
+
+
+<!-- 引入 MathJax 库 -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']] // 设置行内公式的分隔符
+        }
+    };
+</script>
