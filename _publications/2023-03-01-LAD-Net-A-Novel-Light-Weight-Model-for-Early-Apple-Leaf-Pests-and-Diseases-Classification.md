@@ -8,7 +8,12 @@ venue: 'IEEE/ACM Transactions on Computational Biology and Bioinformatics'
 citation: ' Xianyu Zhu,  Jinjiang Li,  Runchang Jia,  Bin Liu,  Zhuohan Yao,  Aihong Yuan,  Yingqiu Huo,  Haixi Zhang, &quot;LAD-Net: A Novel Light Weight Model for Early Apple Leaf Pests and Diseases Classification.&quot; IEEE/ACM Transactions on Computational Biology and Bioinformatics, 2023.'
 ---
 
-**Keywords:**
+<p>
+<b>
+Keywords: Apple leaf pests and diseases, asymmetric convolution, dilated convolution, real-time inference, convolutional neural
+networks, deep learning
+<b>
+<p>
 
 ## Abstract
 
