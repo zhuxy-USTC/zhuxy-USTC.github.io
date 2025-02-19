@@ -9,6 +9,7 @@ citation: ' Xianyu Zhu,  Jinjiang Li,  Runchang Jia,  Bin Liu,  Zhuohan Yao,  Ai
 ---
 
 ## Abstract
+
 <div style="font-family: 'Times New Roman', Times, serif;">
 <p style="text-align: justify;">
 Aphids, brown spots, mosaics, rusts, powdery mildew and Alternaria blotches are common types of early apple leaf pests and diseases. These pests and diseases severely affect the yield and quality of apples.
