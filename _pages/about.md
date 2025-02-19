@@ -2,12 +2,12 @@
 permalink: /
 title: "About Me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-
+<--
 I am currently a master student in the [School of Computer Science and Technology](https://cs.ustc.edu.cn) at the [University of Science and Technology of China(USTC)](https://ustc.edu.cn/). I primarily conduct research in high-performance computing, machine learning systems, and distributed training.
 
 Specially, I am focusing on the "Gradient Compression" algorithm in distributed training.
@@ -24,8 +24,30 @@ Specially, I am focusing on the "Gradient Compression" algorithm in distributed 
 
 
 Last updated: Feb 16, 2025
+ -->
 
-<!-- 
+<h1>About Me</h1>
+<div style="font-family: 'Times New Roman', Times, serif;">
+I am currently a master student in the <a href="https://cs.ustc.edu.cn">School of Computer Science and Technology</a> at the <a href="https://ustc.edu.cn/">University of Science and Technology of China(USTC)</a>. I primarily conduct research in high - performance computing, machine learning systems, and distributed training.
+
+Specially, I am focusing on the "Gradient Compression" algorithm in distributed training.
+
+<strong>Now, I am seeking related PhD opportunities!</strong>
+</div>
+
+*************************************************************
+
+### Basic information and Contact Way
+<div style="font-family: 'Times New Roman', Times, serif;">
+* My resume: <a href="https://zhuxy-USTC.github.io/files/ZhuXY-CV.pdf">Download CV</a>
+* Mail : <a href="mailto:zhuxy@mail.ustc.edu.cn">zhuxy@mail.ustc.edu.cn</a>
+* Google Scholar Profile: <a href="https://scholar.google.com/citations?user=k2ajuuEAAAAJ&hl">Google Scholar</a>
+* ResearchGate: <a href="https://www.researchgate.net/profile/Zhu-Xianyu?ev=hdr_xprf">ResearchGate</a>
+</div>
+
+Last updated: Feb 16, 2025
+
+<!--
 Education
 ======
 **Master of Engineering** (2023--Now)
@@ -40,7 +62,7 @@ Education
 * Major: computer science and technology
 * GPA : 90.5 (3.77/4.0)
 * Rank: 2 / 132
-  
+
 ***********************************************************
 
 
@@ -57,7 +79,7 @@ Publications
   {% endfor %}</ul>
  -->
 
-  
+
 <!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
@@ -72,7 +94,7 @@ Publications
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul> -->
-  
+
 <!-- Service and leadership
 ======
 * Currently signed in to 43 different slack teams -->
