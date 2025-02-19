@@ -7,25 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-<--
-I am currently a master student in the [School of Computer Science and Technology](https://cs.ustc.edu.cn) at the [University of Science and Technology of China(USTC)](https://ustc.edu.cn/). I primarily conduct research in high-performance computing, machine learning systems, and distributed training.
-
-Specially, I am focusing on the "Gradient Compression" algorithm in distributed training.
-
-**Now, I am seeking related PhD opportunities!**
-
-*************************************************************
-
-### Basic information and Contact Way
-* My resume: [Download CV](https://zhuxy-USTC.github.io/files/ZhuXY-CV.pdf)
-* Mail : <zhuxy@mail.ustc.edu.cn>
-* Google Scholar Profile: [Google Scholar](https://scholar.google.com/citations?user=k2ajuuEAAAAJ&hl)
-* ResearchGate: [ResearchGate](https://www.researchgate.net/profile/Zhu-Xianyu?ev=hdr_xprf)
-
-
-Last updated: Feb 16, 2025
- -->
-
 <h1>About Me</h1>
 <div style="font-family: 'Times New Roman', Times, serif;">
 I am currently a master student in the <a href="https://cs.ustc.edu.cn">School of Computer Science and Technology</a> at the <a href="https://ustc.edu.cn/">University of Science and Technology of China(USTC)</a>. I primarily conduct research in high - performance computing, machine learning systems, and distributed training.
@@ -38,14 +19,19 @@ Specially, I am focusing on the "Gradient Compression" algorithm in distributed 
 *************************************************************
 
 ### Basic information and Contact Way
+
 <div style="font-family: 'Times New Roman', Times, serif;">
-* My resume: <a href="https://zhuxy-USTC.github.io/files/ZhuXY-CV.pdf">Download CV</a>
-* Mail : <a href="mailto:zhuxy@mail.ustc.edu.cn">zhuxy@mail.ustc.edu.cn</a>
-* Google Scholar Profile: <a href="https://scholar.google.com/citations?user=k2ajuuEAAAAJ&hl">Google Scholar</a>
-* ResearchGate: <a href="https://www.researchgate.net/profile/Zhu-Xianyu?ev=hdr_xprf">ResearchGate</a>
+<ul>
+    <li>My resume: <a href="https://zhuxy-USTC.github.io/files/ZhuXY-CV.pdf">Download CV</a></li>
+    <li>Mail : <a href="mailto:zhuxy@mail.ustc.edu.cn">zhuxy@mail.ustc.edu.cn</a></li>
+    <li>Google Scholar Profile: <a href="https://scholar.google.com/citations?user=k2ajuuEAAAAJ&hl">Google Scholar</a></li>
+    <li>ResearchGate: <a href="https://www.researchgate.net/profile/Zhu-Xianyu?ev=hdr_xprf">ResearchGate</a></li>
+</ul>
 </div>
 
+<div style="font-family: 'Times New Roman', Times, serif;">
 Last updated: Feb 16, 2025
+</div>
 
 <!--
 Education
