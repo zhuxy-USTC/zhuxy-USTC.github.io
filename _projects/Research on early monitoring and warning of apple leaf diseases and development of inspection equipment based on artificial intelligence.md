@@ -1,6 +1,6 @@
 ---
 title: "Research on early monitoring and warning of apple leaf diseases and development of inspection equipment based on artificial intelligence"
-collection: publications
+collection: projects
 permalink: /project/Research on early monitoring and warning of apple leaf diseases and development of inspection equipment based on artificial intelligence
 # venue: "Testing Institute of America 2014 Annual Conference"
 # date: 2014-03-01
