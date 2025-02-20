@@ -19,11 +19,9 @@ author_profile: true
 {% endif %} -->
 
 {% for post in site.projects reversed %}
-  {% include archive-single.html %}
+  {% include archive-single-cv.html %}
 {% endfor %}
 
-
-heiheiehei
 
 
 {% include base_path %}
