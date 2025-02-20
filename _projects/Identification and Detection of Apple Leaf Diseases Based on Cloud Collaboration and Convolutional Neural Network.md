@@ -1,7 +1,6 @@
 ---
 title: "Identification and Detection of Apple Leaf Diseases Based on Cloud Collaboration and Convolutional Neural Network"
-collection: talks
-type: "Talk"
+collection: publications
 permalink: /project/Identification and Detection of Apple Leaf Diseases Based on Cloud Collaboration and Convolutional Neural Network
 # venue: "London School of Testing"
 # date: 2014-02-01
