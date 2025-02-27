@@ -5,12 +5,15 @@ permalink: /publications/
 author_profile: true
 ---
 
-## Submitted Paper
-* As **first-author**, the paper "swPredicter: A Data-Driven Performance Model for Distributed Data Parallelism Training on Large-Scale HPC Clusters" has been submitted to IEEE Transactions on Parallel and Distributed Systems **(TPDS)**
-* As **second-author**, the paper "SwFormer: Enabling Faster Foundation Models on new Sunway Supercomputer via Holistic Kernel Tiling and Scheduling" has been submitted to Journal of Computer Science and Technology **(JCST)**
+<h2>Submitted Paper</h2>
+<ul>
+<li>As <strong>first-author</strong>, the paper "swPredicter: A Data-Driven Performance Model for Distributed Data Parallelism Training on Large-Scale HPC Clusters" has been submitted to IEEE Transactions on Parallel and Distributed Systems <strong>(TPDS)</strong></li>
+<li>As <strong>second-author</strong>, the paper "SwFormer: Enabling Faster Foundation Models on new Sunway Supercomputer via Holistic Kernel Tiling and Scheduling" has been submitted to Journal of Computer Science and Technology <strong>(JCST)</strong></li>
+</ul>
 
 ********************************************************
-## Published Paper
+
+<h2>Published Paper</h2>
 <ul>{% for post in site.publications reversed %}
   {% include archive-single-cv.html %}
   {% endfor %}</ul>
