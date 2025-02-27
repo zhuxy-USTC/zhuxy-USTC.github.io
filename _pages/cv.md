@@ -72,5 +72,6 @@ redirect_from:
     <li>2019--2020, New Media Center of college, responsible for writing, interview and operation of official account</li>
     <li>2019--2020 Summer, Baidu AI Talents Camp, learning machine learning and AI framework PaddlePaddle</li>
     <li>2019 Winter and 2020 Winter, the event about outstanding student coming back to Alma Mater</li>
+    <li>2024.11, Huawei Kunpeng and Ascend Science, Technology and Education Innovation Excellence Center Special Training Camp</li>
 </ul>
 </div>
