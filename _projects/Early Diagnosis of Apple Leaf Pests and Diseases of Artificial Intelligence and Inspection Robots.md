@@ -4,7 +4,7 @@ collection: projects
 permalink: /projects/Early Diagnosis of Apple Leaf Pests and Diseases of Artificial Intelligence and Inspection Robots
 # venue: "UC San Francisco, Department of Testing"
 # location: "San Francisco, California"
-project_type: "Member; Provincial Innovative Entrepreneurial Training Plan Program (2021 May to 2022 May)"
+project_type: "Leader; Provincial Innovative Entrepreneurial Training Plan Program (2021 May to 2022 May)"
 ---
 
 
