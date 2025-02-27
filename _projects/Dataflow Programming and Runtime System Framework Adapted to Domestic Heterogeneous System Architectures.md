@@ -5,6 +5,6 @@ permalink: /projects/Dataflow Programming and Runtime System Framework Adapted t
 # venue: "Testing Institute of America 2014 Annual Conference"
 # date: 2014-03-01
 # location: "Los Angeles, CA"
-project_type: "Strategic Priority Research Program of Chinese Academy of Sciences"
+project_type: "Member; Strategic Priority Research Program of Chinese Academy of Sciences"
 ---
 
