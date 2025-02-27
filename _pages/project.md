@@ -18,11 +18,13 @@ author_profile: true
 
 {% endif %} -->
 
+<ul>
 {% for post in site.projects reversed %}
   <div class="project-item">
     {% include archive-single-talk.html %}
   </div>
 {% endfor %}
+</ul>
 
 
 {% include base_path %}
