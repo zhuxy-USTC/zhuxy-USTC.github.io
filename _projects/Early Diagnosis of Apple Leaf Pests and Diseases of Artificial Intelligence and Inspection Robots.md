@@ -5,6 +5,7 @@ permalink: /projects/Early Diagnosis of Apple Leaf Pests and Diseases of Artific
 # venue: "UC San Francisco, Department of Testing"
 # date: 2012-03-01
 # location: "San Francisco, California"
+project_type: "Provincial Innovative Entrepreneurial Training Plan Program"
 ---
 
 
