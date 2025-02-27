@@ -6,10 +6,12 @@ author_profile: true
 ---
 
 <h2 >Submitted Paper</h2>
-<ul style="font-family: 'Times New Roman', Times, serif;">
+<div style="font-family: 'Times New Roman', Times, serif;">
+<ul>
 <li>As <strong>first-author</strong>, the paper "swPredicter: A Data-Driven Performance Model for Distributed Data Parallelism Training on Large-Scale HPC Clusters" has been submitted to IEEE Transactions on Parallel and Distributed Systems <strong>(TPDS)</strong></li>
 <li>As <strong>second-author</strong>, the paper "SwFormer: Enabling Faster Foundation Models on new Sunway Supercomputer via Holistic Kernel Tiling and Scheduling" has been submitted to Journal of Computer Science and Technology <strong>(JCST)</strong></li>
 </ul>
+<div>
 
 ********************************************************
 
