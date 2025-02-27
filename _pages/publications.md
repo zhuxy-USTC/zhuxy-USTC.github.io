@@ -11,7 +11,7 @@ author_profile: true
 <li>As <strong>first-author</strong>, the paper "swPredicter: A Data-Driven Performance Model for Distributed Data Parallelism Training on Large-Scale HPC Clusters" has been submitted to IEEE Transactions on Parallel and Distributed Systems <strong>(TPDS)</strong></li>
 <li>As <strong>second-author</strong>, the paper "SwFormer: Enabling Faster Foundation Models on new Sunway Supercomputer via Holistic Kernel Tiling and Scheduling" has been submitted to Journal of Computer Science and Technology <strong>(JCST)</strong></li>
 </ul>
-<div>
+</div>
 
 ********************************************************
 
