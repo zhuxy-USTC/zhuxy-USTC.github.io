@@ -5,7 +5,8 @@ permalink: /project/
 author_profile: true
 ---
 
-<h2>Underway<h2>
+<h2>Underway</h2>
+
 <p style="font-family: 'Times New Roman', Times, serif;">
 <ul>
 <li> Dataflow Programming and Runtime System Framework Adapted to Domestic Heterogeneous System Architectures(Strategic Priority Research Program of Chinese Academy of Sciences) 
@@ -14,7 +15,7 @@ author_profile: true
 <p>
 **********************************************************
 
-## Finished
+<h2>Finished</h2>
 
 <!-- {% if site.talkmap_link == true %}
 
