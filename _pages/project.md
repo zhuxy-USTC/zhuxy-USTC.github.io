@@ -7,12 +7,12 @@ author_profile: true
 
 <h2>Underway</h2>
 
-<p style="font-family: 'Times New Roman', Times, serif;">
+<div style="font-family: 'Times New Roman', Times, serif;">
 <ul>
 <li> Dataflow Programming and Runtime System Framework Adapted to Domestic Heterogeneous System Architectures(Strategic Priority Research Program of Chinese Academy of Sciences) 
 </li>
 <ul>
-<p>
+</div>
 **********************************************************
 
 <h2>Finished</h2>
