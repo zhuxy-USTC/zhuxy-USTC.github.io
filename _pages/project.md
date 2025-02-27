@@ -20,7 +20,7 @@ author_profile: true
 
 {% for post in site.projects reversed %}
   <div class="project-item">
-    {% include archive-single-project.html %}
+    {% include archive-single-cv.html %}
   </div>
 {% endfor %}
 
