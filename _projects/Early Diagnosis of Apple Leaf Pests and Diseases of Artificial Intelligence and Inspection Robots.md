@@ -1,12 +1,12 @@
 ---
 title: "Early Diagnosis of Apple Leaf Pests and Diseases of Artificial Intelligence and Inspection Robots"
-collection: talks
-type: "Talk"
-permalink: /project/Early Diagnosis of Apple Leaf Pests and Diseases of Artificial Intelligence and Inspection Robots
+collection: projects
+permalink: /projects/Early Diagnosis of Apple Leaf Pests and Diseases of Artificial Intelligence and Inspection Robots
 # venue: "UC San Francisco, Department of Testing"
-# date: 2012-03-01
 # location: "San Francisco, California"
+project_type: "Leader; Provincial Innovative Entrepreneurial Training Plan Program (2021 May to 2022 May)"
 ---
+
 
 * Propose Asymmetric and Dilated convolution, and construct a multi - scale feature extraction module named LAD-Inception.
 * Develop LAD-Net, achieving comprehensive optimization in terms of size, accuracy, and speed.
