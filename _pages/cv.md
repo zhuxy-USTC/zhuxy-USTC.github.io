@@ -34,7 +34,7 @@ redirect_from:
 
 <h2>Competition</h2>
 <ul>
-    <li>"11th Student RDMA Programming Competition", <b>&nbsp&nbsp&nbsp&nbspThird Prize</b> </li>
+    <li>"11th Student RDMA Programming Competition", <b>&nbsp;&nbsp;&nbsp;Third Prize</b> </li>
     <li>"2022 Mathematical Contest In Modeling(MCM)", <b>Meritorious Winner</b></li>
     <li>"12th Blue Bridge Cup Competition", Provincial Competition <b>First prize</b></li>
     <li>"2021 Group Programming Ladder Tournament", National <b>Third Prize</b></li>
