@@ -74,4 +74,25 @@ redirect_from:
     <li>2019 Winter and 2020 Winter, the event about outstanding student coming back to Alma Mater</li>
     <li>2024.11, Huawei Kunpeng and Ascend Science, Technology and Education Innovation Excellence Center Special Training Camp</li>
 </ul>
+
+
+<!-- 创建一个表格 -->
+<table>
+    <!-- 第一行 -->
+    <tr>
+        <!-- 第一行的第一列 -->
+        <td>第一行第一列</td>
+        <!-- 第一行的第二列 -->
+        <td>第一行第二列</td>
+    </tr>
+    <!-- 第二行 -->
+    <tr>
+        <!-- 第二行的第一列 -->
+        <td>第二行第一列</td>
+        <!-- 第二行的第二列 -->
+        <td>第二行第二列</td>
+    </tr>
+</table>
+
+
 </div>
