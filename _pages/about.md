@@ -30,7 +30,7 @@ Specially, I am focusing on the "Gradient Compression" algorithm in distributed 
 </div>
 
 <div style="font-family: 'Times New Roman', Times, serif;">
-Last updated: Feb 16, 2025
+Last updated: Mar 6, 2025
 </div>
 
 <!--
