@@ -29,3 +29,14 @@ This project proposes an identification and detection model based on a deep lear
 <div>
 
 
+## The demo of detection in the field experiment
+
+<div style="text-align: center;">
+  <video width="640" height="360" controls 
+         poster="http://zhuxy-USTC.github.io/images/robot_based_detection_experiment.png" 
+         style="display: block; margin: auto;">
+    <source src="http://zhuxy-USTC.github.io/videos/robot_experiment.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
