@@ -9,7 +9,7 @@ author_profile: true
 <div style="font-family: 'Times New Roman', Times, serif;">
 <ul>
 <li>As <strong>first-author</strong>, the paper "swPredicter: A Data-Driven Performance Model for Distributed Data Parallelism Training on Large-Scale HPC Clusters" has been submitted to IEEE Transactions on Parallel and Distributed Systems <strong>(TPDS)</strong></li>
-<li>As <strong>first-author</strong>, the paper "Accelerating Large-Scale Distributed Training via Chunk-Wise Gradient Sparsification and Pipelined Communication" has been submitted to 54th International Conference on Parallel Processing (ICPP 2025)</strong></li>
+<li>As <strong>first-author</strong>, the paper "Accelerating Large-Scale Distributed Training via Chunk-Wise Gradient Sparsification and Pipelined Communication" has been submitted to 54th International Conference on Parallel Processing (ICPP 2025)</li>
 </ul>
 </div>
 
