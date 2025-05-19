@@ -15,9 +15,8 @@ Deep learning's continuous evolution has driven the creation of increasingly lar
 </p>
 <div>
 
-[Original paper](http://zhuxy-USTC.github.io/files/SwFormer.pdf) and [Google Scholar Link](https://jcst.ict.ac.cn/en/article/doi/10.1007/s11390-025-4761-0){:target="_blank"}
+<!-- [Original paper](http://zhuxy-USTC.github.io/files/SwFormer.pdf) and [Google Scholar Link](https://jcst.ict.ac.cn/en/article/doi/10.1007/s11390-025-4761-0){:target="_blank"} -->
 
 
-<!--
-<a href="http://zhuxy-USTC.github.io/files/CGAN-IRB.pdf">Original paper</a> and <a href="https://scholar.google.com/scholar?q=CGAN+IRB:+a+novel+data+augmentation+method+for+apple+leaf+diseases" target="_blank">Google Scholar Link</a>
--->
+
+<a href="http://zhuxy-USTC.github.io/files/SwFormer.pdf">Original paper</a> and <a href="https://jcst.ict.ac.cn/en/article/doi/10.1007/s11390-025-4761-0" target="_blank">Google Scholar Link</a>
