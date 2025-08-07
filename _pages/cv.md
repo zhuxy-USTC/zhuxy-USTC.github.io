@@ -74,6 +74,9 @@ redirect_from:
     <li>2019 Winter and 2020 Winter, the event about outstanding student coming back to Alma Mater</li>
     <li>2022 Summer, Tedu Group's Artificial Intelligence Training Project</li>
     <li>2024.11, Huawei Kunpeng and Ascend Science, Technology and Education Innovation Excellence Center Special Training Camp</li>
+    <li>2025.07 Hong Kong PhD Fellowship Summer Workshop (CUHK) </li>
+    <li>2025.07-09 Research Assistant in Systems and Networking Lab (HKU) </li>
+2025‑July to September</li>
 </ul>
 
 
