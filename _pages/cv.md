@@ -67,7 +67,7 @@ redirect_from:
 ****************************************************************
 <div style="font-family: 'Times New Roman', Times, serif;">
 
-<h2>Social Practice</h2>
+<h2>Internships</h2>
 <ul>
     <li>2019--2020, New Media Center of college, responsible for writing, interview and operation of official account</li>
     <li>2019--2020 Summer, Baidu AI Talents Camp, learning machine learning and AI framework PaddlePaddle</li>
