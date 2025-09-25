@@ -24,7 +24,7 @@ Specially, I am focusing on the "Gradient Compression" algorithm in distributed 
 <ul>
     <!-- <li>My resume: <a href="https://zhuxy-USTC.github.io/files/ZhuXY-CV.pdf">Download CV</a></li> -->
     <li>Mail : <a href="mailto:zhuxy@mail.ustc.edu.cn">zhuxy@mail.ustc.edu.cn</a></li>
-    <li>Google Scholar Profile: <a href="https://scholar.google.com/citations?user=k2ajuuEAAAAJ&hl">Google Scholar</a></li>
+    <li>Google Scholar Profile: <a href="https://scholar.google.com/citations?user=DHVjR2oAAAAJ">Google Scholar</a></li>
     <li>ResearchGate: <a href="https://www.researchgate.net/profile/Zhu-Xianyu?ev=hdr_xprf">ResearchGate</a></li>
 </ul>
 </div>
