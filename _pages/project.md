@@ -9,10 +9,10 @@ author_profile: true
 <div style="font-family: 'Times New Roman', Times, serif;">
     <ul>
         <li>
-            <strong>Dataflow Programming and Runtime System Framework</strong><br>
+            <strong>Dataflow Programming and Runtime System Framework Adapted to Domestic Heterogeneous System Architectures</strong><br>
             <em>Strategic Priority Research Program of Chinese Academy of Sciences</em><br>
-            Role: Research Assistant | Duration: 2023 - Present<br>
-            Focus: Adapting runtime systems to domestic heterogeneous architectures
+            Role: Project Member | Duration: 2023 - Present<br>
+            Focus: Gradient compression algorithms for efficient distributed training on heterogeneous architectures
         </li>
     </ul>
 </div>
