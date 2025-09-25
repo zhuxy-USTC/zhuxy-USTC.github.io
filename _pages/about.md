@@ -30,7 +30,7 @@ Specially, I am focusing on the "Gradient Compression" algorithm in distributed 
 </div>
 
 <div style="font-family: 'Times New Roman', Times, serif;">
-Last updated: Augest 7, 2025
+Last updated: {{ site.time | date: "%B %d, %Y" }}
 </div>
 
 <!--
