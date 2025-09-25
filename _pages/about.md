@@ -8,12 +8,29 @@ redirect_from:
 ---
 
 <div style="font-family: 'Times New Roman', Times, serif; text-align: justify;" >
-I am currently a master student in the <a href="https://cs.ustc.edu.cn">School of Computer Science and Technology</a> at the <a href="https://ustc.edu.cn/">University of Science and Technology of China(USTC)</a>. I primarily conduct research in high-performance computing, machine learning system, and distributed training.
-<br>
-Specially, I am focusing on the "Gradient Compression" algorithm in distributed training.
+I am currently a master student in the <a href="https://cs.ustc.edu.cn">School of Computer Science and Technology</a> at the <a href="https://ustc.edu.cn/">University of Science and Technology of China (USTC)</a>, one of China's top universities in the C9 League.
+
+My research interests lie at the intersection of <strong>high-performance computing</strong>, <strong>machine learning systems</strong>, and <strong>distributed training</strong>. Specifically, I focus on:
+
+• <strong>Gradient Compression Algorithms</strong>: Developing efficient compression techniques to reduce communication overhead in distributed training
+<br>• <strong>Performance Optimization</strong>: Designing fast and memory-efficient algorithms for new generation supercomputers
+<br>• <strong>Large-scale Distributed Systems</strong>: Building scalable solutions for training foundation models on HPC clusters
 <br>
 <br>
 <strong>Now, I am seeking related PhD opportunities!</strong>
+</div>
+
+*************************************************************
+
+## Technical Skills
+
+<div style="font-family: 'Times New Roman', Times, serif;">
+<ul>
+    <li><strong>Programming Languages:</strong> C/C++, Python, CUDA, MPI</li>
+    <li><strong>Machine Learning:</strong> PyTorch, TensorFlow, Distributed Training Frameworks</li>
+    <li><strong>High Performance Computing:</strong> OpenMP, MPI, CUDA Programming</li>
+    <li><strong>Tools & Platforms:</strong> Git, Docker, Linux, Sunway Supercomputer</li>
+</ul>
 </div>
 
 *************************************************************

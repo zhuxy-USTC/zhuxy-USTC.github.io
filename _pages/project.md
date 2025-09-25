@@ -1,21 +1,25 @@
 ---
 layout: archive
-title: "Project Involved"
+title: "Research Projects"
 permalink: /project/
 author_profile: true
 ---
 
-<h2>Underway</h2>
+<h2>Ongoing Projects</h2>
 <div style="font-family: 'Times New Roman', Times, serif;">
     <ul>
         <li>
-            Dataflow Programming and Runtime System Framework Adapted to Domestic Heterogeneous System Architectures(Strategic Priority Research Program of Chinese Academy of Sciences)
+            <strong>Dataflow Programming and Runtime System Framework</strong><br>
+            <em>Strategic Priority Research Program of Chinese Academy of Sciences</em><br>
+            Role: Research Assistant | Duration: 2023 - Present<br>
+            Focus: Adapting runtime systems to domestic heterogeneous architectures
         </li>
     </ul>
 </div>
+
 **********************************************************
 
-<h2>Finished</h2>
+<h2>Completed Projects</h2>
 
 <!-- {% if site.talkmap_link == true %}
 
