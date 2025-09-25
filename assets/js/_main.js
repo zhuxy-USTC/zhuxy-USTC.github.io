@@ -25,7 +25,9 @@ $(document).ready(function(){
   }, 250);
   
   // FitVids init
-  fitvids();
+  if (typeof $.fn.fitVids !== 'undefined') {
+    $("#main").fitVids();
+  }
 
   // Follow menu drop down
   $(".author__urls-wrapper button").on("click", function() {
