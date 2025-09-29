@@ -9,7 +9,7 @@ project_type: "Leader; Provincial Innovative Entrepreneurial Training Plan Progr
 
 <div style="text-align: justify; font-family: 'Times New Roman', Times, serif;">
 <h2>Simple Introduction</h2>
-<ul> 
+<ul>
 <li>Propose Asymmetric and Dilated convolution, and construct a multi - scale feature extraction module named LAD-Inception.</li>
 <li>Develop LAD-Net, achieving comprehensive optimization in terms of size, accuracy, and speed.</li>
 <li>Transplant LAD-Net to Jetson TX2. Combine Jetson TX2 with a wheeled chassis to form an inspection robot, enabling the inspection and monitoring of the orchard.</li>
