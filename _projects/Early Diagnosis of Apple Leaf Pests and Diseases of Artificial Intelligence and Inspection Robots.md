@@ -7,16 +7,14 @@ permalink: /projects/Early Diagnosis of Apple Leaf Pests and Diseases of Artific
 project_type: "Leader; Provincial Innovative Entrepreneurial Training Plan Program (2021 May to 2022 May)"
 ---
 
+<div style="text-align: justify; font-family: 'Times New Roman', Times, serif;">
 <h2>Simple Introduction</h2>
-<div style="text-align: center;">
-<ul style="display: inline-block; text-align: left;">
+<ul>
 <li>Propose Asymmetric and Dilated convolution, and construct a multi - scale feature extraction module named LAD-Inception.</li>
 <li>Develop LAD-Net, achieving comprehensive optimization in terms of size, accuracy, and speed.</li>
 <li>Transplant LAD-Net to Jetson TX2. Combine Jetson TX2 with a wheeled chassis to form an inspection robot, enabling the inspection and monitoring of the orchard.</li>
 </ul>
-</div>
 
-<div style="text-align: justify; font-family: 'Times New Roman', Times, serif;">
 <p>This project proposes an identification and detection model based on a deep learning convolutional neural network for various common early diseases and pests of apple leaves. In addition, multiple lightweight models are adopted for the constructed network model, which solves the problem that it is difficult to deploy the model to mobile devices with limited resources due to its large size and high computational load. Moreover, the constructed and trained detection model has been successfully transplanted onto an independently developed inspection robot, enabling the robot to automatically inspect diseased leaves in the apple orchard. At the same time, the real-time detection images and historical detection results of the robot can be viewed remotely, which greatly improves the detection efficiency of early diseases and pests of apple leaves.</p>
 
 <p>(1) Aiming at the problem that most of the current research on apple leaf diseases focuses on late-stage diseases and fails to detect diseases in a timely manner at the early stage of apple leaf diseases, a dataset containing 8 common early diseases of apple leaves, such as powdery mildew, aphids, spider mites, leafminers, rust, brown spot, alternate spot, and mosaic disease, has been constructed by conducting on-site investigations at apple planting bases and taking pictures of diseased leaves. Meanwhile, the dataset has been expanded to 12 times its original size through digital image processing methods, laying a good data foundation for the subsequent training of the deep learning convolutional neural network.</p>
