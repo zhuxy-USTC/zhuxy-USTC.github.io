@@ -18,7 +18,7 @@ project_type: "Member; Provincial Key Research Program(2021 Jan to 2022 Dec)"
 
 <style>
 .page__content p, .page__content li {
-    text-align: justify;
+    text-align: justify !important;
 }
 </style>
 
