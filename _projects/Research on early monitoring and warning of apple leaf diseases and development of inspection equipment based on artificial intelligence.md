@@ -16,6 +16,12 @@ project_type: "Member; Provincial Key Research Program(2021 Jan to 2022 Dec)"
 <li>Construction, Integration and Demonstration Application of the Cloud-based Collaborative Platform</li>
 </ul>
 
+<style>
+.page__content p, .page__content li {
+    text-align: justify;
+}
+</style>
+
 <h2>Project Aim</h2>
 * Realize the automatic inspection in the orchard
 * Construct monitoring and early warning platform
