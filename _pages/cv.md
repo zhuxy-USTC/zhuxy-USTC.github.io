@@ -52,7 +52,7 @@ redirect_from:
 <ul>
     <li>National Scholarship</li>
     <li>President Scholarship</li>
-    <li>Thanksgiving Scholarship for Modern and Contemporary Chinese Scientists</li>
+    <li>Thanksgiving Scholarship for Modern and Contemporary Chinese Scientists (the highest-paying scholarship)</li>
     <li>First-Class Professional Scholarship</li>
 </ul>
 <h3>Honor</h3>
