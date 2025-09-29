@@ -8,5 +8,9 @@ permalink: /projects/Identification and Detection of Apple Leaf Diseases Based o
 project_type: "Member; Provincial Innovative Entrepreneurial Training Plan Program (2020 May to 2021 May)"
 ---
 
+<p style="text-align: justify;">
+
 * Build MEAN-SSD to detect the apple leaf diseases and pests
 * Detection the diseases on mobile device based on cloud collaboration
+
+<p>
