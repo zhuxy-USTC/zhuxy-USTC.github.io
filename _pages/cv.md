@@ -13,15 +13,15 @@ redirect_from:
 <p><strong>Master of Engineering</strong> (2023--Now)</p>
 <ul>
     <li>University of Science and Technology of China (C9 League, Project 985&211)</li>
-    <li>Organization: school of computer science and technology</li>
-    <li>Major: computer science and technology</li>
+    <li>Organization: School of Computer Science and Technology</li>
+    <li>Major: Computer Science and Technology</li>
     <li>GPA : 90 (3.87/4.3)</li>
 </ul>
 <p><strong> Bachelor of Engineering</strong> (2019--2023)</p>
 <ul>
     <li>Northwest A&F University (Project 985&211)</li>
-    <li>Organization: college of information engineering</li>
-    <li>Major: computer science and technology</li>
+    <li>Organization: College of Information Engineering</li>
+    <li>Major: Computer Science and Technology</li>
     <li>GPA : 90.5 (3.77/4.0)</li>
     <li>Rank: 2 / 132</li>
 </ul>
