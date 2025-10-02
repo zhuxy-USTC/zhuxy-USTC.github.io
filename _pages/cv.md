@@ -75,7 +75,9 @@ redirect_from:
     <li>2022 Summer, Tedu Group's Artificial Intelligence Training Project</li>
     <!-- <li>2024.11, Huawei Kunpeng and Ascend Science, Technology and Education Innovation Excellence Center Special Training Camp</li> -->
     <li>2025.07 Hong Kong PhD Fellowship Summer Workshop (CUHK) </li>
-    <li>2025.07-09 Research Assistant in Systems and Networking Lab (HKU) </li>
+    <li>2025.07-09 Research Assistant in Systems and Networking Lab (HKU), supervised by <a href="https://i.cs.hku.hk/~heming/">Prof. Heming Cui</a>,
+focusing on designing a more effective distributed training framework for the unified multimodal
+large model </li>
 </ul>
 
 
