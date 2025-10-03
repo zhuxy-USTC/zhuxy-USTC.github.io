@@ -13,10 +13,10 @@ $doc-font-size              : 16;
 $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 1.3em;
 
-/* System typefaces */
-$serif                      : Georgia, "Times New Roman", Times, serif;
-$sans-serif                 : -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-$monospace                  : Monaco, Consolas, "Courier New", monospace;
+/* System typefaces - Enhanced for elegant typography */
+$serif                      : Georgia, "Times New Roman", "Noto Serif", "Source Serif Pro", serif;
+$sans-serif                 : "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans", Arial, sans-serif;
+$monospace                  : "SF Mono", Monaco, Consolas, "Courier New", monospace;
 
 /* Sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
