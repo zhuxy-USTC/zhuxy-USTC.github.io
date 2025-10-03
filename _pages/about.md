@@ -11,7 +11,7 @@ redirect_from:
 
 I am currently a master student in the <a href="https://cs.ustc.edu.cn">School of Computer Science and Technology</a> at the <a href="https://ustc.edu.cn/">University of Science and Technology of China (USTC)</a>, one of China's top universities in the C9 League.
 
-My research interests lie at the intersection of **high-performance computing**, **machine learning systems**, and **distributed training**. Specifically, I focus on:
+My research interests lie at the intersection of <strong>high-performance computing</strong>, <strong>machine learning systems</strong>, and <strong>distributed training</strong>. Specifically, I focus on:
 
 <ul>
     <li><strong>Gradient Compression Algorithms:</strong> Developing efficient compression techniques to reduce communication overhead in distributed training</li>
