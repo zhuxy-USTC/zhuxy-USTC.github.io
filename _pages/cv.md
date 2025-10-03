@@ -22,7 +22,7 @@ redirect_from:
 </ul>
 
 
-<strong>Northwest A&F University</strong><br>
+<strong><img src="./images/nwafu-circle_01.jpg">Northwest A&F University</strong><br>
 <ul style="list-style-type: disc; margin-left: 20px;">
     <li>Bachelor of Engineering (2019--2023)</li>
     <li>Project 985&211</li>
