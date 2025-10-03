@@ -5,7 +5,7 @@ permalink: /project/
 author_profile: true
 ---
 
-<h2>Ongoing Projects</h2>
+<h2>🚀 Ongoing Projects</h2>
 <div style="font-family: 'Times New Roman', Times, serif;">
     <ul>
         <li>
@@ -19,7 +19,7 @@ author_profile: true
 
 **********************************************************
 
-<h2>Completed Projects</h2>
+<h2>🎉 Completed Projects</h2>
 
 <!-- {% if site.talkmap_link == true %}
 
