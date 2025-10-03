@@ -10,6 +10,8 @@ redirect_from:
 
 {% include base_path %}
 
+<h2>📖 Education</h2>
+
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6;">
 
 
