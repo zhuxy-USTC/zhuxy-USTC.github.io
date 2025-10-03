@@ -37,9 +37,11 @@ h4 { font-size: 1.2em !important; }
 
 /* Force paragraph and list styles */
 .page__content {
+  font-family: "Trebuchet MS", Helvetica, sans-serif !important;
   font-size: 16px !important;
 
   p {
+    font-family: "Trebuchet MS", Helvetica, sans-serif !important;
     font-size: 16px !important;
     line-height: 1.85 !important;
     margin-bottom: 1.5em !important;
@@ -47,6 +49,7 @@ h4 { font-size: 1.2em !important; }
   }
 
   li {
+    font-family: "Trebuchet MS", Helvetica, sans-serif !important;
     font-size: 16px !important;
     line-height: 1.85 !important;
     margin-bottom: 0.8em !important;
@@ -156,8 +159,30 @@ h4 { font-size: 1.2em !important; }
 
   .page__content {
     p, li {
+      font-family: "Trebuchet MS", Helvetica, sans-serif !important;
       font-size: 15px !important;
       line-height: 1.75 !important;
     }
   }
+}
+
+/* Force font on all text elements to ensure complete coverage */
+* {
+  font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+}
+
+/* Specific overrides for common content areas */
+.page__content,
+.page__content * {
+  font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+}
+
+/* Preserve monospace for code elements */
+pre, code, kbd, samp, .highlight {
+  font-family: Monaco, Consolas, "Lucida Console", monospace !important;
+}
+
+/* Preserve Georgia for blockquotes */
+blockquote {
+  font-family: Georgia, Times, serif !important;
 }
