@@ -14,9 +14,9 @@ $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 1.3em;
 
 /* System typefaces */
-$serif                      : "Times New Roman", Times, Georgia, STIXGeneral, serif;
-$sans-serif                 : -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", Arial, sans-serif;
-$monospace                  : "SF Mono", Monaco, Consolas, "Courier New", "Lucida Console", monospace;
+$serif                      : Georgia, "Times New Roman", Times, serif;
+$sans-serif                 : -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$monospace                  : Monaco, Consolas, "Courier New", monospace;
 
 /* Sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
@@ -39,9 +39,9 @@ $type-size-6                : 0.875em;  // ~14px
 $type-size-7                : 0.8em;    // ~12.8px
 $type-size-8                : 0.75em;   // ~12px
 
-$global-font-family         : $serif;      // 使用衬线字体作为主字体，更优雅
-$header-font-family         : $sans-serif; // 标题使用无衬线字体，更现代
-$caption-font-family        : $sans-serif;
+$global-font-family         : $sans-serif;  // 使用无衬线字体作为主字体，兼容性更好
+$header-font-family         : $sans-serif;  // 标题使用无衬线字体
+$caption-font-family        : $serif;
 
 /* ==========================================================================
    Breakpoints

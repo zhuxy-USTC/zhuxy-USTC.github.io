@@ -11,12 +11,12 @@ body {
 }
 
 /* Enhanced text selection */
-::selection {
+::-moz-selection {
   background-color: rgba(0, 123, 255, 0.2);
   color: inherit;
 }
 
-::-moz-selection {
+::selection {
   background-color: rgba(0, 123, 255, 0.2);
   color: inherit;
 }
@@ -24,15 +24,13 @@ body {
 /* Better link styles */
 .page__content {
   a:not(.btn) {
-    color: var(--global-link-color);
     text-decoration: none;
     border-bottom: 1px solid transparent;
     transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 
     &:hover {
-      color: var(--global-link-hover-color);
-      border-bottom-color: var(--global-link-hover-color);
       text-decoration: none;
+      border-bottom-color: currentColor;
     }
   }
 }
@@ -41,7 +39,7 @@ body {
 blockquote {
   font-size: 1.1em;
   color: #555;
-  border-left: 4px solid var(--global-border-color);
+  border-left: 4px solid #e1e4e8;
   padding-left: 1.5em;
   margin: 2em 0;
   font-style: italic;
@@ -53,7 +51,7 @@ blockquote {
     position: absolute;
     left: 0;
     top: -0.3em;
-    color: var(--global-border-color);
+    color: #e1e4e8;
     opacity: 0.3;
   }
 }
@@ -67,11 +65,6 @@ blockquote {
       position: relative;
       padding-left: 0.5em;
     }
-  }
-
-  /* Custom bullet points */
-  ul > li::marker {
-    color: var(--global-link-color);
   }
 }
 
@@ -114,7 +107,7 @@ table {
       padding: 0.8em 1em;
       text-align: left;
       font-weight: 600;
-      border-bottom: 2px solid var(--global-border-color);
+      border-bottom: 2px solid #e1e4e8;
     }
   }
 
