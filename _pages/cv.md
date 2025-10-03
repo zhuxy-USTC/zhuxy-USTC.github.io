@@ -12,7 +12,7 @@ redirect_from:
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6;">
 
 
-<strong>University of Science and Technology of China</strong><br>
+<strong><img src="http://zhuxy-USTC.github.io/images/ustc_logo2_01.jpg" style="width:20px; vertical-align:middle; margin-right:6px;">University of Science and Technology of China</strong><br>
 <ul style="list-style-type: disc; margin-left: 20px;">
     <li>Master of Engineering (2023--Now)</li>
     <li>C9 League, Project 985&211</li>

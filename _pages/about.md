@@ -18,7 +18,7 @@ My research interests lie at the intersection of <strong>high-performance comput
     <li><strong>Large-scale Distributed Systems:</strong> Building scalable solutions for training foundation models on HPC clusters</li>
 </ul>
 
-<strong>Now, I am seeking related PhD opportunities!</strong>
+<strong>Now, I am seeking related PhD opportunities in 2026 Fall!</strong>
 
 </div>
 
@@ -37,7 +37,7 @@ My research interests lie at the intersection of <strong>high-performance comput
 
 ---
 
-## Contact Information
+<!-- ## Contact Information
 
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6;">
 <ul>
@@ -46,7 +46,7 @@ My research interests lie at the intersection of <strong>high-performance comput
     <li><strong>🎓Google Scholar:</strong> <a href="https://scholar.google.com/citations?user=DHVjR2oAAAAJ">View Profile</a></li>
     <li><strong>ResearchGate:</strong> <a href="https://www.researchgate.net/profile/Zhu-Xianyu?ev=hdr_xprf">View Profile</a></li>
 </ul>
-</div>
+</div> -->
 
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; color: #666; font-size: 0.9em;">
 Last updated: {{ site.time | date: "%B %d, %Y" }}
