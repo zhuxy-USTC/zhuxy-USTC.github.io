@@ -1,103 +1,17 @@
 ---
 permalink: /
-title: "About Me"
+title: "About me"
+excerpt: "About me"
 author_profile: true
-redirect_from:
+redirect_from: 
   - /about/
   - /about.html
 ---
 
-<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; text-align: justify; line-height: 1.6;">
+Hi, I am a PhD student at the National University of Singapore. My research direction is trustworthy ML, which focuses on making machine learning models more transparent, robust, and fair. Currently, I am more interested in the **explainability** of neural networks. In other words, how to let a black box model **provide supporting arguments about its decision-making process**, or even further, train a model that is **inherently transparent**.
 
-I am currently a master student in the <a href="https://cs.ustc.edu.cn">School of Computer Science and Technology</a> at the <a href="https://ustc.edu.cn/">University of Science and Technology of China (USTC)</a>, one of China's top universities in the C9 League.
+Prior to my PhD study, I finished my master's at the Technical University of Munich, Germany, where my subject was *Robotics, Cognition, Intelligence*. I spent a great time doing research at [CAMP](https://www.cs.cit.tum.de/camp/start/) (Chair for Computer Aided Medical Procedures & Augmented Reality). At CAMP, my research topic was about explainable AI and how to apply explanation methods on neural networks trained for medical purposes.
 
-My research interests lie at the intersection of **high-performance computing**, **machine learning systems**, and **distributed training**. Specifically, I focus on:
+I did my bachelor's study at RWTH Aachen University in Germany, majoring in *Computer Engineering*. My final year thesis and research at the senior stage is about hardware security. Specifically, how to do logic encryption on chips.
 
-- **Gradient Compression Algorithms**: Developing efficient compression techniques to reduce communication overhead in distributed training
-- **Large-scale Distributed Systems**: Building scalable solutions for training foundation models on HPC clusters
-
-**Now, I am seeking related PhD opportunities!**
-
-</div>
-
----
-
-## Technical Skills
-
-<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6;">
-<ul>
-    <li><strong>Programming Languages:</strong> C/C++, Python, CUDA, MPI</li>
-    <li><strong>Machine Learning:</strong> PyTorch, TensorFlow, Distributed Training Frameworks</li>
-    <li><strong>High Performance Computing:</strong> OpenMP, MPI, CUDA Programming</li>
-    <li><strong>Tools & Platforms:</strong> Git, Linux, Sunway OceanLight Supercomputer</li>
-</ul>
-</div>
-
----
-
-## Contact Information
-
-<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6;">
-<ul>
-    <!-- <li>My resume: <a href="https://zhuxy-USTC.github.io/files/ZhuXY-CV.pdf">Download CV</a></li> -->
-    <li><strong>Email:</strong> <a href="mailto:zhuxy@mail.ustc.edu.cn">zhuxy@mail.ustc.edu.cn</a></li>
-    <li><strong>Google Scholar:</strong> <a href="https://scholar.google.com/citations?user=DHVjR2oAAAAJ">View Profile</a></li>
-    <li><strong>ResearchGate:</strong> <a href="https://www.researchgate.net/profile/Zhu-Xianyu?ev=hdr_xprf">View Profile</a></li>
-</ul>
-</div>
-
-<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; color: #666; font-size: 0.9em;">
-Last updated: {{ site.time | date: "%B %d, %Y" }}
-</div>
-
-<!--
-Education
-======
-**Master of Engineering** (2023--Now)
-* University of Science and Technology of China (C9 League, Project 985&211)
-* Organization: school of computer science and technology
-* Major: computer science and technology
-* GPA : 90 (3.87/4.3)
-
-**Bachelor of Engineering** (2019--2023)
-* Northwest A&F University (Project 985&211)
-* Organization: college of information engineering
-* Major: computer science and technology
-* GPA : 90.5 (3.77/4.0)
-* Rank: 2 / 132
-
----
-
-
-Publications
-======
-
-## Submitted
-* As first-author, the paper "swPredicter: A Data-Driven Performance Model for Distributed Data Parallelism Training on Large-Scale HPC Clusters" has been submitted to IEEE Transactions on Parallel and Distributed Systems **(TPDS)**
-* As second-author, the paper "SwFormer: Enabling Faster Foundation Models on new Sunway Supercomputer via Holistic Kernel Tiling and Scheduling" has been submitted to Journal of Computer Science and Technology **(JCST)**
-
-## Accepted
-<ul>{% for post in site.publications reversed %}
-  {% include archive-single-cv.html %}
-  {% endfor %}</ul>
- -->
-
-
-<!-- Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul> -->
-
-
----
-
-<!-- Project
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
-
-<!-- Service and leadership
-======
-* Currently signed in to 43 different slack teams -->
+I am devoted to making ML more applicable in our everyday life, enabling ML models in safety-critical scenarios like medicine, finance, and civil. During my part time, I enjoy traveling in different places, especially relaxing beside sea, and exploring the other side of our planet through diving.
