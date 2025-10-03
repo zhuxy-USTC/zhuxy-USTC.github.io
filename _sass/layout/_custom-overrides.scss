@@ -2,8 +2,8 @@
    CUSTOM OVERRIDES - Force elegant typography
    ========================================================================== */
 
-/* Import Google Fonts for better typography */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+/* Use system fonts for elegant typography - matching Yang Zhang's Homepage */
+/* Removed Google Fonts to use Trebuchet MS as primary font */
 
 /* Force font changes globally */
 html {
@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  font-family: "Trebuchet MS", Helvetica, sans-serif !important;
   font-size: 16px !important;
   line-height: 1.75 !important;
   color: #2c3e50 !important;
@@ -21,7 +21,7 @@ body {
 
 /* Force heading styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Inter', sans-serif !important;
+  font-family: "Trebuchet MS", Helvetica, sans-serif !important;
   font-weight: 600 !important;
   line-height: 1.35 !important;
   color: #1a1a1a !important;
@@ -72,7 +72,7 @@ h4 { font-size: 1.2em !important; }
 
   /* Enhanced blockquotes */
   blockquote {
-    font-family: 'Noto Serif', Georgia, serif !important;
+    font-family: Georgia, Times, serif !important;
     font-size: 1.1em !important;
     font-style: italic !important;
     color: #555 !important;
@@ -83,7 +83,7 @@ h4 { font-size: 1.2em !important; }
 
   /* Code blocks */
   pre, code {
-    font-family: 'SF Mono', Monaco, monospace !important;
+    font-family: Monaco, Consolas, "Lucida Console", monospace !important;
   }
 
   code {
@@ -96,7 +96,7 @@ h4 { font-size: 1.2em !important; }
 
 /* Sidebar typography */
 .sidebar {
-  font-family: 'Inter', sans-serif !important;
+  font-family: "Trebuchet MS", Helvetica, sans-serif !important;
 
   p, li {
     font-size: 14px !important;
@@ -133,7 +133,7 @@ h4 { font-size: 1.2em !important; }
 
 /* Navigation typography */
 .greedy-nav {
-  font-family: 'Inter', sans-serif !important;
+  font-family: "Trebuchet MS", Helvetica, sans-serif !important;
 
   a {
     font-size: 14px !important;
