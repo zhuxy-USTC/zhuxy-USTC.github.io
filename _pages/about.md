@@ -43,7 +43,7 @@ My research interests lie at the intersection of <strong>high-performance comput
 <ul>
     <!-- <li>My resume: <a href="https://zhuxy-USTC.github.io/files/ZhuXY-CV.pdf">Download CV</a></li> -->
     <li><strong>Email:</strong> <a href="mailto:zhuxy@mail.ustc.edu.cn">zhuxy@mail.ustc.edu.cn</a></li>
-    <li><strong>Google Scholar:</strong> <a href="https://scholar.google.com/citations?user=DHVjR2oAAAAJ">View Profile</a></li>
+    <li><strong>🎓Google Scholar:</strong> <a href="https://scholar.google.com/citations?user=DHVjR2oAAAAJ">View Profile</a></li>
     <li><strong>ResearchGate:</strong> <a href="https://www.researchgate.net/profile/Zhu-Xianyu?ev=hdr_xprf">View Profile</a></li>
 </ul>
 </div>

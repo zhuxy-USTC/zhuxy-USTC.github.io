@@ -72,7 +72,7 @@ redirect_from:
 ---
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6;">
 
-<h2>Internships</h2>
+<h2>⭐Internships</h2>
 <ul>
     <li>2019--2020, New Media Center of college, responsible for writing, interview and operation of official account</li>
     <li>2019--2020 Summer, Baidu AI Talents Camp, learning machine learning and AI framework PaddlePaddle</li>

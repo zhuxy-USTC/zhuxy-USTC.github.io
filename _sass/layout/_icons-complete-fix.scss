@@ -1,0 +1,56 @@
+/* ==========================================================================
+   Complete Icons Fix - Ensure all icons display correctly
+   ========================================================================== */
+
+/* Force proper display of all icons in sidebar */
+.author__urls {
+  /* Font Awesome icons */
+  .fa,
+  .fas,
+  .far,
+  .fab,
+  .fa-solid,
+  .fa-regular,
+  .fa-brands {
+    font-style: normal !important;
+    font-variant: normal !important;
+    text-rendering: auto !important;
+    -webkit-font-smoothing: antialiased !important;
+    display: inline-block !important;
+  }
+
+  /* Academicons icons */
+  .ai {
+    font-family: 'Academicons' !important;
+    font-style: normal !important;
+    font-variant: normal !important;
+    text-rendering: auto !important;
+    -webkit-font-smoothing: antialiased !important;
+    display: inline-block !important;
+    speak: none !important;
+  }
+
+  /* Common icon styling */
+  i[class*="fa-"],
+  i[class*="ai-"] {
+    &:before {
+      display: inline-block !important;
+      width: 1.5em !important;
+      text-align: center !important;
+    }
+  }
+}
+
+/* Desktop-only items styling */
+.author__desktop {
+  display: block !important;
+
+  @media (max-width: 768px) {
+    display: none !important;
+  }
+}
+
+/* Icon padding */
+.icon-pad-right {
+  padding-right: 0.5em !important;
+}

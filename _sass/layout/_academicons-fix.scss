@@ -28,14 +28,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-// Ensure specific icons work
+// Ensure specific icons work with correct content codes
 .ai-google-scholar:before {
   content: "\e9d4" !important;
   font-family: 'Academicons' !important;
 }
 
 .ai-google-scholar-square:before {
-  content: "\e9d5" !important;
+  content: "\e9f9" !important;
   font-family: 'Academicons' !important;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .ai-orcid-square:before {
-  content: "\e9da" !important;
+  content: "\e9c3" !important;
   font-family: 'Academicons' !important;
 }
 

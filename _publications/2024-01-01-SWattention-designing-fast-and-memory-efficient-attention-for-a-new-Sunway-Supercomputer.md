@@ -21,4 +21,4 @@ Compared with the standard attention, SWattention achieves around 2.0x speedup f
 <p>
 
 
-<a href="http://zhuxy-USTC.github.io/files/swattention.pdf">Original paper</a> and <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2ajuuEAAAAJ&citation_for_view=k2ajuuEAAAAJ:qjMakFHDy7sC" target="_blank">Google Scholar Link</a>
+<a href="http://zhuxy-USTC.github.io/files/swattention.pdf">Original paper</a> and <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2ajuuEAAAAJ&citation_for_view=k2ajuuEAAAAJ:qjMakFHDy7sC" target="_blank">🎓Google Scholar Link</a>

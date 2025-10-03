@@ -17,4 +17,4 @@ At present, the identification of apple leaf diseases plays an important role in
 
 <!-- [Original paper](http://zhuxy-USTC.github.io/files/CGAN-IRB.pdf) and [Google Scholar Link](https://scholar.google.com/scholar?q=CGAN+IRB:+a+novel+data+augmentation+method+for+apple+leaf+diseases){:target="_blank"} -->
 
-<a href="http://zhuxy-USTC.github.io/files/CGAN-IRB.pdf">Original paper</a> and <a href="https://scholar.google.com/scholar?q=CGAN+IRB:+a+novel+data+augmentation+method+for+apple+leaf+diseases" target="_blank">Google Scholar Link</a>
+<a href="http://zhuxy-USTC.github.io/files/CGAN-IRB.pdf">Original paper</a> and <a href="https://scholar.google.com/scholar?q=CGAN+IRB:+a+novel+data+augmentation+method+for+apple+leaf+diseases" target="_blank">🎓Google Scholar Link</a>
