@@ -24,7 +24,7 @@ My research interests lie at the intersection of <strong>high-performance comput
 
 ---
 
-## Technical Skills
+## ⚙️ Technical Skills
 
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6;">
 <ul>
