@@ -289,3 +289,146 @@ hr {
   border: none !important;
   border-top: 1px solid #e0e0e0 !important;
 }
+
+/* ==========================================================================
+   ICON FONTS FIX
+   ========================================================================== */
+
+/* Font Awesome 6 font-face definitions */
+@font-face {
+  font-family: 'Font Awesome 6 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url('../webfonts/fa-solid-900.woff2') format('woff2'),
+       url('../webfonts/fa-solid-900.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Font Awesome 6 Free';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url('../webfonts/fa-regular-400.woff2') format('woff2'),
+       url('../webfonts/fa-regular-400.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Font Awesome 6 Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url('../webfonts/fa-brands-400.woff2') format('woff2'),
+       url('../webfonts/fa-brands-400.ttf') format('truetype');
+}
+
+/* Academicons font-face definition */
+@font-face {
+  font-family: 'Academicons';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url('../fonts/academicons.eot');
+  src: url('../fonts/academicons.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/academicons.ttf') format('truetype'),
+       url('../fonts/academicons.woff') format('woff'),
+       url('../fonts/academicons.svg#academicons') format('svg');
+}
+
+/* Ensure Font Awesome icons work */
+.fa,
+.fas,
+.far,
+.fab {
+  font-style: normal !important;
+  font-variant: normal !important;
+  text-rendering: auto !important;
+  line-height: 1 !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+}
+
+.fa-solid,
+.fas {
+  font-family: 'Font Awesome 6 Free' !important;
+  font-weight: 900 !important;
+}
+
+.fa-regular,
+.far {
+  font-family: 'Font Awesome 6 Free' !important;
+  font-weight: 400 !important;
+}
+
+.fa-brands,
+.fab {
+  font-family: 'Font Awesome 6 Brands' !important;
+  font-weight: 400 !important;
+}
+
+/* Ensure Academicons work */
+.ai {
+  font-family: 'Academicons' !important;
+  speak: none !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  line-height: 1 !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+}
+
+/* Specific icon definitions for Academicons */
+.ai-google-scholar:before {
+  content: "\e9d4" !important;
+}
+
+.ai-orcid:before {
+  content: "\e9d9" !important;
+}
+
+.ai-arxiv:before {
+  content: "\e974" !important;
+}
+
+.ai-semantic-scholar:before {
+  content: "\e9e0" !important;
+}
+
+.ai-impactstory:before {
+  content: "\e9dd" !important;
+}
+
+.ai-pubmed:before {
+  content: "\eac8" !important;
+}
+
+.ai-scopus:before {
+  content: "\eacb" !important;
+}
+
+/* Font Awesome specific icons */
+.fa-location-dot:before {
+  content: "\f3c5" !important;
+}
+
+.fa-building-columns:before {
+  content: "\f19c" !important;
+}
+
+.fa-link:before {
+  content: "\f0c1" !important;
+}
+
+.fa-envelope:before {
+  content: "\f0e0" !important;
+}
+
+.fa-researchgate:before {
+  content: "\f4f8" !important;
+}
+
+.fa-github:before {
+  content: "\f09b" !important;
+}
