@@ -3,6 +3,7 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
+hide_title: true
 ---
 
 <h2 >📨 Submitted Paper</h2>
