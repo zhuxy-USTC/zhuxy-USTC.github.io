@@ -22,11 +22,6 @@ My research interests lie at the intersection of <strong>high-performance comput
 
 </div>
 
----
-
-
-
----
 
 <!-- ## Contact Information
 
