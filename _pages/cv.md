@@ -35,7 +35,7 @@ redirect_from:
 
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6;">
 
-<h2>Competitions</h2>
+<h2>✅ Competitions</h2>
 <ul>
     <li>"11th Student RDMA Programming Competition", <b>Third Prize</b> </li>
     <li>"2022 Mathematical Contest In Modeling(MCM)", <b>Meritorious Winner</b></li>
@@ -52,14 +52,14 @@ redirect_from:
 
 <h2>🏆 Awards</h2>
 
-<h3>Scholarships</h3>
+<h3>🔥 Scholarships</h3>
 <ul>
     <li>National Scholarship</li>
     <li>President Scholarship</li>
     <li>Thanksgiving Scholarship for Modern and Contemporary Chinese Scientists (the highest-paying scholarship)</li>
     <li>First-Class Professional Scholarship</li>
 </ul>
-<h3>Honors</h3>
+<h3>✨ Honors</h3>
 <ul>
     <li>Outstanding Graduate</li>
     <li>Excellent College Student</li>
@@ -83,8 +83,15 @@ redirect_from:
 focusing on designing a more effective distributed training framework for the unified multimodal
 large model </li>
 </ul>
+</div>
 
+## ⚙️ Technical Skills
 
-
-
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6;">
+<ul>
+    <li><strong>Programming Languages:</strong> C/C++, Python, CUDA, MPI</li>
+    <li><strong>Machine Learning:</strong> PyTorch, TensorFlow, Distributed Training Frameworks</li>
+    <li><strong>High Performance Computing:</strong> OpenMP, MPI, CUDA Programming</li>
+    <li><strong>Tools & Platforms:</strong> Git, Linux, Sunway OceanLight Supercomputer</li>
+</ul>
 </div>

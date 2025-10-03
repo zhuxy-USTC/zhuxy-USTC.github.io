@@ -24,16 +24,7 @@ My research interests lie at the intersection of <strong>high-performance comput
 
 ---
 
-## ⚙️ Technical Skills
 
-<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6;">
-<ul>
-    <li><strong>Programming Languages:</strong> C/C++, Python, CUDA, MPI</li>
-    <li><strong>Machine Learning:</strong> PyTorch, TensorFlow, Distributed Training Frameworks</li>
-    <li><strong>High Performance Computing:</strong> OpenMP, MPI, CUDA Programming</li>
-    <li><strong>Tools & Platforms:</strong> Git, Linux, Sunway OceanLight Supercomputer</li>
-</ul>
-</div>
 
 ---
 
