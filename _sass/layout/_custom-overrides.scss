@@ -19,21 +19,36 @@ body {
   font-weight: 400 !important;
 }
 
-/* Force heading styles */
+/* Force heading styles - Reduced spacing for better readability */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Trebuchet MS", Helvetica, sans-serif !important;
   font-weight: 600 !important;
   line-height: 1.35 !important;
   color: #1a1a1a !important;
   letter-spacing: -0.02em !important;
-  margin-top: 2em !important;
-  margin-bottom: 1em !important;
+  margin-top: 1em !important;
+  margin-bottom: 0.5em !important;
 }
 
-h1 { font-size: 2em !important; }
-h2 { font-size: 1.6em !important; }
-h3 { font-size: 1.35em !important; }
-h4 { font-size: 1.2em !important; }
+h1 {
+  font-size: 2em !important;
+  margin-top: 0.5em !important; /* Smaller top margin for page titles */
+}
+h2 {
+  font-size: 1.6em !important;
+  margin-top: 1.2em !important;
+  margin-bottom: 0.4em !important;
+}
+h3 {
+  font-size: 1.35em !important;
+  margin-top: 1em !important;
+  margin-bottom: 0.3em !important;
+}
+h4 {
+  font-size: 1.2em !important;
+  margin-top: 0.8em !important;
+  margin-bottom: 0.3em !important;
+}
 
 /* Force paragraph and list styles */
 .page__content {
@@ -43,22 +58,29 @@ h4 { font-size: 1.2em !important; }
   p {
     font-family: "Trebuchet MS", Helvetica, sans-serif !important;
     font-size: 16px !important;
-    line-height: 1.85 !important;
-    margin-bottom: 1.5em !important;
+    line-height: 1.6 !important;
+    margin-bottom: 0.8em !important;
     color: #333 !important;
   }
 
   li {
     font-family: "Trebuchet MS", Helvetica, sans-serif !important;
     font-size: 16px !important;
-    line-height: 1.85 !important;
-    margin-bottom: 0.8em !important;
+    line-height: 1.5 !important;
+    margin-bottom: 0.3em !important;
     color: #333 !important;
   }
 
   ul, ol {
-    margin-bottom: 1.8em !important;
-    padding-left: 2.5em !important;
+    margin-top: 0.5em !important;
+    margin-bottom: 0.8em !important;
+    padding-left: 1.5em !important;
+  }
+
+  /* Nested lists should have even less spacing */
+  li ul, li ol {
+    margin-top: 0.2em !important;
+    margin-bottom: 0.2em !important;
   }
 
   /* Better link styles */
@@ -158,10 +180,18 @@ h4 { font-size: 1.2em !important; }
   }
 
   .page__content {
-    p, li {
+    p {
       font-family: "Trebuchet MS", Helvetica, sans-serif !important;
       font-size: 15px !important;
-      line-height: 1.75 !important;
+      line-height: 1.55 !important;
+      margin-bottom: 0.7em !important;
+    }
+
+    li {
+      font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+      font-size: 15px !important;
+      line-height: 1.45 !important;
+      margin-bottom: 0.25em !important;
     }
   }
 }
@@ -185,4 +215,35 @@ pre, code, kbd, samp, .highlight {
 /* Preserve Georgia for blockquotes */
 blockquote {
   font-family: Georgia, Times, serif !important;
+}
+
+/* Reduce spacing for page title and first elements */
+.page__title {
+  margin-top: 0 !important;
+  margin-bottom: 0.3em !important;
+}
+
+.page__content > h1:first-child,
+.page__content > h2:first-child {
+  margin-top: 0.2em !important;
+}
+
+/* Tighter spacing between sections */
+.page__content {
+  h2 + p,
+  h3 + p,
+  h4 + p {
+    margin-top: 0.2em !important;
+  }
+
+  h2 + ul,
+  h3 + ul,
+  h4 + ul {
+    margin-top: 0.3em !important;
+  }
+}
+
+/* Remove extra spacing from last elements in lists */
+li:last-child {
+  margin-bottom: 0 !important;
 }
