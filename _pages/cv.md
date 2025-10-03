@@ -81,7 +81,8 @@ large model </li>
 </ul>
 </div>
 
-## ⚙️ Technical Skills
+---
+<h2> ⚙️ Technical Skills</h2>
 
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6;">
 <ul>
