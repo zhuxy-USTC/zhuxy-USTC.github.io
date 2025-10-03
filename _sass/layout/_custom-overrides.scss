@@ -240,30 +240,34 @@ blockquote {
 }
 
 /* Wider content area for better readability */
-.page {
+#main {
   @media (min-width: 1024px) {
-    max-width: 1400px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-  }
-
-  /* Make page content use more width when sidebar is present */
-  @media (min-width: 1024px) {
-    width: calc(100% - 200px) !important;
-    float: right !important;
-    margin-right: 0 !important;
-    padding-right: 2em !important;
+    max-width: 1600px !important;
   }
 }
 
-/* Specific width for publication and project pages */
-body.layout--single .page {
+.page {
   @media (min-width: 1024px) {
-    width: calc(100% - 220px) !important;
+    /* Override the grid system to use more width */
+    width: 75% !important;
     max-width: none !important;
-    padding-right: 3em !important;
+    float: right !important;
+    margin-right: 0 !important;
+    padding-left: 2em !important;
+    padding-right: 4em !important;
+  }
+
+  @media (min-width: 1280px) {
+    width: 80% !important;
+    padding-right: 5em !important;
+  }
+}
+
+/* Ensure content area stretches fully */
+.page__inner-wrap {
+  @media (min-width: 1024px) {
+    float: none !important;
+    width: 100% !important;
   }
 }
 
