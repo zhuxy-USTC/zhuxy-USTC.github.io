@@ -53,10 +53,16 @@
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid var(--global-border-color);
+    margin-top: 1.8em;
   }
 
   p, li, dl {
-    font-size: 1em;
+    font-size: 1.05em;
+    line-height: 1.8;
+  }
+
+  li {
+    margin-bottom: 0.5em;
   }
 
   /* paragraph indents */

@@ -14,9 +14,9 @@ $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 1.3em;
 
 /* System typefaces */
-$serif                      : Georgia, Times, serif;
-$sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-$monospace                  : Monaco, Consolas, "Lucida Console", monospace;
+$serif                      : "Times New Roman", Times, Georgia, STIXGeneral, serif;
+$sans-serif                 : -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", Arial, sans-serif;
+$monospace                  : "SF Mono", Monaco, Consolas, "Courier New", "Lucida Console", monospace;
 
 /* Sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
@@ -30,18 +30,18 @@ $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
 /* Type scale */
-$type-size-1                : 2.441em;  // ~39.056px
-$type-size-2                : 1.953em;  // ~31.248px
-$type-size-3                : 1.563em;  // ~25.008px
-$type-size-4                : 1.25em;   // ~20px
-$type-size-5                : 1em;      // ~16px
-$type-size-6                : 0.75em;   // ~12px
-$type-size-7                : 0.6875em; // ~11px
-$type-size-8                : 0.625em;  // ~10px
+$type-size-1                : 2.2em;    // ~35.2px
+$type-size-2                : 1.8em;    // ~28.8px
+$type-size-3                : 1.5em;    // ~24px
+$type-size-4                : 1.3em;    // ~20.8px
+$type-size-5                : 1.05em;   // ~16.8px
+$type-size-6                : 0.875em;  // ~14px
+$type-size-7                : 0.8em;    // ~12.8px
+$type-size-8                : 0.75em;   // ~12px
 
-$global-font-family         : $sans-serif;
-$header-font-family         : $sans-serif;
-$caption-font-family        : $serif;
+$global-font-family         : $serif;      // 使用衬线字体作为主字体，更优雅
+$header-font-family         : $sans-serif; // 标题使用无衬线字体，更现代
+$caption-font-family        : $sans-serif;
 
 /* ==========================================================================
    Breakpoints
