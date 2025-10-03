@@ -5,9 +5,6 @@ html {
   /* sticky footer fix */
   position: relative;
   min-height: 100%;
-  /* font smoothing for better rendering */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -36,27 +33,27 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   margin-top: 0;
-  font-size: $h-size-1;
+  font-size: $type-size-3;
 }
 
 h2 {
-  font-size: $h-size-2;
+  font-size: $type-size-4;
 }
 
 h3 {
-  font-size: $h-size-3;
+  font-size: $type-size-5;
 }
 
 h4 {
-  font-size: $h-size-4;
+  font-size: $type-size-6;
 }
 
 h5 {
-  font-size: $h-size-5;
+  font-size: $type-size-6;
 }
 
 h6 {
-  font-size: $h-size-6;
+  font-size: $type-size-6;
 }
 
 small, .small {
@@ -313,11 +310,49 @@ nav {
   }
 }
 
-/*
-   Global animation transition
+/* ==========================================================================
+   ANIMATIONS
    ========================================================================== */
 
+   @-webkit-keyframes intro {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes intro {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+/* Global animation transition */
 b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, .highlight, .archive__item-teaser {
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
+/* ==========================================================================
+   PRINT STYLES
+   ========================================================================== */
+
+/*
+   Hide the following elements on print
+   ========================================================================== */
+
+   @media print {
+    .masthead,
+    .toc,
+    .page__share,
+    .page__related,
+    .ads,
+    .page__footer {
+      display: none;
+    }
+  }
