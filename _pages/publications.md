@@ -15,7 +15,7 @@ author_profile: true
 
 ********************************************************
 
-<h2>Published Paper</h2>
+<h2>📝Published Paper</h2>
 <ul>{% for post in site.publications reversed %}
   {% include archive-single-cv.html %}
   {% endfor %}</ul>

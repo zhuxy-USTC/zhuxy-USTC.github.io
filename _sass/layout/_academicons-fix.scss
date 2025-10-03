@@ -1,0 +1,97 @@
+/* ==========================================================================
+   Academicons Fix - Ensure academic icons display correctly
+   ========================================================================== */
+
+// Academicons font-face definition
+@font-face {
+  font-family: 'Academicons';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url('../fonts/academicons.eot');
+  src: url('../fonts/academicons.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/academicons.ttf') format('truetype'),
+       url('../fonts/academicons.woff') format('woff'),
+       url('../fonts/academicons.svg#academicons') format('svg');
+}
+
+// Base Academicons styles
+.ai {
+  font-family: 'Academicons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Ensure specific icons work
+.ai-google-scholar:before {
+  content: "\e9d4" !important;
+  font-family: 'Academicons' !important;
+}
+
+.ai-google-scholar-square:before {
+  content: "\e9d5" !important;
+  font-family: 'Academicons' !important;
+}
+
+.ai-orcid:before {
+  content: "\e9d9" !important;
+  font-family: 'Academicons' !important;
+}
+
+.ai-orcid-square:before {
+  content: "\e9da" !important;
+  font-family: 'Academicons' !important;
+}
+
+.ai-arxiv:before {
+  content: "\e974" !important;
+  font-family: 'Academicons' !important;
+}
+
+.ai-arxiv-square:before {
+  content: "\e9cf" !important;
+  font-family: 'Academicons' !important;
+}
+
+.ai-semantic-scholar:before {
+  content: "\e9e0" !important;
+  font-family: 'Academicons' !important;
+}
+
+.ai-impactstory:before {
+  content: "\e9dd" !important;
+  font-family: 'Academicons' !important;
+}
+
+.ai-pubmed:before {
+  content: "\eac8" !important;
+  font-family: 'Academicons' !important;
+}
+
+.ai-scopus:before {
+  content: "\eacb" !important;
+  font-family: 'Academicons' !important;
+}
+
+// Fixed width for alignment
+.ai-fw {
+  width: 1.286em;
+  text-align: center;
+}
+
+// Ensure icons in author URLs display correctly
+.author__urls {
+  .ai {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+  }
+}

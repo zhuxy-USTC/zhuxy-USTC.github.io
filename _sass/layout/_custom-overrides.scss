@@ -252,6 +252,7 @@ li:last-child {
 /* Icon styling for sidebar */
 .icon-pad-right {
   margin-right: 0.5em !important;
+  display: inline-block !important;
 }
 
 /* Sidebar author URLs adjustments */
@@ -261,9 +262,17 @@ li:last-child {
     font-size: 0.9em !important;
   }
 
-  i {
+  i, .ai {
     width: 1.5em !important;
     text-align: center !important;
+    display: inline-block !important;
+  }
+
+  /* Ensure all icon types display properly */
+  .fa, .fas, .far, .fab, .ai {
+    &.icon-pad-right {
+      margin-right: 0.5em !important;
+    }
   }
 }
 
