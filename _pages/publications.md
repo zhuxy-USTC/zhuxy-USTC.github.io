@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-<h2 >Submitted Paper</h2>
+<h2 >📨 Submitted Paper</h2>
 <div style="font-family: 'Times New Roman', Times, serif;">
 <ul>
 <li>As <strong>first-author</strong>, the paper "swPredicter: A Data-Driven Performance Model for Distributed Data Parallelism Training on Large-Scale HPC Clusters" has been submitted to Performance Evaluation: An International Journal <strong>(Elsevier PE)</strong></li>
@@ -15,7 +15,7 @@ author_profile: true
 
 ********************************************************
 
-<h2>📝Published Paper</h2>
+<h2>📝 Published Paper</h2>
 <ul>{% for post in site.publications reversed %}
   {% include archive-single-cv.html %}
   {% endfor %}</ul>
