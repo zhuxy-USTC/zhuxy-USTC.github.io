@@ -307,6 +307,76 @@ strong + br {
   display: inline-block !important;
 }
 
+/* Enhanced navigation for Previous/Next buttons */
+.page__navigation {
+  margin-top: 2em !important;
+  padding-top: 2em !important;
+  border-top: 1px solid #e0e0e0 !important;
+  text-align: center !important;
+
+  .page__navigation-title {
+    margin-bottom: 1em !important;
+    font-size: 14px !important;
+    text-transform: uppercase !important;
+    color: #666 !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.5px !important;
+  }
+}
+
+.pagination-buttons {
+  display: flex !important;
+  justify-content: center !important;
+  gap: 1em !important;
+  flex-wrap: wrap !important;
+
+  .btn {
+    min-width: 120px !important;
+    padding: 0.75em 1.5em !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    border-radius: 5px !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+
+    &:hover:not(.btn--disabled) {
+      transform: translateY(-2px) !important;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15) !important;
+    }
+
+    i {
+      font-size: 14px !important;
+    }
+  }
+
+  /* Primary button style */
+  .btn--primary {
+    background-color: #0066cc !important;
+    color: white !important;
+    border: none !important;
+
+    &:hover:not(.btn--disabled) {
+      background-color: #0052a3 !important;
+      color: white !important;
+      text-decoration: none !important;
+    }
+  }
+
+  /* Disabled button style */
+  .btn--disabled {
+    background-color: #f0f0f0 !important;
+    color: #999 !important;
+    cursor: not-allowed !important;
+    opacity: 0.6 !important;
+
+    &:hover {
+      background-color: #f0f0f0 !important;
+      transform: none !important;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+    }
+  }
+}
+
 /* Sidebar author URLs adjustments */
 .author__urls {
   li {
@@ -483,4 +553,12 @@ hr {
 
 .fa-github:before {
   content: "\f09b" !important;
+}
+
+.fa-chevron-left:before {
+  content: "\f053" !important;
+}
+
+.fa-chevron-right:before {
+  content: "\f054" !important;
 }
