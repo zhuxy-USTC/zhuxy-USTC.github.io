@@ -67,21 +67,37 @@ h4 {
   li {
     font-family: "Trebuchet MS", Helvetica, sans-serif !important;
     font-size: 16px !important;
-    line-height: 1.5 !important;
-    margin-bottom: 0.3em !important;
+    line-height: 1.4 !important;
+    margin-bottom: 0.1em !important;
     color: #333 !important;
   }
 
   ul, ol {
-    margin-top: 0.5em !important;
-    margin-bottom: 0.8em !important;
+    margin-top: 0.2em !important;
+    margin-bottom: 0.5em !important;
     padding-left: 1.5em !important;
   }
 
   /* Nested lists should have even less spacing */
   li ul, li ol {
-    margin-top: 0.2em !important;
-    margin-bottom: 0.2em !important;
+    margin-top: 0.1em !important;
+    margin-bottom: 0.1em !important;
+  }
+
+  /* Strong tags followed by lists */
+  strong + br + ul,
+  strong + ul {
+    margin-top: 0.1em !important;
+  }
+
+  /* Inline style overrides for specific lists */
+  ul[style*="list-style-type: disc"] {
+    margin-top: 0.1em !important;
+
+    li {
+      margin-bottom: 0.05em !important;
+      line-height: 1.35 !important;
+    }
   }
 
   /* Better link styles */
@@ -184,15 +200,20 @@ h4 {
     p {
       font-family: "Trebuchet MS", Helvetica, sans-serif !important;
       font-size: 15px !important;
-      line-height: 1.55 !important;
-      margin-bottom: 0.7em !important;
+      line-height: 1.5 !important;
+      margin-bottom: 0.6em !important;
     }
 
     li {
       font-family: "Trebuchet MS", Helvetica, sans-serif !important;
       font-size: 15px !important;
-      line-height: 1.45 !important;
-      margin-bottom: 0.25em !important;
+      line-height: 1.35 !important;
+      margin-bottom: 0.08em !important;
+    }
+
+    ul, ol {
+      margin-top: 0.15em !important;
+      margin-bottom: 0.4em !important;
     }
   }
 }
@@ -247,6 +268,19 @@ blockquote {
 /* Remove extra spacing from last elements in lists */
 li:last-child {
   margin-bottom: 0 !important;
+}
+
+/* Global strong tag styling */
+strong {
+  display: inline-block !important;
+  margin-bottom: 0.1em !important;
+}
+
+/* BR tags after strong should have minimal height */
+strong + br {
+  line-height: 0.1 !important;
+  height: 0.1em !important;
+  display: block !important;
 }
 
 /* Icon styling for sidebar */
