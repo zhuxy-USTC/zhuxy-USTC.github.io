@@ -242,16 +242,35 @@ blockquote {
 /* Wider content area for better readability */
 .page {
   @media (min-width: 1024px) {
-    max-width: 1100px !important;
+    max-width: 1400px !important;
     margin-left: auto !important;
     margin-right: auto !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  /* Make page content use more width when sidebar is present */
+  @media (min-width: 1024px) {
+    width: calc(100% - 200px) !important;
+    float: right !important;
+    margin-right: 0 !important;
+    padding-right: 2em !important;
+  }
+}
+
+/* Specific width for publication and project pages */
+body.layout--single .page {
+  @media (min-width: 1024px) {
+    width: calc(100% - 220px) !important;
+    max-width: none !important;
+    padding-right: 3em !important;
   }
 }
 
 /* Archive pages also need width adjustment */
 .archive {
   @media (min-width: 1024px) {
-    max-width: 1100px !important;
+    max-width: 1400px !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }

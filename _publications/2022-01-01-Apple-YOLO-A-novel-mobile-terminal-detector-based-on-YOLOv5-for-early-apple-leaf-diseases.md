@@ -18,4 +18,4 @@ Early detection of apple leaf diseases is the basis for timely precautions, whic
 
 <!-- [Original paper](http://zhuxy-USTC.github.io/files/Apple-YOLO.pdf) and [Google Scholar Link](https://scholar.google.com/scholar?q=Apple+YOLO:+A+novel+mobile+terminal+detector+based+on+YOLOv5+for+early+apple+leaf+diseases){:target="_blank"} -->
 
-<a href="http://zhuxy-USTC.github.io/files/Apple-YOLO.pdf">Original paper</a> and <a href="https://scholar.google.com/scholar?q=Apple+YOLO:+A+novel+mobile+terminal+detector+based+on+YOLOv5+for+early+apple+leaf+diseases" target="_blank">🎓Google Scholar Link</a>
+<a href="http://zhuxy-USTC.github.io/files/Apple-YOLO.pdf">📄Original paper</a> and <a href="https://scholar.google.com/scholar?q=Apple+YOLO:+A+novel+mobile+terminal+detector+based+on+YOLOv5+for+early+apple+leaf+diseases" target="_blank">🎓Google Scholar Link</a>

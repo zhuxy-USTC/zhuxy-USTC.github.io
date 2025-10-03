@@ -19,4 +19,4 @@ Deep learning's continuous evolution has driven the creation of increasingly lar
 
 
 
-<a href="http://zhuxy-USTC.github.io/files/SwFormer.pdf">Original paper</a> and <a href="https://jcst.ict.ac.cn/en/article/doi/10.1007/s11390-025-4761-0" target="_blank">🎓Google Scholar Link</a>
+<a href="http://zhuxy-USTC.github.io/files/SwFormer.pdf">📄Original paper</a> and <a href="https://jcst.ict.ac.cn/en/article/doi/10.1007/s11390-025-4761-0" target="_blank">🎓Google Scholar Link</a>
