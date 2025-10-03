@@ -46,7 +46,7 @@ blockquote {
   position: relative;
 
   &::before {
-    content: """;
+    content: "\201C";  /* Unicode for left double quotation mark */
     font-size: 3em;
     position: absolute;
     left: 0;
@@ -154,9 +154,5 @@ table {
 
   a {
     text-decoration: underline;
-  }
-
-  .page__content a[href]:after {
-    content: " (" attr(href) ")";
   }
 }
