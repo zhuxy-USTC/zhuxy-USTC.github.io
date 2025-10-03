@@ -18,7 +18,7 @@ My research interests lie at the intersection of <strong>high-performance comput
     <li><strong>Large-scale Distributed Systems:</strong> Building scalable solutions for training foundation models on HPC clusters</li>
 </ul>
 
-**Now, I am seeking related PhD opportunities!**
+<strong>Now, I am seeking related PhD opportunities!</strong>
 
 </div>
 
