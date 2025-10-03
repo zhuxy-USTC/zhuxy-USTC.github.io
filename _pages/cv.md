@@ -22,7 +22,7 @@ redirect_from:
 </ul>
 
 
-<strong><img src="http://zhuxy-USTC.github.io/images/nwafu-circle_01.jpg">Northwest A&F University</strong> (Project 985&211)<br>
+<strong><img src="http://zhuxy-USTC.github.io/images/nwafu-circle_01.jpg" style="width:20px; vertical-align:middle; margin-right:6px;">Northwest A&F University</strong> (Project 985&211)<br>
 <ul style="list-style-type: disc; margin-left: 20px;">
     <li>Bachelor of Engineering (2019--2023)</li>
     <li>Major in Computer Science and Technology of College of Information Engineering</li>
