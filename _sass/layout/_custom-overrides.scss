@@ -239,6 +239,17 @@ blockquote {
   font-family: Georgia, Times, serif !important;
 }
 
+/* Wider content area when no sidebar present */
+body:not(.sidebar) .page {
+  @media (min-width: 1024px) {
+    max-width: 1200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 2em !important;
+    padding-right: 2em !important;
+  }
+}
+
 /* Reduce spacing for page title and first elements */
 .page__title {
   margin-top: 0 !important;

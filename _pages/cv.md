@@ -14,7 +14,7 @@ redirect_from:
 
 <strong><img src="http://zhuxy-USTC.github.io/images/ustc_logo2_01.jpg" style="width:20px; vertical-align:middle; margin-right:6px;">University of Science and Technology of China</strong> (C9 League, Project 985&211) From 2023 to Now<br>
 <ul style="list-style-type: disc; margin-left: 20px;">
-    <li>Master of Computer Science and Technology of School of Computer Science and Technology</li>
+    <li>Master of Computer Science and Technology in School of Computer Science and Technology</li>
     <li>GPA: 90 (3.87/4.3)</li>
 </ul>
 
@@ -74,7 +74,7 @@ redirect_from:
     <li>2019 Winter and 2020 Winter, the event about outstanding student coming back to Alma Mater</li>
     <li>2022 Summer, Tedu Group's Artificial Intelligence Training Project</li>
     <!-- <li>2024.11, Huawei Kunpeng and Ascend Science, Technology and Education Innovation Excellence Center Special Training Camp</li> -->
-    <li>2025.07, Hong Kong PhD Fellowship Summer Workshop (CUHK) </li>
+    <li>2025.07, Hong Kong PhD Fellowship Summer Workshop (CUHK<img src="http://zhuxy-USTC.github.io/images/CUHK_logo_01.jpg" style="width:20px; vertical-align:middle; margin-right:6px;">) </li>
     <li>2025.07--09, Research Assistant in Systems and Networking Lab (HKU), supervised by <a href="https://i.cs.hku.hk/~heming/">Prof. Heming Cui</a>,
 focusing on designing a more effective distributed training framework for the unified multimodal
 large model </li>
