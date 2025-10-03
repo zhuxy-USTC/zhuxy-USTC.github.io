@@ -3,6 +3,7 @@ layout: archive
 title: "Research Projects"
 permalink: /project/
 author_profile: true
+hide_title: true
 ---
 
 <h2>🚀 Ongoing Projects</h2>
