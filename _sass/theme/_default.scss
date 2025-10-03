@@ -11,10 +11,15 @@ $lighter-gray               : mix(#fff, $gray, 90%);
 
 /* Color codes used for the site */
 $danger-color               : #ee5f5b;
-$info-color                 : #52adc8;
+$info-color                 : #3b9cba;
 $notice-color               : #7a8288;
-$success-color              : #62c462;
-$warning-color              : #f89406;
+$success-color              : #3fa63f;
+$warning-color              : #d67f05;
+
+/* Link colors - Minimal Mistakes beautiful palette */
+$link-color                 : #52adc8;
+$link-color-hover           : mix(#000, $link-color, 25%);
+$link-color-visited         : mix(#fff, $link-color, 25%);
 
 /* Other basic settings for the template */
 $border-radius              : 4px;
