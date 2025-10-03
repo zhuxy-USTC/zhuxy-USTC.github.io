@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "📖Education"
+title: "📖 Education"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -11,18 +11,20 @@ redirect_from:
 
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6;">
 
-<h3>Master of Engineering (2023--Now)</h3>
+
 <strong>University of Science and Technology of China</strong><br>
 <ul style="list-style-type: disc; margin-left: 20px;">
+    <li>Master of Engineering (2023--Now)</li>
     <li>C9 League, Project 985&211</li>
     <li>School of Computer Science and Technology</li>
     <li>Major: Computer Science and Technology</li>
     <li>GPA: 90 (3.87/4.3)</li>
 </ul>
 
-<h3>Bachelor of Engineering (2019--2023)</h3>
+
 <strong>Northwest A&F University</strong><br>
 <ul style="list-style-type: disc; margin-left: 20px;">
+    <li>Bachelor of Engineering (2019--2023)</li>
     <li>Project 985&211</li>
     <li>College of Information Engineering</li>
     <li>Major: Computer Science and Technology</li>
