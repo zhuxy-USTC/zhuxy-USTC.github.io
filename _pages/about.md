@@ -13,8 +13,10 @@ I am currently a master student in the <a href="https://cs.ustc.edu.cn">School o
 
 My research interests lie at the intersection of **high-performance computing**, **machine learning systems**, and **distributed training**. Specifically, I focus on:
 
-- **Gradient Compression Algorithms**: Developing efficient compression techniques to reduce communication overhead in distributed training
-- **Large-scale Distributed Systems**: Building scalable solutions for training foundation models on HPC clusters
+<ul>
+    <li><strong>Gradient Compression Algorithms:</strong> Developing efficient compression techniques to reduce communication overhead in distributed training</li>
+    <li><strong>Large-scale Distributed Systems:</strong> Building scalable solutions for training foundation models on HPC clusters</li>
+</ul>
 
 **Now, I am seeking related PhD opportunities!**
 
