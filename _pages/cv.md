@@ -9,30 +9,30 @@ redirect_from:
 
 {% include base_path %}
 
-<div style="font-family: 'Times New Roman', Times, serif;">
-<p><strong>Master of Engineering</strong> (2023--Now)</p>
-<ul>
-    <li>University of Science and Technology of China (C9 League, Project 985&211)</li>
-    <li>Organization: School of Computer Science and Technology</li>
-    <li>Major: Computer Science and Technology</li>
-    <li>GPA : 90 (3.87/4.3)</li>
-</ul>
-<p><strong> Bachelor of Engineering</strong> (2019--2023)</p>
-<ul>
-    <li>Northwest A&F University (Project 985&211)</li>
-    <li>Organization: College of Information Engineering</li>
-    <li>Major: Computer Science and Technology</li>
-    <li>GPA : 90.5 (3.77/4.0)</li>
-    <li>Rank: 2 / 132</li>
-</ul>
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6;">
+
+### Master of Engineering (2023--Now)
+**University of Science and Technology of China**
+- C9 League, Project 985&211
+- School of Computer Science and Technology
+- Major: Computer Science and Technology
+- GPA: 90 (3.87/4.3)
+
+### Bachelor of Engineering (2019--2023)
+**Northwest A&F University**
+- Project 985&211
+- College of Information Engineering
+- Major: Computer Science and Technology
+- GPA: 90.5 (3.77/4.0)
+- Rank: 2 / 132
 
 </div>
 
-****************************************************************
+---
 
-<div style="font-family: 'Times New Roman', Times, serif;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6;">
 
-<h2>Competition</h2>
+## Competitions
 <ul>
     <li>"11th Student RDMA Programming Competition", <b>Third Prize</b> </li>
     <li>"2022 Mathematical Contest In Modeling(MCM)", <b>Meritorious Winner</b></li>
@@ -43,19 +43,20 @@ redirect_from:
 </ul>
 </div>
 
-****************************************************************
+---
 
-<div style="font-family: 'Times New Roman', Times, serif;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6;">
 
-<h2>Award</h2>
-<h3>Scholarship</h3>
+## Awards
+
+### Scholarships
 <ul>
     <li>National Scholarship</li>
     <li>President Scholarship</li>
     <li>Thanksgiving Scholarship for Modern and Contemporary Chinese Scientists (the highest-paying scholarship)</li>
     <li>First-Class Professional Scholarship</li>
 </ul>
-<h3>Honor</h3>
+### Honors
 <ul>
     <li>Outstanding Graduate</li>
     <li>Excellent College Student</li>
@@ -64,10 +65,10 @@ redirect_from:
 </div>
 
 
-****************************************************************
-<div style="font-family: 'Times New Roman', Times, serif;">
+---
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6;">
 
-<h2>Internships</h2>
+## Internships
 <ul>
     <li>2019--2020, New Media Center of college, responsible for writing, interview and operation of official account</li>
     <li>2019--2020 Summer, Baidu AI Talents Camp, learning machine learning and AI framework PaddlePaddle</li>

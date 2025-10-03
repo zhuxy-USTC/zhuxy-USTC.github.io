@@ -7,23 +7,24 @@ redirect_from:
   - /about.html
 ---
 
-<div style="font-family: 'Times New Roman', Times, serif; text-align: justify;" >
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; text-align: justify; line-height: 1.6;">
+
 I am currently a master student in the <a href="https://cs.ustc.edu.cn">School of Computer Science and Technology</a> at the <a href="https://ustc.edu.cn/">University of Science and Technology of China (USTC)</a>, one of China's top universities in the C9 League.
 
-My research interests lie at the intersection of <strong>high-performance computing</strong>, <strong>machine learning systems</strong>, and <strong>distributed training</strong>. Specifically, I focus on:
+My research interests lie at the intersection of **high-performance computing**, **machine learning systems**, and **distributed training**. Specifically, I focus on:
 
-<br>• <strong>Gradient Compression Algorithms</strong>: Developing efficient compression techniques to reduce communication overhead in distributed training
-<br>• <strong>Large-scale Distributed Systems</strong>: Building scalable solutions for training foundation models on HPC clusters
-<br>
-<br>
-<strong>Now, I am seeking related PhD opportunities!</strong>
+- **Gradient Compression Algorithms**: Developing efficient compression techniques to reduce communication overhead in distributed training
+- **Large-scale Distributed Systems**: Building scalable solutions for training foundation models on HPC clusters
+
+**Now, I am seeking related PhD opportunities!**
+
 </div>
 
-*************************************************************
+---
 
 ## Technical Skills
 
-<div style="font-family: 'Times New Roman', Times, serif;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6;">
 <ul>
     <li><strong>Programming Languages:</strong> C/C++, Python, CUDA, MPI</li>
     <li><strong>Machine Learning:</strong> PyTorch, TensorFlow, Distributed Training Frameworks</li>
@@ -32,20 +33,20 @@ My research interests lie at the intersection of <strong>high-performance comput
 </ul>
 </div>
 
-*************************************************************
+---
 
-## Basic information and Contact Way
+## Contact Information
 
-<div style="font-family: 'Times New Roman', Times, serif;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6;">
 <ul>
     <!-- <li>My resume: <a href="https://zhuxy-USTC.github.io/files/ZhuXY-CV.pdf">Download CV</a></li> -->
-    <li>Mail : <a href="mailto:zhuxy@mail.ustc.edu.cn">zhuxy@mail.ustc.edu.cn</a></li>
-    <li>Google Scholar Profile: <a href="https://scholar.google.com/citations?user=DHVjR2oAAAAJ">Google Scholar</a></li>
-    <li>ResearchGate: <a href="https://www.researchgate.net/profile/Zhu-Xianyu?ev=hdr_xprf">ResearchGate</a></li>
+    <li><strong>Email:</strong> <a href="mailto:zhuxy@mail.ustc.edu.cn">zhuxy@mail.ustc.edu.cn</a></li>
+    <li><strong>Google Scholar:</strong> <a href="https://scholar.google.com/citations?user=DHVjR2oAAAAJ">View Profile</a></li>
+    <li><strong>ResearchGate:</strong> <a href="https://www.researchgate.net/profile/Zhu-Xianyu?ev=hdr_xprf">View Profile</a></li>
 </ul>
 </div>
 
-<div style="font-family: 'Times New Roman', Times, serif;">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; color: #666; font-size: 0.9em;">
 Last updated: {{ site.time | date: "%B %d, %Y" }}
 </div>
 
@@ -65,7 +66,7 @@ Education
 * GPA : 90.5 (3.77/4.0)
 * Rank: 2 / 132
 
-***********************************************************
+---
 
 
 Publications
@@ -89,7 +90,7 @@ Publications
   {% endfor %}</ul> -->
 
 
-***********************************************************
+---
 
 <!-- Project
 ======
