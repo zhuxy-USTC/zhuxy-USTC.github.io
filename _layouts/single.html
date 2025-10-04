@@ -72,71 +72,96 @@ layout: default
 
           <script>
             function copyBibTeX(button) {
-              const bibtexText = document.getElementById('bibtex-content').textContent;
+              const bibtexContent = document.getElementById('bibtex-content');
+              if (!bibtexContent) {
+                console.error('BibTeX内容元素未找到');
+                return;
+              }
 
-              // 使用现代Clipboard API（如果可用）
-              if (navigator.clipboard && window.isSecureContext) {
-                navigator.clipboard.writeText(bibtexText).then(() => {
-                  // 复制成功
-                  const originalHTML = button.innerHTML;
-                  button.innerHTML = '<i class="fas fa-check"></i> Copied!';
-                  button.style.background = '#28a745';
+              const bibtexText = bibtexContent.textContent || bibtexContent.innerText;
 
-                  // 2秒后恢复原始状态
-                  setTimeout(() => {
-                    button.innerHTML = originalHTML;
-                    button.style.background = '#0066cc';
-                  }, 2000);
-                }).catch(err => {
-                  console.error('复制失败:', err);
-                  fallbackCopyTextToClipboard(bibtexText, button);
-                });
+              // 方法1: 尝试使用现代Clipboard API
+              if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(bibtexText)
+                  .then(() => {
+                    showCopySuccess(button);
+                  })
+                  .catch((err) => {
+                    console.log('Clipboard API失败，尝试备用方法:', err);
+                    fallbackCopy(bibtexText, button);
+                  });
               } else {
-                // 使用旧方法作为后备
-                fallbackCopyTextToClipboard(bibtexText, button);
+                // 方法2: 直接使用备用方法
+                fallbackCopy(bibtexText, button);
               }
             }
 
-            function fallbackCopyTextToClipboard(text, button) {
+            function fallbackCopy(text, button) {
               const textarea = document.createElement('textarea');
               textarea.value = text;
-              textarea.style.position = 'fixed';
+              textarea.style.position = 'absolute';
+              textarea.style.left = '-9999px';
               textarea.style.top = '0';
-              textarea.style.left = '0';
-              textarea.style.width = '2em';
-              textarea.style.height = '2em';
-              textarea.style.padding = '0';
-              textarea.style.border = 'none';
-              textarea.style.outline = 'none';
-              textarea.style.boxShadow = 'none';
-              textarea.style.background = 'transparent';
-
+              textarea.setAttribute('readonly', '');
               document.body.appendChild(textarea);
-              textarea.focus();
+
+              // 保存当前选择
+              const selected = document.getSelection().rangeCount > 0
+                ? document.getSelection().getRangeAt(0)
+                : false;
+
+              // 选择文本
               textarea.select();
+              textarea.setSelectionRange(0, textarea.value.length);
 
+              let success = false;
               try {
-                const successful = document.execCommand('copy');
-                if (successful) {
-                  // 复制成功
-                  const originalHTML = button.innerHTML;
-                  button.innerHTML = '<i class="fas fa-check"></i> Copied!';
-                  button.style.background = '#28a745';
-
-                  // 2秒后恢复原始状态
-                  setTimeout(() => {
-                    button.innerHTML = originalHTML;
-                    button.style.background = '#0066cc';
-                  }, 2000);
-                } else {
-                  alert('复制失败，请手动选择文本复制');
-                }
+                success = document.execCommand('copy');
               } catch (err) {
-                console.error('复制失败:', err);
-                alert('复制失败，请手动选择文本复制');
+                console.error('execCommand失败:', err);
+              }
+
+              // 恢复之前的选择
+              if (selected) {
+                document.getSelection().removeAllRanges();
+                document.getSelection().addRange(selected);
               }
 
               document.body.removeChild(textarea);
+
+              if (success) {
+                showCopySuccess(button);
+              } else {
+                // 方法3: 如果还是失败，提示用户手动复制
+                selectBibTeXText();
+                alert('自动复制失败，文本已选中，请按 Ctrl+C (或 Cmd+C) 手动复制');
+              }
+            }
+
+            function showCopySuccess(button) {
+              const originalHTML = button.innerHTML;
+              const originalBg = button.style.background;
+
+              button.innerHTML = '<i class="fas fa-check"></i> Copied!';
+              button.style.background = '#28a745';
+
+              setTimeout(() => {
+                button.innerHTML = originalHTML;
+                button.style.background = originalBg || '#0066cc';
+              }, 2000);
+            }
+
+            function selectBibTeXText() {
+              const bibtexContent = document.getElementById('bibtex-content');
+              if (bibtexContent) {
+                if (window.getSelection) {
+                  const selection = window.getSelection();
+                  const range = document.createRange();
+                  range.selectNodeContents(bibtexContent);
+                  selection.removeAllRanges();
+                  selection.addRange(range);
+                }
+              }
             }
           </script>
         {% endif %}
