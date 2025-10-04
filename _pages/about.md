@@ -21,6 +21,9 @@ My research interests lie at the intersection of <strong>high-performance comput
     <li><strong>Large-scale Distributed Systems:</strong> Building scalable solutions for training foundation models on HPC clusters</li>
 </ul>
 
+<br>
+<br>
+
 <strong>Now, I am seeking related PhD opportunities in 2026 Fall🍂🍂🍂</strong>
 
 </div>
