@@ -657,3 +657,178 @@ hr {
 .fa-chevron-right:before {
   content: "\f054" !important;
 }
+
+/* ==========================================================================
+   PAPER BOX STYLES - Based on Yang Zhang's Homepage Design
+   ========================================================================== */
+
+/* Main paper-box container */
+.paper-box {
+  display: flex !important;
+  justify-content: left !important;
+  align-items: center !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  border-bottom: 1px #efefef solid !important;
+  padding: 2em 0 2em 0 !important;
+  margin-bottom: 1em !important;
+}
+
+/* Paper box image container */
+.paper-box-image {
+  justify-content: center !important;
+  display: flex !important;
+  width: 100% !important;
+  order: 2 !important;
+  position: relative !important;
+}
+
+.paper-box-image img {
+  max-width: 400px !important;
+  width: 100% !important;
+  height: auto !important;
+  box-shadow: 3px 3px 6px #888 !important;
+  object-fit: cover !important;
+  border-radius: 4px !important;
+}
+
+/* Paper box text container */
+.paper-box-text {
+  max-width: 100% !important;
+  order: 1 !important;
+}
+
+/* Responsive design for larger screens */
+@media (min-width: 48em) {
+  .paper-box-image {
+    justify-content: left !important;
+    min-width: 200px !important;
+    max-width: 40% !important;
+    order: 1 !important;
+  }
+
+  .paper-box-text {
+    justify-content: left !important;
+    padding-left: 2em !important;
+    max-width: 60% !important;
+    order: 2 !important;
+  }
+}
+
+/* Badge for conference/journal names */
+.badge {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  position: absolute !important;
+  margin-top: 0.5em !important;
+  margin-left: -0.5em !important;
+  color: white !important;
+  background-color: #00369f !important;
+  font-size: 0.8em !important;
+  border-radius: 4px !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  z-index: 10 !important;
+}
+
+/* Paper box text styling */
+.paper-box-text {
+  /* Paper title */
+  p:first-child {
+    margin-bottom: 0.5em !important;
+
+    a {
+      font-size: 1.2em !important;
+      font-weight: 600 !important;
+      color: #1a1a1a !important;
+      text-decoration: none !important;
+      border-bottom: none !important;
+
+      &:hover {
+        color: #0066cc !important;
+        text-decoration: underline !important;
+      }
+    }
+  }
+
+  /* Authors list */
+  p:nth-child(2) {
+    font-size: 0.95em !important;
+    color: #555 !important;
+    margin-bottom: 0.8em !important;
+    line-height: 1.4 !important;
+
+    strong {
+      color: #1a1a1a !important;
+      font-weight: 600 !important;
+    }
+  }
+
+  /* Paper description */
+  p:nth-child(3) {
+    font-size: 0.95em !important;
+    color: #666 !important;
+    line-height: 1.6 !important;
+    margin-bottom: 0.8em !important;
+    font-style: italic !important;
+  }
+
+  /* Keywords */
+  p:nth-child(4) {
+    font-size: 0.9em !important;
+    color: #777 !important;
+    margin-bottom: 0.5em !important;
+
+    strong {
+      color: #555 !important;
+      font-weight: 600 !important;
+      font-style: normal !important;
+    }
+  }
+
+  /* Links section */
+  p:last-child {
+    font-size: 0.9em !important;
+    margin-bottom: 0 !important;
+
+    a {
+      color: #0066cc !important;
+      margin-right: 1em !important;
+      text-decoration: none !important;
+      border-bottom: 1px solid transparent !important;
+      transition: all 0.2s ease !important;
+
+      &:hover {
+        border-bottom-color: #0066cc !important;
+      }
+
+      i, .fa, .fas {
+        margin-right: 0.3em !important;
+      }
+    }
+  }
+}
+
+/* Alternative badge colors for different venues */
+.badge-conference {
+  background-color: #00369f !important;
+}
+
+.badge-journal {
+  background-color: #2e7d32 !important;
+}
+
+.badge-preprint {
+  background-color: #f57c00 !important;
+}
+
+.badge-workshop {
+  background-color: #7b1fa2 !important;
+}
+
+/* Paper box hover effect */
+.paper-box:hover {
+  background-color: #fafafa !important;
+  transition: background-color 0.3s ease !important;
+}
