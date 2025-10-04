@@ -6,7 +6,7 @@ date: 2024-01-01
 venue: 'The Journal of Supercomputing'
 badge: 'J. Supercomputing 2024'
 badge_class: 'badge-journal'
-image: '/images/publications/swattention.png'
+image: '/images/publications/swattention.jpg'
 authors: 'Ruohan Wu, <strong>Xianyu Zhu</strong>, Junshi Chen, Sha Liu, Tianyu Zheng, Xin Liu, Hong An'
 description: 'A highly efficient method for computing exact attention on the SW26010pro processor with two-level parallel task partition strategy.'
 keywords: '<strong>attention optimization</strong>, <strong>parallel programs</strong>, <strong>Sunway architecture</strong>, <strong>FlashAttention</strong>'
