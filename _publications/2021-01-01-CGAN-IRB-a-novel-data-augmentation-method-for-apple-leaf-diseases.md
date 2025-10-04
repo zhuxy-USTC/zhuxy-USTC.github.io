@@ -13,6 +13,15 @@ keywords: '<strong>CGAN</strong>, <strong>data augmentation</strong>, <strong>ap
 paperurl: 'http://zhuxy-USTC.github.io/files/CGAN-IRB.pdf'
 googlescholar: 'https://scholar.google.com/scholar?q=CGAN+IRB:+a+novel+data+augmentation+method+for+apple+leaf+diseases'
 citation: ' Xinbin Yuan,  Cong Yu,  Bin Liu,  Henan Sun,  Xianyu Zhu, &quot;CGAN-IRB: a novel data augmentation method for apple leaf diseases.&quot; In the proceedings of 2021 IEEE 45th Annual Computers, Software, and Applications Conference (COMPSAC), 2021.'
+bibtex: |
+  @inproceedings{yuan2021cgan,
+    title={CGAN-IRB: a novel data augmentation method for apple leaf diseases},
+    author={Yuan, Xinbin and Yu, Cong and Liu, Bin and Sun, Henan and Zhu, Xianyu},
+    booktitle={2021 IEEE 45th Annual Computers, Software, and Applications Conference (COMPSAC)},
+    pages={845--850},
+    year={2021},
+    organization={IEEE}
+  }
 ---
 
 ## Abstract

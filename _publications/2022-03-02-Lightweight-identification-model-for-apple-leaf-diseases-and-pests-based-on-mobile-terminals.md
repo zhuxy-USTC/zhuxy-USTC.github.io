@@ -13,6 +13,16 @@ keywords: '<strong>lightweight model</strong>, <strong>channel shuffle</strong>,
 paperurl: 'http://zhuxy-USTC.github.io/files/TCSAE.pdf'
 googlescholar: 'https://scholar.google.com/scholar?hl=zh-TW&as_sdt=0%2C5&q=面向移动端的苹果叶部病虫害轻量级识别模型&btnG=&oq=面向'
 citation: ' Bin Liu, Runchang Jia, Xianyu Zhu, Cong Yu, Zhuohan Yao, Haixi Zhang, Dongjian He, &quot;Lightweight identification model for apple leaf diseases and pests based on mobile terminals.&quot; Transactions of the Chinese Society of Agricultural Engineering (TCSAE). 2022'
+bibtex: |
+  @article{liu2022lightweight,
+    title={Lightweight identification model for apple leaf diseases and pests based on mobile terminals},
+    author={Liu, Bin and Jia, Runchang and Zhu, Xianyu and Yu, Cong and Yao, Zhuohan and Zhang, Haixi and He, Dongjian},
+    journal={Transactions of the Chinese Society of Agricultural Engineering},
+    volume={38},
+    number={7},
+    pages={145--155},
+    year={2022}
+  }
 ---
 
 ## Abstract

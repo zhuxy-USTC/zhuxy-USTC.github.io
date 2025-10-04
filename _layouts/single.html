@@ -52,12 +52,56 @@ layout: default
         {% endif %}
 
         {% if page.bibtex %}
-          <details style="margin-top: 1em;">
-            <summary style="cursor: pointer; font-size: smaller; color: #0066cc;">
-              <i class="fas fa-quote-left"></i> BibTeX
-            </summary>
-            <pre style="background: #f4f4f4; padding: 1em; margin-top: 0.5em; border-radius: 4px; font-size: 0.85em; overflow-x: auto;">{{ page.bibtex }}</pre>
-          </details>
+          <div style="margin-top: 1em; border: 1px solid #e0e0e0; border-radius: 4px; padding: 1em; background: #fafafa;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5em;">
+              <span style="font-size: smaller; color: #0066cc; font-weight: 600;">
+                <i class="fas fa-quote-left"></i> BibTeX
+              </span>
+              <button onclick="copyBibTeX()" onmouseover="this.style.background='#0052a3'" onmouseout="this.style.background='#0066cc'" style="padding: 0.3em 0.8em; background: #0066cc; color: white; border: none; border-radius: 3px; cursor: pointer; font-size: 0.85em; transition: all 0.2s; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                <i class="fas fa-copy"></i> Copy
+              </button>
+            </div>
+            <pre id="bibtex-content" style="background: #f4f4f4; padding: 1em; margin: 0; border-radius: 4px; font-size: 0.85em; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;">{{ page.bibtex }}</pre>
+          </div>
+
+          <script>
+            function copyBibTeX() {
+              const bibtexText = document.getElementById('bibtex-content').textContent;
+
+              // 创建临时textarea元素
+              const textarea = document.createElement('textarea');
+              textarea.value = bibtexText;
+              textarea.style.position = 'absolute';
+              textarea.style.left = '-9999px';
+              document.body.appendChild(textarea);
+
+              // 选择并复制文本
+              textarea.select();
+              textarea.setSelectionRange(0, 99999); // 移动设备兼容
+
+              try {
+                document.execCommand('copy');
+
+                // 更改按钮文本以显示复制成功
+                const button = event.target.closest('button');
+                const originalHTML = button.innerHTML;
+                button.innerHTML = '<i class="fas fa-check"></i> Copied!';
+                button.style.background = '#28a745';
+
+                // 2秒后恢复原始状态
+                setTimeout(() => {
+                  button.innerHTML = originalHTML;
+                  button.style.background = '#0066cc';
+                }, 2000);
+              } catch (err) {
+                console.error('复制失败:', err);
+                alert('复制失败，请手动选择文本复制');
+              }
+
+              // 移除临时元素
+              document.body.removeChild(textarea);
+            }
+          </script>
         {% endif %}
 
         {% if page.slidesurl %}
