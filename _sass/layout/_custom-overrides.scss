@@ -670,9 +670,8 @@ hr {
   flex-direction: row !important;
   flex-wrap: wrap !important;
   border-bottom: 1px #efefef solid !important;
-  padding: 2.5em 0 2em 0 !important;
+  padding: 2em 0 2em 0 !important;
   margin-bottom: 1em !important;
-  position: relative !important;
 }
 
 /* Paper box image container */
@@ -681,6 +680,10 @@ hr {
   display: flex !important;
   width: 100% !important;
   order: 2 !important;
+
+  > div {
+    position: relative !important;
+  }
 }
 
 .paper-box-image img {
@@ -705,6 +708,10 @@ hr {
     min-width: 200px !important;
     max-width: 40% !important;
     order: 1 !important;
+
+    > div {
+      position: relative !important;
+    }
   }
 
   .paper-box-text {
@@ -720,7 +727,7 @@ hr {
   padding: 0.3rem 0.8rem !important;
   position: absolute !important;
   top: 0.5em !important;
-  left: 0 !important;
+  left: 0.5em !important;
   color: white !important;
   background-color: #00369f !important;
   font-size: 0.75em !important;
