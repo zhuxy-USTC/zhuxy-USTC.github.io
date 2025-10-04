@@ -80,87 +80,78 @@ layout: default
 
               const bibtexText = bibtexContent.textContent || bibtexContent.innerText;
 
-              // 方法1: 尝试使用现代Clipboard API
-              if (navigator.clipboard && navigator.clipboard.writeText) {
+              // 首先尝试简单的 execCommand 方法（兼容性最好）
+              if (simpleCopy(bibtexText)) {
+                showCopySuccess(button);
+                return;
+              }
+
+              // 如果简单方法失败，尝试 Clipboard API
+              if (window.isSecureContext && navigator.clipboard && navigator.clipboard.writeText) {
                 navigator.clipboard.writeText(bibtexText)
                   .then(() => {
                     showCopySuccess(button);
                   })
                   .catch((err) => {
-                    console.log('Clipboard API失败，尝试备用方法:', err);
-                    fallbackCopy(bibtexText, button);
+                    console.log('Clipboard API 失败:', err);
+                    // 最后尝试选中文本
+                    selectBibTeXText();
+                    alert('请按 Ctrl+C (或 Cmd+C) 复制选中的文本');
                   });
               } else {
-                // 方法2: 直接使用备用方法
-                fallbackCopy(bibtexText, button);
+                // 如果都不支持，选中文本让用户手动复制
+                selectBibTeXText();
+                alert('请按 Ctrl+C (或 Cmd+C) 复制选中的文本');
               }
             }
 
-            function fallbackCopy(text, button) {
+            function simpleCopy(text) {
               const textarea = document.createElement('textarea');
               textarea.value = text;
-              textarea.style.position = 'absolute';
-              textarea.style.left = '-9999px';
+              textarea.style.position = 'fixed';
               textarea.style.top = '0';
-              textarea.setAttribute('readonly', '');
+              textarea.style.left = '0';
+              textarea.style.width = '1px';
+              textarea.style.height = '1px';
+              textarea.style.opacity = '0';
+
               document.body.appendChild(textarea);
-
-              // 保存当前选择
-              const selected = document.getSelection().rangeCount > 0
-                ? document.getSelection().getRangeAt(0)
-                : false;
-
-              // 选择文本
+              textarea.focus();
               textarea.select();
-              textarea.setSelectionRange(0, textarea.value.length);
 
               let success = false;
               try {
                 success = document.execCommand('copy');
+                console.log('execCommand copy result:', success);
               } catch (err) {
-                console.error('execCommand失败:', err);
-              }
-
-              // 恢复之前的选择
-              if (selected) {
-                document.getSelection().removeAllRanges();
-                document.getSelection().addRange(selected);
+                console.error('execCommand 错误:', err);
               }
 
               document.body.removeChild(textarea);
-
-              if (success) {
-                showCopySuccess(button);
-              } else {
-                // 方法3: 如果还是失败，提示用户手动复制
-                selectBibTeXText();
-                alert('自动复制失败，文本已选中，请按 Ctrl+C (或 Cmd+C) 手动复制');
-              }
+              return success;
             }
 
             function showCopySuccess(button) {
               const originalHTML = button.innerHTML;
-              const originalBg = button.style.background;
+              const originalBg = button.style.background || '#0066cc';
 
               button.innerHTML = '<i class="fas fa-check"></i> Copied!';
               button.style.background = '#28a745';
 
               setTimeout(() => {
                 button.innerHTML = originalHTML;
-                button.style.background = originalBg || '#0066cc';
+                button.style.background = originalBg;
               }, 2000);
             }
 
             function selectBibTeXText() {
               const bibtexContent = document.getElementById('bibtex-content');
-              if (bibtexContent) {
-                if (window.getSelection) {
-                  const selection = window.getSelection();
-                  const range = document.createRange();
-                  range.selectNodeContents(bibtexContent);
-                  selection.removeAllRanges();
-                  selection.addRange(range);
-                }
+              if (bibtexContent && window.getSelection) {
+                const selection = window.getSelection();
+                const range = document.createRange();
+                range.selectNodeContents(bibtexContent);
+                selection.removeAllRanges();
+                selection.addRange(range);
               }
             }
           </script>
