@@ -38,9 +38,9 @@ My research interests lie at the intersection of <strong>high-performance comput
 -->
 
 
-<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; color: #666; font-size: 0.9em;">
+<!-- <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; color: #666; font-size: 0.9em;">
 Last updated: {{ site.time | date: "%B %d, %Y" }}
-</div>
+</div> -->
 
 <!--
 Education
