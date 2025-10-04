@@ -28,6 +28,8 @@ bibtex: |
 
 **Keywords: YOLOv5, object detection, apple leaf diseases, mobile deployment**
 
+--------
+
 ## Abstract
 
 <div style="font-family: 'Times New Roman', Times, serif;">
