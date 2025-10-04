@@ -63,7 +63,7 @@ layout: default
               <span style="font-size: smaller; color: #0066cc; font-weight: 600;">
                 <i class="fas fa-quote-left"></i> BibTeX
               </span>
-              <button onclick="copyBibTeX(this)" onmouseover="this.style.background='#0052a3'" onmouseout="this.style.background='#0066cc'" style="padding: 0.3em 0.8em; background: #0066cc; color: white; border: none; border-radius: 3px; cursor: pointer; font-size: 0.85em; transition: all 0.2s; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+              <button id="bibtex-copy-btn" style="padding: 0.3em 0.8em; background: #0066cc; color: white; border: none; border-radius: 3px; cursor: pointer; font-size: 0.85em; transition: all 0.2s; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
                 <i class="fas fa-copy"></i> Copy
               </button>
             </div>
@@ -71,16 +71,50 @@ layout: default
           </div>
 
           <script>
+            // 使用 DOMContentLoaded 确保在 DOM 完全加载后执行
+            document.addEventListener('DOMContentLoaded', function() {
+              console.log('BibTeX copy script loaded');
+
+              // 等待一小段时间确保所有元素都已渲染
+              setTimeout(function() {
+                const copyBtn = document.getElementById('bibtex-copy-btn');
+                if (copyBtn) {
+                  console.log('Copy button found, adding event listener');
+
+                  // 添加点击事件监听器
+                  copyBtn.addEventListener('click', function() {
+                    console.log('Copy button clicked');
+                    copyBibTeX(this);
+                  });
+
+                  // 添加悬停效果
+                  copyBtn.addEventListener('mouseover', function() {
+                    this.style.background = '#0052a3';
+                  });
+
+                  copyBtn.addEventListener('mouseout', function() {
+                    this.style.background = '#0066cc';
+                  });
+                } else {
+                  console.error('Copy button not found');
+                }
+              }, 100);
+            });
+
             function copyBibTeX(button) {
+              console.log('copyBibTeX function called');
+
               const bibtexContent = document.getElementById('bibtex-content');
               if (!bibtexContent) {
-                console.error('BibTeX内容元素未找到');
+                console.error('BibTeX content element not found');
+                alert('Error: BibTeX内容未找到');
                 return;
               }
 
               const bibtexText = bibtexContent.textContent || bibtexContent.innerText;
+              console.log('BibTeX text length:', bibtexText.length);
 
-              // 首先尝试简单的 execCommand 方法（兼容性最好）
+              // 首先尝试简单的 execCommand 方法
               if (simpleCopy(bibtexText)) {
                 showCopySuccess(button);
                 return;
@@ -90,22 +124,24 @@ layout: default
               if (window.isSecureContext && navigator.clipboard && navigator.clipboard.writeText) {
                 navigator.clipboard.writeText(bibtexText)
                   .then(() => {
+                    console.log('Clipboard API success');
                     showCopySuccess(button);
                   })
                   .catch((err) => {
-                    console.log('Clipboard API 失败:', err);
-                    // 最后尝试选中文本
+                    console.error('Clipboard API failed:', err);
                     selectBibTeXText();
                     alert('请按 Ctrl+C (或 Cmd+C) 复制选中的文本');
                   });
               } else {
-                // 如果都不支持，选中文本让用户手动复制
+                console.log('Clipboard API not available');
                 selectBibTeXText();
                 alert('请按 Ctrl+C (或 Cmd+C) 复制选中的文本');
               }
             }
 
             function simpleCopy(text) {
+              console.log('Trying simpleCopy method');
+
               const textarea = document.createElement('textarea');
               textarea.value = text;
               textarea.style.position = 'fixed';
@@ -122,9 +158,9 @@ layout: default
               let success = false;
               try {
                 success = document.execCommand('copy');
-                console.log('execCommand copy result:', success);
+                console.log('execCommand result:', success);
               } catch (err) {
-                console.error('execCommand 错误:', err);
+                console.error('execCommand error:', err);
               }
 
               document.body.removeChild(textarea);
@@ -132,6 +168,8 @@ layout: default
             }
 
             function showCopySuccess(button) {
+              console.log('Showing copy success');
+
               const originalHTML = button.innerHTML;
               const originalBg = button.style.background || '#0066cc';
 
@@ -145,6 +183,8 @@ layout: default
             }
 
             function selectBibTeXText() {
+              console.log('Selecting BibTeX text');
+
               const bibtexContent = document.getElementById('bibtex-content');
               if (bibtexContent && window.getSelection) {
                 const selection = window.getSelection();
@@ -153,6 +193,29 @@ layout: default
                 selection.removeAllRanges();
                 selection.addRange(range);
               }
+            }
+
+            // 如果页面已经加载完成，立即执行
+            if (document.readyState === 'complete' || document.readyState === 'interactive') {
+              console.log('Page already loaded, initializing immediately');
+              setTimeout(function() {
+                const copyBtn = document.getElementById('bibtex-copy-btn');
+                if (copyBtn && !copyBtn.hasAttribute('data-initialized')) {
+                  copyBtn.setAttribute('data-initialized', 'true');
+                  copyBtn.addEventListener('click', function() {
+                    console.log('Copy button clicked (immediate init)');
+                    copyBibTeX(this);
+                  });
+
+                  copyBtn.addEventListener('mouseover', function() {
+                    this.style.background = '#0052a3';
+                  });
+
+                  copyBtn.addEventListener('mouseout', function() {
+                    this.style.background = '#0066cc';
+                  });
+                }
+              }, 100);
             }
           </script>
         {% endif %}
