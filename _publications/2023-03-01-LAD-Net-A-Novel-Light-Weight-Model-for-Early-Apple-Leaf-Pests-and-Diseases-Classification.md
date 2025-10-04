@@ -6,7 +6,7 @@ date: 2023-03-01
 venue: 'IEEE/ACM Transactions on Computational Biology and Bioinformatics'
 badge: 'IEEE/ACM TCBB 2023'
 badge_class: 'badge-journal'
-image: '/images/publications/lad-net.png'
+image: '/images/publications/lad-net.jpg'
 authors: '<strong>Xianyu Zhu</strong>, Jinjiang Li, Runchang Jia, Bin Liu, Zhuohan Yao, Aihong Yuan, Yingqiu Huo, Haixi Zhang'
 description: 'A lightweight model achieving 98.58% accuracy for apple leaf disease recognition with only 1.25MB size, enabling real-time diagnosis on mobile devices.'
 keywords: '<strong>apple leaf diseases</strong>, <strong>asymmetric convolution</strong>, <strong>real-time inference</strong>, <strong>mobile deployment</strong>'
