@@ -45,6 +45,4 @@ The results show that the LAD-Net, with a size of only 1.25MB, can achieve a rec
 
 
 
-<a href="http://zhuxy-USTC.github.io/files/LAD-Net.pdf">📄Original paper</a> and <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2ajuuEAAAAJ&citation_for_view=k2ajuuEAAAAJ:9yKSN-GCB0IC" target="_blank">🎓Google Scholar Link</a>
-<br>
-<a href="http://zhuxy-USTC.github.io/files/LAD-Net-poster.pdf">Academic poster</a>
+<a href="http://zhuxy-USTC.github.io/files/LAD-Net.pdf">📄Original paper</a>,  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2ajuuEAAAAJ&citation_for_view=k2ajuuEAAAAJ:9yKSN-GCB0IC" target="_blank">🎓Google Scholar Link</a> and <a href="http://zhuxy-USTC.github.io/files/LAD-Net-poster.pdf">🪧Academic poster</a>
