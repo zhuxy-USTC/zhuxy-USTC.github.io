@@ -6,7 +6,7 @@ date: 2022-01-01
 venue: 'In the proceedings of 2022 IEEE 46th Annual Computers, Software, and Applications Conference (COMPSAC)'
 badge: 'COMPSAC 2022'
 badge_class: 'badge-conference'
-image: '/images/publications/apple-yolo.png'
+image: 'https://zhuxy-ustc.github.io/images/publications/apple-yolo.png'
 authors: 'Jinjiang Li, <strong>Xianyu Zhu</strong>, Runchang Jia, Bin Liu, Cong Yu'
 description: 'A lightweight YOLOv5-based detector achieving 96.04% mAP with only 5.33MB size for real-time apple leaf disease detection on mobile devices.'
 keywords: '<strong>YOLOv5</strong>, <strong>object detection</strong>, <strong>apple leaf diseases</strong>, <strong>mobile deployment</strong>'
