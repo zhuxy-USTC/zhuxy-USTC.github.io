@@ -14,6 +14,14 @@ paperurl: 'http://zhuxy-USTC.github.io/files/SwFormer.pdf'
 doi: 'https://jcst.ict.ac.cn/en/article/doi/10.1007/s11390-025-4761-0'
 googlescholar: 'https://scholar.google.com/scholar?q=SwFormer+Enabling+Faster+Foundation+Models+Sunway+Supercomputer'
 citation: ' Ruohan Wu,  Xianyu Zhu,  Junshi Chen,  Hong An &quot;SwFormer: Enabling Faster Foundation Models on new Sunway Supercomputer via Holistic Kernel Tiling and Scheduling.&quot; Journal of Computer Science and Technology(JCST), 2025.'
+bibtex: |
+  @article{wu2025swformer,
+    title={SwFormer: Enabling Faster Foundation Models on new Sunway Supercomputer via Holistic Kernel Tiling and Scheduling},
+    author={Wu, Ruohan and Zhu, Xianyu and Chen, Junshi and An, Hong},
+    journal={Journal of Computer Science and Technology},
+    year={2025},
+    publisher={Springer}
+  }
 ---
 
 ## Abstract

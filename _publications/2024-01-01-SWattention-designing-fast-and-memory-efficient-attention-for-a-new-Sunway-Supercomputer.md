@@ -13,6 +13,14 @@ keywords: '<strong>attention optimization</strong>, <strong>parallel programs</s
 paperurl: 'http://zhuxy-USTC.github.io/files/swattention.pdf'
 googlescholar: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2ajuuEAAAAJ&citation_for_view=k2ajuuEAAAAJ:qjMakFHDy7sC'
 citation: ' Ruohan Wu,  Xianyu Zhu,  Junshi Chen,  Sha Liu,  Tianyu Zheng,  Xin Liu,  Hong An, &quot;SWattention: designing fast and memory-efficient attention for a new Sunway Supercomputer.&quot; The Journal of Supercomputing, 2024.'
+bibtex: |
+  @article{wu2024swattention,
+    title={SWattention: designing fast and memory-efficient attention for a new Sunway Supercomputer},
+    author={Wu, Ruohan and Zhu, Xianyu and Chen, Junshi and Liu, Sha and Zheng, Tianyu and Liu, Xin and An, Hong},
+    journal={The Journal of Supercomputing},
+    year={2024},
+    publisher={Springer}
+  }
 ---
 
 ## Abstract

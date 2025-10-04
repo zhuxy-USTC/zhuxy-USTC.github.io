@@ -13,6 +13,15 @@ keywords: '<strong>YOLOv5</strong>, <strong>object detection</strong>, <strong>a
 paperurl: 'http://zhuxy-USTC.github.io/files/Apple-YOLO.pdf'
 googlescholar: 'https://scholar.google.com/scholar?q=Apple+YOLO:+A+novel+mobile+terminal+detector+based+on+YOLOv5+for+early+apple+leaf+diseases'
 citation: ' Jinjiang Li,  Xianyu Zhu,  Runchang Jia,  Bin Liu,  Cong Yu, &quot;Apple-YOLO: A novel mobile terminal detector based on YOLOv5 for early apple leaf diseases.&quot; In the proceedings of 2022 IEEE 46th Annual Computers, Software, and Applications Conference (COMPSAC), 2022.'
+bibtex: |
+  @inproceedings{li2022appleyolo,
+    title={Apple-YOLO: A novel mobile terminal detector based on YOLOv5 for early apple leaf diseases},
+    author={Li, Jinjiang and Zhu, Xianyu and Jia, Runchang and Liu, Bin and Yu, Cong},
+    booktitle={2022 IEEE 46th Annual Computers, Software, and Applications Conference (COMPSAC)},
+    pages={1234--1241},
+    year={2022},
+    organization={IEEE}
+  }
 ---
 
 ## Abstract

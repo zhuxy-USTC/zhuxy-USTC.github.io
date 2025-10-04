@@ -47,16 +47,21 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
-        {% if page.citation and page.paperurl and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.citation and page.paperurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
-        {% elsif page.citation and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.citation %}
+        {% if page.citation %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
-        {% elsif page.slidesurl %}
-          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
+        {% endif %}
+
+        {% if page.bibtex %}
+          <details style="margin-top: 1em;">
+            <summary style="cursor: pointer; font-size: smaller; color: #0066cc;">
+              <i class="fas fa-quote-left"></i> BibTeX
+            </summary>
+            <pre style="background: #f4f4f4; padding: 1em; margin-top: 0.5em; border-radius: 4px; font-size: 0.85em; overflow-x: auto;">{{ page.bibtex }}</pre>
+          </details>
+        {% endif %}
+
+        {% if page.slidesurl %}
+          <p style="font-size: smaller; margin-top: 0.5em;"><a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% endif %}
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}

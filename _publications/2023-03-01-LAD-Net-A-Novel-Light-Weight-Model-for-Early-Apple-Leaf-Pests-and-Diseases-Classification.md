@@ -14,6 +14,15 @@ paperurl: 'http://zhuxy-USTC.github.io/files/LAD-Net.pdf'
 doi: 'http://dx.doi.org/10.1109/TCBB.2022.3191854'
 googlescholar: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2ajuuEAAAAJ&citation_for_view=k2ajuuEAAAAJ:9yKSN-GCB0IC'
 citation: ' Xianyu Zhu,  Jinjiang Li,  Runchang Jia,  Bin Liu,  Zhuohan Yao,  Aihong Yuan,  Yingqiu Huo,  Haixi Zhang, &quot;LAD-Net: A Novel Light Weight Model for Early Apple Leaf Pests and Diseases Classification.&quot; IEEE/ACM Transactions on Computational Biology and Bioinformatics, 2023.'
+bibtex: |
+  @article{zhu2023ladnet,
+    title={LAD-Net: A Novel Light Weight Model for Early Apple Leaf Pests and Diseases Classification},
+    author={Zhu, Xianyu and Li, Jinjiang and Jia, Runchang and Liu, Bin and Yao, Zhuohan and Yuan, Aihong and Huo, Yingqiu and Zhang, Haixi},
+    journal={IEEE/ACM Transactions on Computational Biology and Bioinformatics},
+    year={2023},
+    doi={10.1109/TCBB.2022.3191854},
+    publisher={IEEE}
+  }
 ---
 
 
