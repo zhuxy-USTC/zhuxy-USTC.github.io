@@ -58,7 +58,8 @@ Education
 * GPA : 90.5 (3.77/4.0)
 * Rank: 2 / 132
 
----
+
+
 
 
 Publications
@@ -82,7 +83,7 @@ Publications
   {% endfor %}</ul> -->
 
 
----
+
 
 <!-- Project
 ======
