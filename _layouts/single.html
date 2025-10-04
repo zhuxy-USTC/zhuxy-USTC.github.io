@@ -57,7 +57,7 @@ layout: default
               <span style="font-size: smaller; color: #0066cc; font-weight: 600;">
                 <i class="fas fa-quote-left"></i> BibTeX
               </span>
-              <button onclick="copyBibTeX()" onmouseover="this.style.background='#0052a3'" onmouseout="this.style.background='#0066cc'" style="padding: 0.3em 0.8em; background: #0066cc; color: white; border: none; border-radius: 3px; cursor: pointer; font-size: 0.85em; transition: all 0.2s; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+              <button onclick="copyBibTeX(this)" onmouseover="this.style.background='#0052a3'" onmouseout="this.style.background='#0066cc'" style="padding: 0.3em 0.8em; background: #0066cc; color: white; border: none; border-radius: 3px; cursor: pointer; font-size: 0.85em; transition: all 0.2s; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
                 <i class="fas fa-copy"></i> Copy
               </button>
             </div>
@@ -65,40 +65,71 @@ layout: default
           </div>
 
           <script>
-            function copyBibTeX() {
+            function copyBibTeX(button) {
               const bibtexText = document.getElementById('bibtex-content').textContent;
 
-              // 创建临时textarea元素
-              const textarea = document.createElement('textarea');
-              textarea.value = bibtexText;
-              textarea.style.position = 'absolute';
-              textarea.style.left = '-9999px';
-              document.body.appendChild(textarea);
+              // 使用现代Clipboard API（如果可用）
+              if (navigator.clipboard && window.isSecureContext) {
+                navigator.clipboard.writeText(bibtexText).then(() => {
+                  // 复制成功
+                  const originalHTML = button.innerHTML;
+                  button.innerHTML = '<i class="fas fa-check"></i> Copied!';
+                  button.style.background = '#28a745';
 
-              // 选择并复制文本
+                  // 2秒后恢复原始状态
+                  setTimeout(() => {
+                    button.innerHTML = originalHTML;
+                    button.style.background = '#0066cc';
+                  }, 2000);
+                }).catch(err => {
+                  console.error('复制失败:', err);
+                  fallbackCopyTextToClipboard(bibtexText, button);
+                });
+              } else {
+                // 使用旧方法作为后备
+                fallbackCopyTextToClipboard(bibtexText, button);
+              }
+            }
+
+            function fallbackCopyTextToClipboard(text, button) {
+              const textarea = document.createElement('textarea');
+              textarea.value = text;
+              textarea.style.position = 'fixed';
+              textarea.style.top = '0';
+              textarea.style.left = '0';
+              textarea.style.width = '2em';
+              textarea.style.height = '2em';
+              textarea.style.padding = '0';
+              textarea.style.border = 'none';
+              textarea.style.outline = 'none';
+              textarea.style.boxShadow = 'none';
+              textarea.style.background = 'transparent';
+
+              document.body.appendChild(textarea);
+              textarea.focus();
               textarea.select();
-              textarea.setSelectionRange(0, 99999); // 移动设备兼容
 
               try {
-                document.execCommand('copy');
+                const successful = document.execCommand('copy');
+                if (successful) {
+                  // 复制成功
+                  const originalHTML = button.innerHTML;
+                  button.innerHTML = '<i class="fas fa-check"></i> Copied!';
+                  button.style.background = '#28a745';
 
-                // 更改按钮文本以显示复制成功
-                const button = event.target.closest('button');
-                const originalHTML = button.innerHTML;
-                button.innerHTML = '<i class="fas fa-check"></i> Copied!';
-                button.style.background = '#28a745';
-
-                // 2秒后恢复原始状态
-                setTimeout(() => {
-                  button.innerHTML = originalHTML;
-                  button.style.background = '#0066cc';
-                }, 2000);
+                  // 2秒后恢复原始状态
+                  setTimeout(() => {
+                    button.innerHTML = originalHTML;
+                    button.style.background = '#0066cc';
+                  }, 2000);
+                } else {
+                  alert('复制失败，请手动选择文本复制');
+                }
               } catch (err) {
                 console.error('复制失败:', err);
                 alert('复制失败，请手动选择文本复制');
               }
 
-              // 移除临时元素
               document.body.removeChild(textarea);
             }
           </script>
