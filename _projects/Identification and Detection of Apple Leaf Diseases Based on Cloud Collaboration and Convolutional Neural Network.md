@@ -2,10 +2,12 @@
 title: "Identification and Detection of Apple Leaf Diseases Based on Cloud Collaboration and Convolutional Neural Network"
 collection: projects
 permalink: /projects/Identification and Detection of Apple Leaf Diseases Based on Cloud Collaboration and Convolutional Neural Network
-# venue: "London School of Testing"
-# date: 2014-02-01
-# location: "London, UK"
 project_type: "Member; Provincial Innovative Entrepreneurial Training Plan Program (2020 May to 2021 May)"
+badge: "2020-2021"
+badge_class: "badge-project"
+image: "/images/projects/cloud-disease-detection.jpg"
+description: "Cloud-based collaborative platform for apple leaf disease detection using MEAN-SSD model on mobile devices."
+keywords: "<strong>cloud collaboration</strong>, <strong>MEAN-SSD</strong>, <strong>mobile detection</strong>, <strong>CNN</strong>"
 ---
 
 <p style="text-align: justify;">

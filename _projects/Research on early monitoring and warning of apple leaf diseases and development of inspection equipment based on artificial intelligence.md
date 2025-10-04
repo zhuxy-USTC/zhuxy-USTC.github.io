@@ -2,10 +2,14 @@
 title: "Research on early monitoring and warning of apple leaf diseases and development of inspection equipment based on artificial intelligence"
 collection: projects
 permalink: /projects/Research on early monitoring and warning of apple leaf diseases and development of inspection equipment based on artificial intelligence
-# venue: "Testing Institute of America 2014 Annual Conference"
-# date: 2014-03-01
-# location: "Los Angeles, CA"
-project_type: "Member; Provincial Key Research Program(2021 Jan to 2022 Dec)"
+project_type: "Member; Provincial Key Research Program (2021 Jan to 2022 Dec)"
+badge: "2021-2022"
+badge_class: "badge-project"
+image: "/images/projects/apple-disease-monitoring.jpg"
+description: "AI-based early detection system for apple leaf diseases with inspection robot development and cloud monitoring platform."
+keywords: "<strong>AI diagnosis</strong>, <strong>inspection robot</strong>, <strong>cloud platform</strong>, <strong>disease detection</strong>"
+thumbnail: "http://zhuxy-USTC.github.io/images/apple_disease_thumbnail.jpg"
+demo: "#demo"
 ---
 
 <h2>Project Content</h2>

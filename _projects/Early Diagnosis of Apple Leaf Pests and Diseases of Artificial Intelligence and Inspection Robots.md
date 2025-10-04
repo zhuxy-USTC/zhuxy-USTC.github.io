@@ -2,9 +2,12 @@
 title: "Early Diagnosis of Apple Leaf Pests and Diseases of Artificial Intelligence and Inspection Robots"
 collection: projects
 permalink: /projects/Early Diagnosis of Apple Leaf Pests and Diseases of Artificial Intelligence and Inspection Robots
-# venue: "UC San Francisco, Department of Testing"
-# location: "San Francisco, California"
 project_type: "Leader; Provincial Innovative Entrepreneurial Training Plan Program (2021 May to 2022 May)"
+badge: "2021-2022"
+badge_class: "badge-project"
+image: "/images/projects/apple-inspection-robot.jpg"
+description: "Deep learning models for early detection of apple leaf diseases with successful deployment on Jetson TX2 inspection robot."
+keywords: "<strong>deep learning</strong>, <strong>LAD-Net</strong>, <strong>Jetson TX2</strong>, <strong>inspection robot</strong>"
 ---
 
 <div style="text-align: justify; font-family: 'Times New Roman', Times, serif;">
