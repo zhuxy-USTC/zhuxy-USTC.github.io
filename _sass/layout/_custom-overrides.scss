@@ -765,17 +765,8 @@ hr {
     }
   }
 
-  /* Paper description */
-  p:nth-child(3) {
-    font-size: 0.95em !important;
-    color: #666 !important;
-    line-height: 1.6 !important;
-    margin-bottom: 0.8em !important;
-    font-style: italic !important;
-  }
-
   /* Keywords */
-  p:nth-child(4) {
+  p:nth-child(3) {
     font-size: 0.9em !important;
     color: #777 !important;
     margin-bottom: 0.5em !important;

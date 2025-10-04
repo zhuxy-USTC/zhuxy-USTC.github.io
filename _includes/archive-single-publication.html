@@ -37,13 +37,6 @@
       {% endif %}
     {% endif %}
 
-    <!-- 论文简介 -->
-    {% if post.excerpt %}
-      <p>{{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
-    {% elsif post.description %}
-      <p>{{ post.description }}</p>
-    {% endif %}
-
     <!-- 关键词 -->
     {% if post.keywords %}
       <p>Keywords: {{ post.keywords }}</p>
