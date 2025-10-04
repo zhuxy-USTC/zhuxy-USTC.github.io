@@ -670,8 +670,9 @@ hr {
   flex-direction: row !important;
   flex-wrap: wrap !important;
   border-bottom: 1px #efefef solid !important;
-  padding: 2em 0 2em 0 !important;
+  padding: 2.5em 0 2em 0 !important;
   margin-bottom: 1em !important;
+  position: relative !important;
 }
 
 /* Paper box image container */
@@ -680,7 +681,6 @@ hr {
   display: flex !important;
   width: 100% !important;
   order: 2 !important;
-  position: relative !important;
 }
 
 .paper-box-image img {
@@ -717,14 +717,13 @@ hr {
 
 /* Badge for conference/journal names */
 .badge {
-  padding-left: 1rem !important;
-  padding-right: 1rem !important;
+  padding: 0.3rem 0.8rem !important;
   position: absolute !important;
-  margin-top: 0.5em !important;
-  margin-left: -0.5em !important;
+  top: 0.5em !important;
+  left: 0 !important;
   color: white !important;
   background-color: #00369f !important;
-  font-size: 0.8em !important;
+  font-size: 0.75em !important;
   border-radius: 4px !important;
   font-weight: 600 !important;
   text-transform: uppercase !important;
