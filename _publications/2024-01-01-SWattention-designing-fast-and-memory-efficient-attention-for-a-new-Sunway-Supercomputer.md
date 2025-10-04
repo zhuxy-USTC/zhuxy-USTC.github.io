@@ -4,35 +4,16 @@ collection: publications
 permalink: /publication/2024-01-01-SWattention-designing-fast-and-memory-efficient-attention-for-a-new-Sunway-Supercomputer
 date: 2024-01-01
 venue: 'The Journal of Supercomputing'
-paperbox: true
 badge: 'J. Supercomputing 2024'
 badge_class: 'badge-journal'
 image: '/images/publications/swattention.png'
+authors: 'Ruohan Wu, <strong>Xianyu Zhu</strong>, Junshi Chen, Sha Liu, Tianyu Zheng, Xin Liu, Hong An'
+description: 'A highly efficient method for computing exact attention on the SW26010pro processor with two-level parallel task partition strategy.'
+keywords: '<strong>attention optimization</strong>, <strong>parallel programs</strong>, <strong>Sunway architecture</strong>, <strong>FlashAttention</strong>'
+paperurl: 'http://zhuxy-USTC.github.io/files/swattention.pdf'
+googlescholar: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2ajuuEAAAAJ&citation_for_view=k2ajuuEAAAAJ:qjMakFHDy7sC'
 citation: ' Ruohan Wu,  Xianyu Zhu,  Junshi Chen,  Sha Liu,  Tianyu Zheng,  Xin Liu,  Hong An, &quot;SWattention: designing fast and memory-efficient attention for a new Sunway Supercomputer.&quot; The Journal of Supercomputing, 2024.'
 ---
-
-<div class="paper-box">
-  <div class="paper-box-image">
-    <div>
-      <div class="badge badge-journal">J. Supercomputing 2024</div>
-      <img src="/images/publications/swattention.png" alt="SWattention Architecture" width="100%">
-    </div>
-  </div>
-  <div class="paper-box-text">
-    <p><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2ajuuEAAAAJ&citation_for_view=k2ajuuEAAAAJ:qjMakFHDy7sC">SWattention: designing fast and memory-efficient attention for a new Sunway Supercomputer</a></p>
-
-    <p>Ruohan Wu, <strong>Xianyu Zhu</strong>, Junshi Chen, Sha Liu, Tianyu Zheng, Xin Liu, Hong An</p>
-
-    <p>A highly efficient method for computing exact attention on the SW26010pro processor, featuring two-level parallel task partition strategy and asynchronous memory access to optimize LLM training on Sunway architecture.</p>
-
-    <p>Keywords: <strong>artificial intelligence</strong>, <strong>attention optimization</strong>, <strong>parallel programs</strong>, <strong>Sunway architecture</strong>, <strong>FlashAttention</strong></p>
-
-    <p>
-      <a href="http://zhuxy-USTC.github.io/files/swattention.pdf"><i class="fas fa-file-pdf"></i> PDF</a>
-      <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2ajuuEAAAAJ&citation_for_view=k2ajuuEAAAAJ:qjMakFHDy7sC"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
-    </p>
-  </div>
-</div>
 
 ## Abstract
 <div style="font-family: 'Times New Roman', Times, serif;">

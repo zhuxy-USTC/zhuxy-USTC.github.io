@@ -4,7 +4,15 @@ collection: publications
 permalink: /publication/2023-03-01-LAD-Net-A-Novel-Light-Weight-Model-for-Early-Apple-Leaf-Pests-and-Diseases-Classification
 date: 2023-03-01
 venue: 'IEEE/ACM Transactions on Computational Biology and Bioinformatics'
-# paperurl: 'http://dx.doi.org/10.1109/TCBB.2022.3191854'
+badge: 'IEEE/ACM TCBB 2023'
+badge_class: 'badge-journal'
+image: '/images/publications/lad-net.png'
+authors: '<strong>Xianyu Zhu</strong>, Jinjiang Li, Runchang Jia, Bin Liu, Zhuohan Yao, Aihong Yuan, Yingqiu Huo, Haixi Zhang'
+description: 'A lightweight model achieving 98.58% accuracy for apple leaf disease recognition with only 1.25MB size, enabling real-time diagnosis on mobile devices.'
+keywords: '<strong>apple leaf diseases</strong>, <strong>asymmetric convolution</strong>, <strong>real-time inference</strong>, <strong>mobile deployment</strong>'
+paperurl: 'http://zhuxy-USTC.github.io/files/LAD-Net.pdf'
+doi: 'http://dx.doi.org/10.1109/TCBB.2022.3191854'
+googlescholar: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2ajuuEAAAAJ&citation_for_view=k2ajuuEAAAAJ:9yKSN-GCB0IC'
 citation: ' Xianyu Zhu,  Jinjiang Li,  Runchang Jia,  Bin Liu,  Zhuohan Yao,  Aihong Yuan,  Yingqiu Huo,  Haixi Zhang, &quot;LAD-Net: A Novel Light Weight Model for Early Apple Leaf Pests and Diseases Classification.&quot; IEEE/ACM Transactions on Computational Biology and Bioinformatics, 2023.'
 ---
 
