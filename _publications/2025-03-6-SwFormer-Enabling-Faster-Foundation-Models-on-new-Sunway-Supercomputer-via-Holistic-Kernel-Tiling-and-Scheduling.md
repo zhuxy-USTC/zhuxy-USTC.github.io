@@ -6,7 +6,7 @@ date: 2025-03-06
 venue: 'Journal of Computer Science and Technology (JCST)'
 badge: 'JCST 2025'
 badge_class: 'badge-journal'
-image: '/images/publications/swformer.png'
+image: 'https://zhuxy-ustc.github.io/images/publications/swformer.png'
 authors: 'Ruohan Wu, <strong>Xianyu Zhu</strong>, Junshi Chen, Hong An'
 description: 'A framework designed to accelerate foundation models via intra-op tiling and inter-op scheduling on the new Sunway Supercomputer.'
 keywords: '<strong>foundation models</strong>, <strong>kernel tiling</strong>, <strong>operator scheduling</strong>, <strong>Sunway supercomputer</strong>'
