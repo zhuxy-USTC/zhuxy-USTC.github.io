@@ -25,6 +25,8 @@ bibtex: |
   }
 ---
 
+**Keywords: attention optimization, parallel programs, Sunway architecture, FlashAttention**
+
 ## Abstract
 <div style="font-family: 'Times New Roman', Times, serif;">
 <p style="text-align: justify;">

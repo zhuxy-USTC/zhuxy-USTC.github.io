@@ -11,7 +11,7 @@ authors: 'Ruohan Wu, <strong>Xianyu Zhu</strong>, Junshi Chen, Hong An'
 author_list: 'Ruohan Wu¹, <strong>Xianyu Zhu¹</strong>, Junshi Chen¹², Hong An¹²'
 affiliations: '¹School of Computer Science and Technology, University of Science and Technology of China, Hefei, China<br>²Laoshan Laboratory, Qingdao, China'
 description: 'A framework designed to accelerate foundation models via intra-op tiling and inter-op scheduling on the new Sunway Supercomputer.'
-keywords: '<strong>foundation models</strong>, <strong>kernel tiling</strong>, <strong>operator scheduling</strong>, <strong>Sunway supercomputer</strong>'
+keywords: '<strong>Hardware/software interfaces</strong>, <strong>Computer Systems Organization</strong>, <strong>Processor Architectures</strong>, <strong>Programming Techniques</strong>, <strong>Software Engineering</strong>'
 paperurl: 'http://zhuxy-USTC.github.io/files/SwFormer.pdf'
 doi: 'https://jcst.ict.ac.cn/en/article/doi/10.1007/s11390-025-4761-0'
 googlescholar: 'https://scholar.google.com/scholar?q=SwFormer+Enabling+Faster+Foundation+Models+Sunway+Supercomputer'
@@ -25,6 +25,8 @@ bibtex: |
     publisher={Springer}
   }
 ---
+
+**Keywords: Hardware/software interfaces, Computer Systems Organization, Processor Architectures, Programming Techniques, Software Engineering**
 
 ## Abstract
 
