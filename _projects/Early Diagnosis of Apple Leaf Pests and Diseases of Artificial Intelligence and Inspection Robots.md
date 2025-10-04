@@ -32,7 +32,7 @@ keywords: "<strong>deep learning</strong>, <strong>LAD-Net</strong>, <strong>Jet
 </div>
 
 
-## The demo of detection in the field experiment
+## 🌾 The demo of detection in the field experiment
 
 <div style="text-align: center;">
   <video width="640" height="360" controls 
