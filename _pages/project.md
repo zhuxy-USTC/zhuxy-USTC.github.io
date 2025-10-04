@@ -22,19 +22,9 @@ hide_title: true
 
 <h2>🎉 Completed Projects</h2>
 
-<!-- {% if site.talkmap_link == true %}
-
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
-{% endif %} -->
-
-<ul>
 {% for post in site.projects reversed %}
-  <div class="project-item">
-    {% include archive-single-talk.html %}
-  </div>
+  {% include archive-single-project.html %}
 {% endfor %}
-</ul>
 
 
 {% include base_path %}

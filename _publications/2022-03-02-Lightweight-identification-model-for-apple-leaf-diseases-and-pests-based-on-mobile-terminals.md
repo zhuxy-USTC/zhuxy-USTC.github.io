@@ -6,7 +6,7 @@ date: 2022-03-02
 venue: 'Transactions of the Chinese Society of Agricultural Engineering (TCSAE)'
 badge: 'TCSAE 2022'
 badge_class: 'badge-journal'
-image: '/images/publications/als-net.png'
+image: '/images/publications/als-net.jpg'
 authors: 'Bin Liu, Runchang Jia, <strong>Xianyu Zhu</strong>, Cong Yu, Zhuohan Yao, Haixi Zhang, Dongjian He'
 description: 'ALS-Net model achieving 99.43% accuracy with only 1.64MB size for real-time apple leaf disease identification on mobile terminals.'
 keywords: '<strong>lightweight model</strong>, <strong>channel shuffle</strong>, <strong>knowledge distillation</strong>, <strong>mobile deployment</strong>'

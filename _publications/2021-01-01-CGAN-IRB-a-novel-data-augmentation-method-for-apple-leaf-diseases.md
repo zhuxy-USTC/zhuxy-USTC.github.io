@@ -6,7 +6,7 @@ date: 2021-01-01
 venue: 'In the proceedings of 2021 IEEE 45th Annual Computers, Software, and Applications Conference (COMPSAC)'
 badge: 'COMPSAC 2021'
 badge_class: 'badge-conference'
-image: '/images/publications/cgan-irb.png'
+image: '/images/publications/cgan-irb.jpg'
 authors: 'Xinbin Yuan, Cong Yu, Bin Liu, Henan Sun, <strong>Xianyu Zhu</strong>'
 description: 'A CGAN-based data augmentation method that improves CNN classification accuracy by 11.75% over non-augmented datasets for apple leaf disease identification.'
 keywords: '<strong>CGAN</strong>, <strong>data augmentation</strong>, <strong>apple leaf diseases</strong>, <strong>generative models</strong>'
