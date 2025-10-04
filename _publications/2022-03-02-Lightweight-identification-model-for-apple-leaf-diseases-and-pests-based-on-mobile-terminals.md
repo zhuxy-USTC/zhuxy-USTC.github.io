@@ -38,3 +38,6 @@ Apple has been one of the most popular cash crops for the development of the agr
 <!-- [Original paper](http://zhuxy-USTC.github.io/files/TCSAE.pdf) and [Google Scholar Link](https://scholar.google.com/scholar?hl=zh-TW&as_sdt=0%2C5&q=面向移动端的苹果叶部病虫害轻量级识别模型&btnG=&oq=面向){:target="_blank"} -->
 
 <a href="http://zhuxy-USTC.github.io/files/TCSAE.pdf">Original paper</a> and <a href="https://scholar.google.com/scholar?hl=zh-TW&as_sdt=0%2C5&q=面向移动端的苹果叶部病虫害轻量级识别模型&btnG=&oq=面向" target="_blank">🎓Google Scholar Link</a>
+
+
+--------
