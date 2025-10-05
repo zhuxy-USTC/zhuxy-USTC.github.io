@@ -71,35 +71,33 @@ layout: default
           </div>
 
           <script>
-            // 使用 DOMContentLoaded 确保在 DOM 完全加载后执行
-            document.addEventListener('DOMContentLoaded', function() {
-              console.log('BibTeX copy script loaded');
+            // 改进的复制功能实现
+            function initBibTeXCopy() {
+              const copyBtn = document.getElementById('bibtex-copy-btn');
+              if (!copyBtn) {
+                console.error('Copy button not found');
+                return;
+              }
 
-              // 等待一小段时间确保所有元素都已渲染
-              setTimeout(function() {
-                const copyBtn = document.getElementById('bibtex-copy-btn');
-                if (copyBtn) {
-                  console.log('Copy button found, adding event listener');
+              console.log('Initializing BibTeX copy functionality');
 
-                  // 添加点击事件监听器
-                  copyBtn.addEventListener('click', function() {
-                    console.log('Copy button clicked');
-                    copyBibTeX(this);
-                  });
+              // 添加点击事件监听器
+              copyBtn.addEventListener('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                console.log('Copy button clicked');
+                copyBibTeX(this);
+              });
 
-                  // 添加悬停效果
-                  copyBtn.addEventListener('mouseover', function() {
-                    this.style.background = '#0052a3';
-                  });
+              // 添加悬停效果
+              copyBtn.addEventListener('mouseover', function() {
+                this.style.background = '#0052a3';
+              });
 
-                  copyBtn.addEventListener('mouseout', function() {
-                    this.style.background = '#0066cc';
-                  });
-                } else {
-                  console.error('Copy button not found');
-                }
-              }, 100);
-            });
+              copyBtn.addEventListener('mouseout', function() {
+                this.style.background = '#0066cc';
+              });
+            }
 
             function copyBibTeX(button) {
               console.log('copyBibTeX function called');
@@ -113,15 +111,11 @@ layout: default
 
               const bibtexText = bibtexContent.textContent || bibtexContent.innerText;
               console.log('BibTeX text length:', bibtexText.length);
+              console.log('BibTeX text preview:', bibtexText.substring(0, 100) + '...');
 
-              // 首先尝试简单的 execCommand 方法
-              if (simpleCopy(bibtexText)) {
-                showCopySuccess(button);
-                return;
-              }
-
-              // 如果简单方法失败，尝试 Clipboard API
-              if (window.isSecureContext && navigator.clipboard && navigator.clipboard.writeText) {
+              // 优先尝试现代 Clipboard API
+              if (navigator.clipboard && window.isSecureContext) {
+                console.log('Trying Clipboard API...');
                 navigator.clipboard.writeText(bibtexText)
                   .then(() => {
                     console.log('Clipboard API success');
@@ -129,42 +123,58 @@ layout: default
                   })
                   .catch((err) => {
                     console.error('Clipboard API failed:', err);
-                    selectBibTeXText();
-                    alert('请按 Ctrl+C (或 Cmd+C) 复制选中的文本');
+                    // 如果 Clipboard API 失败，尝试备用方法
+                    fallbackCopy(bibtexText, button);
                   });
               } else {
-                console.log('Clipboard API not available');
-                selectBibTeXText();
-                alert('请按 Ctrl+C (或 Cmd+C) 复制选中的文本');
+                console.log('Clipboard API not available, using fallback');
+                fallbackCopy(bibtexText, button);
               }
             }
 
-            function simpleCopy(text) {
-              console.log('Trying simpleCopy method');
+            function fallbackCopy(text, button) {
+              console.log('Trying fallback copy method');
 
+              // 创建临时文本区域
               const textarea = document.createElement('textarea');
               textarea.value = text;
               textarea.style.position = 'fixed';
               textarea.style.top = '0';
               textarea.style.left = '0';
-              textarea.style.width = '1px';
-              textarea.style.height = '1px';
+              textarea.style.width = '2em';
+              textarea.style.height = '2em';
+              textarea.style.padding = '0';
+              textarea.style.border = 'none';
+              textarea.style.outline = 'none';
+              textarea.style.boxShadow = 'none';
+              textarea.style.background = 'transparent';
               textarea.style.opacity = '0';
+              textarea.style.zIndex = '-1';
 
               document.body.appendChild(textarea);
-              textarea.focus();
-              textarea.select();
-
-              let success = false;
+              
               try {
-                success = document.execCommand('copy');
-                console.log('execCommand result:', success);
+                textarea.focus();
+                textarea.select();
+                textarea.setSelectionRange(0, text.length);
+                
+                const successful = document.execCommand('copy');
+                console.log('execCommand result:', successful);
+                
+                if (successful) {
+                  showCopySuccess(button);
+                } else {
+                  // 如果 execCommand 失败，尝试选择文本让用户手动复制
+                  selectBibTeXText();
+                  alert('自动复制失败，请按 Ctrl+C (或 Cmd+C) 复制选中的文本');
+                }
               } catch (err) {
                 console.error('execCommand error:', err);
+                selectBibTeXText();
+                alert('复制功能不可用，请按 Ctrl+C (或 Cmd+C) 复制选中的文本');
+              } finally {
+                document.body.removeChild(textarea);
               }
-
-              document.body.removeChild(textarea);
-              return success;
             }
 
             function showCopySuccess(button) {
@@ -183,7 +193,7 @@ layout: default
             }
 
             function selectBibTeXText() {
-              console.log('Selecting BibTeX text');
+              console.log('Selecting BibTeX text for manual copy');
 
               const bibtexContent = document.getElementById('bibtex-content');
               if (bibtexContent && window.getSelection) {
@@ -195,27 +205,11 @@ layout: default
               }
             }
 
-            // 如果页面已经加载完成，立即执行
-            if (document.readyState === 'complete' || document.readyState === 'interactive') {
-              console.log('Page already loaded, initializing immediately');
-              setTimeout(function() {
-                const copyBtn = document.getElementById('bibtex-copy-btn');
-                if (copyBtn && !copyBtn.hasAttribute('data-initialized')) {
-                  copyBtn.setAttribute('data-initialized', 'true');
-                  copyBtn.addEventListener('click', function() {
-                    console.log('Copy button clicked (immediate init)');
-                    copyBibTeX(this);
-                  });
-
-                  copyBtn.addEventListener('mouseover', function() {
-                    this.style.background = '#0052a3';
-                  });
-
-                  copyBtn.addEventListener('mouseout', function() {
-                    this.style.background = '#0066cc';
-                  });
-                }
-              }, 100);
+            // 页面加载完成后初始化
+            if (document.readyState === 'loading') {
+              document.addEventListener('DOMContentLoaded', initBibTeXCopy);
+            } else {
+              initBibTeXCopy();
             }
           </script>
         {% endif %}
