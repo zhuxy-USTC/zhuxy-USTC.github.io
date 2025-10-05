@@ -50,6 +50,15 @@ layout: default
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
+
+        <style>
+          .page__inner-wrap>header p {
+            margin-top: 0.1em !important;
+            margin-bottom: 0.1em !important;
+            line-height: 1.3 !important;
+          }
+        </style>
+
         </header>
       {% endunless %}
 
