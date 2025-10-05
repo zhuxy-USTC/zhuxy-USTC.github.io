@@ -38,7 +38,7 @@ layout: default
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.venue and page.date %}
           {% if page.author_list %}
-            <p style="margin-bottom: 0.2em; font-size: 0.95em;">{{ page.author_list }}</p>
+            <p style="margin-bottom: -0.2em; font-size: 0.95em;">{{ page.author_list }}</p>
           {% endif %}
           {% if page.affiliations %}
             <p style="margin-bottom: 0.1em; font-size: 0.85em; color: #666; line-height: 1.4;">{{ page.affiliations }}</p>
