@@ -3,6 +3,17 @@
 
 ![Academic Pages template example](images/homepage.png "Academic Pages template example")
 
+# 个人学术页面解析
+这是一个基于Academic Pages模板的个人学术网页，属于中国科学技术大学(USTC)的朱先禹(Xianyu Zhu)同学。该网站展示了他的学术背景、研究成果和项目经历。
+
+## 项目概述
+这是一个基于Jekyll的静态网站，用于展示个人学术成果，主要包括：
+- 个人简介
+- 研究领域
+- 发表论文
+- 参与项目
+- 联系方式
+
 # Getting Started
 
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
