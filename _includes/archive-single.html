@@ -7,7 +7,13 @@
 {% endif %}
 
 {% if post.id %}
-  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+  <h2 class="archive__item-title" style="border-bottom:none;box-shadow:none;">
+    {% if post.link %}
+    {{ title }}
+    {% else %}
+    {{ title }}
+    {% endif %}
+  </h2>
 {% else %}
   {% assign title = post.title %}
 {% endif %}
