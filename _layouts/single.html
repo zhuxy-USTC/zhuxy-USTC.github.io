@@ -111,6 +111,14 @@ layout: default
     {% if site.comments.provider and page.comments %}
       {% include comments.html %}
     {% endif %}
+
+  <style>
+    .page__inner-wrap>.page__content {
+      border-top: none !important;
+    }
+  </style>
+
+
   </article>
 
   {% comment %}<!-- only show related on a post page when not disabled -->{% endcomment %}
