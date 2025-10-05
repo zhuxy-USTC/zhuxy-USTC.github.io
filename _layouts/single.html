@@ -59,6 +59,15 @@ layout: default
           }
         </style>
 
+          /* ✅ 关键：把主题自动加在正文顶部的分隔线去掉 */
+          .page__inner-wrap>*+.page__content {
+            border-top: none !important;
+            padding-top: 0 !important;
+            /* 主题通常还会配一点 padding,一并清零 */
+          }
+        </style>
+
+
         </header>
       {% endunless %}
 
