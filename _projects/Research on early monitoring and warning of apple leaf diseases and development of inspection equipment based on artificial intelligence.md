@@ -49,6 +49,4 @@ demo: "#demo"
     <source src="http://zhuxy-USTC.github.io/videos/apple_disease_detection_web.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-</div>upport the video tag.
-  </video>
 </div>
