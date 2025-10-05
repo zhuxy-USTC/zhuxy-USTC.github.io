@@ -58,160 +58,18 @@ layout: default
         {% endif %}
 
         {% if page.bibtex %}
-          <div style="margin-top: 1em; border: 1px solid #e0e0e0; border-radius: 4px; padding: 1em; background: #fafafa;">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5em;">
-              <span style="font-size: smaller; color: #0066cc; font-weight: 600;">
-                <i class="fas fa-quote-left"></i> BibTeX
+          <div class="bibtex-box" style="margin-top:1em;border:1px solid #e0e0e0;border-radius:4px;padding:1em;background:#fafafa;">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.5em;">
+              <span style="font-size:smaller;color:#0066cc;font-weight:600;">
+                <i class="fas fa-quote-left" aria-hidden="true"></i> BibTeX
               </span>
-              <button id="bibtex-copy-btn" style="padding: 0.3em 0.8em; background: #0066cc; color: white; border: none; border-radius: 3px; cursor: pointer; font-size: 0.85em; transition: all 0.2s; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-                <i class="fas fa-copy"></i> Copy
+              <button class="bibtex-copy-btn" type="button" aria-label="Copy BibTeX"
+                style="padding:0.3em 0.8em;background:#0066cc;color:#fff;border:none;border-radius:3px;cursor:pointer;font-size:0.85em;transition:all .2s;box-shadow:0 2px 4px rgba(0,0,0,.1);">
+                <i class="fas fa-copy" aria-hidden="true"></i> Copy
               </button>
             </div>
-            <pre id="bibtex-content" style="background: #f4f4f4; padding: 1em; margin: 0; border-radius: 4px; font-size: 0.85em; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;">{{ page.bibtex }}</pre>
+            <pre class="bibtex-content" style="background:#f4f4f4;padding:1em;margin:0;border-radius:4px;font-size:0.85em;overflow-x:auto;white-space:pre-wrap;word-wrap:break-word;">{{ page.bibtex }}</pre>
           </div>
-
-          <script>
-            // 改进的复制功能实现
-            function initBibTeXCopy() {
-              const copyBtn = document.getElementById('bibtex-copy-btn');
-              if (!copyBtn) {
-                console.error('Copy button not found');
-                return;
-              }
-
-              console.log('Initializing BibTeX copy functionality');
-
-              // 添加点击事件监听器
-              copyBtn.addEventListener('click', function(e) {
-                e.preventDefault();
-                e.stopPropagation();
-                console.log('Copy button clicked');
-                copyBibTeX(this);
-              });
-
-              // 添加悬停效果
-              copyBtn.addEventListener('mouseover', function() {
-                this.style.background = '#0052a3';
-              });
-
-              copyBtn.addEventListener('mouseout', function() {
-                this.style.background = '#0066cc';
-              });
-            }
-
-            function copyBibTeX(button) {
-              console.log('copyBibTeX function called');
-
-              const bibtexContent = document.getElementById('bibtex-content');
-              if (!bibtexContent) {
-                console.error('BibTeX content element not found');
-                alert('Error: BibTeX内容未找到');
-                return;
-              }
-
-              const bibtexText = bibtexContent.textContent || bibtexContent.innerText;
-              console.log('BibTeX text length:', bibtexText.length);
-              console.log('BibTeX text preview:', bibtexText.substring(0, 100) + '...');
-
-              // 优先尝试现代 Clipboard API
-              if (navigator.clipboard && window.isSecureContext) {
-                console.log('Trying Clipboard API...');
-                navigator.clipboard.writeText(bibtexText)
-                  .then(() => {
-                    console.log('Clipboard API success');
-                    showCopySuccess(button);
-                  })
-                  .catch((err) => {
-                    console.error('Clipboard API failed:', err);
-                    // 如果 Clipboard API 失败，尝试备用方法
-                    fallbackCopy(bibtexText, button);
-                  });
-              } else {
-                console.log('Clipboard API not available, using fallback');
-                fallbackCopy(bibtexText, button);
-              }
-            }
-
-            function fallbackCopy(text, button) {
-              console.log('Trying fallback copy method');
-
-              // 创建临时文本区域
-              const textarea = document.createElement('textarea');
-              textarea.value = text;
-              textarea.style.position = 'fixed';
-              textarea.style.top = '0';
-              textarea.style.left = '0';
-              textarea.style.width = '2em';
-              textarea.style.height = '2em';
-              textarea.style.padding = '0';
-              textarea.style.border = 'none';
-              textarea.style.outline = 'none';
-              textarea.style.boxShadow = 'none';
-              textarea.style.background = 'transparent';
-              textarea.style.opacity = '0';
-              textarea.style.zIndex = '-1';
-
-              document.body.appendChild(textarea);
-              
-              try {
-                textarea.focus();
-                textarea.select();
-                textarea.setSelectionRange(0, text.length);
-                
-                const successful = document.execCommand('copy');
-                console.log('execCommand result:', successful);
-                
-                if (successful) {
-                  showCopySuccess(button);
-                } else {
-                  // 如果 execCommand 失败，尝试选择文本让用户手动复制
-                  selectBibTeXText();
-                  alert('自动复制失败，请按 Ctrl+C (或 Cmd+C) 复制选中的文本');
-                }
-              } catch (err) {
-                console.error('execCommand error:', err);
-                selectBibTeXText();
-                alert('复制功能不可用，请按 Ctrl+C (或 Cmd+C) 复制选中的文本');
-              } finally {
-                document.body.removeChild(textarea);
-              }
-            }
-
-            function showCopySuccess(button) {
-              console.log('Showing copy success');
-
-              const originalHTML = button.innerHTML;
-              const originalBg = button.style.background || '#0066cc';
-
-              button.innerHTML = '<i class="fas fa-check"></i> Copied!';
-              button.style.background = '#28a745';
-
-              setTimeout(() => {
-                button.innerHTML = originalHTML;
-                button.style.background = originalBg;
-              }, 2000);
-            }
-
-            function selectBibTeXText() {
-              console.log('Selecting BibTeX text for manual copy');
-
-              const bibtexContent = document.getElementById('bibtex-content');
-              if (bibtexContent && window.getSelection) {
-                const selection = window.getSelection();
-                const range = document.createRange();
-                range.selectNodeContents(bibtexContent);
-                selection.removeAllRanges();
-                selection.addRange(range);
-              }
-            }
-
-            // 页面加载完成后初始化
-            if (document.readyState === 'loading') {
-              document.addEventListener('DOMContentLoaded', initBibTeXCopy);
-            } else {
-              initBibTeXCopy();
-            }
-          </script>
         {% endif %}
 
         {% if page.slidesurl %}
@@ -220,6 +78,10 @@ layout: default
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
+
+      {% if page.bibtex %}
+        <script src="{{ '/assets/js/bibtex-copy.js' | relative_url }}" defer></script>
+      {% endif %}
 
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
