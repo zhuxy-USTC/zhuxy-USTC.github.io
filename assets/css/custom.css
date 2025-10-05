@@ -1,0 +1,5 @@
+/* 去掉 Keywords 段落下方的横线 */
+.page__taxonomy {
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
