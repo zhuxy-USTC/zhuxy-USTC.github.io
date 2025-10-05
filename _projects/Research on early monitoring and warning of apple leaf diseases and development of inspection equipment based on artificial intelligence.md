@@ -5,7 +5,7 @@ permalink: /projects/Research on early monitoring and warning of apple leaf dise
 project_type: "Member; Provincial Key Research Program (2021 Jan to 2022 Dec)"
 badge: "2021-2022"
 badge_class: "badge-project"
-image: "/images/projects/apple-disease-monitoring.jpg"
+image: "/images/projects/apple-disease-monitoring.png"
 description: "AI-based early detection system for apple leaf diseases with inspection robot development and cloud monitoring platform."
 keywords: "<strong>AI diagnosis</strong>, <strong>inspection robot</strong>, <strong>cloud platform</strong>, <strong>disease detection</strong>"
 thumbnail: "http://zhuxy-USTC.github.io/images/apple_disease_thumbnail.jpg"
