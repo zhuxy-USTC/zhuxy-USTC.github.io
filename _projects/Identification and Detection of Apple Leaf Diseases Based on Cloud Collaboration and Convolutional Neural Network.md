@@ -10,6 +10,8 @@ description: "Cloud-based collaborative platform for apple leaf disease detectio
 keywords: "<strong>cloud collaboration</strong>, <strong>MEAN-SSD</strong>, <strong>mobile detection</strong>, <strong>CNN</strong>"
 ---
 
+********************************
+
 <p style="text-align: justify;">
 <ul style="text-align: justify;">
 <li>Build MEAN-SSD to detect the apple leaf diseases and pests</li>

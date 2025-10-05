@@ -10,6 +10,9 @@ description: "Deep learning models for early detection of apple leaf diseases wi
 keywords: "<strong>deep learning</strong>, <strong>LAD-Net</strong>, <strong>Jetson TX2</strong>, <strong>inspection robot</strong>"
 ---
 
+
+********************************
+
 <div style="text-align: justify; font-family: 'Times New Roman', Times, serif;">
 <h2>Simple Introduction</h2>
 <ul>
