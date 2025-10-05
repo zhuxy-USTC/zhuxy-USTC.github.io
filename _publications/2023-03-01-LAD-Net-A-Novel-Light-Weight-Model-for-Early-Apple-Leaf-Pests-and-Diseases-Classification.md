@@ -28,6 +28,8 @@ bibtex: |
 ---
 
 
+**************************************************************
+
 **Keywords: Apple leaf pests and diseases, asymmetric convolution, dilated convolution, real-time inference, convolutional neural networks, deep learning**
 
 **************************************************************

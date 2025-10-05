@@ -26,6 +26,9 @@ bibtex: |
   }
 ---
 
+
+**************************************************************
+
 **Keywords: YOLOv5, object detection, apple leaf diseases, mobile deployment**
 
 --------
