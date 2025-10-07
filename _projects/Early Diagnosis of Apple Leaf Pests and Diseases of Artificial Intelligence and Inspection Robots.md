@@ -8,6 +8,7 @@ badge_class: "badge-project"
 image: "/images/projects/apple-inspection-robot.jpg"
 description: "Deep learning models for early detection of apple leaf diseases with successful deployment on Jetson TX2 inspection robot."
 keywords: "<strong>deep learning</strong>, <strong>LAD-Net</strong>, <strong>Jetson TX2</strong>, <strong>inspection robot</strong>"
+demo: "#demo"
 ---
 
 
@@ -34,7 +35,7 @@ keywords: "<strong>deep learning</strong>, <strong>LAD-Net</strong>, <strong>Jet
 </div>
 
 
-<h2> 🌾 The demo of detection in the field experiment</h2>
+<h2 id="demo"> 🌾 The demo of detection in the field experiment</h2>
 
 <div style="text-align: center;">
   <video width="640" height="360" controls 
@@ -44,4 +45,3 @@ keywords: "<strong>deep learning</strong>, <strong>LAD-Net</strong>, <strong>Jet
     Your browser does not support the video tag.
   </video>
 </div>
-

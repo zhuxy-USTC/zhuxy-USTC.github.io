@@ -42,7 +42,7 @@ demo: "#demo"
 <li>Under natural conditions such as severe occlusion, the inspection robot should have comprehensive real-time monitoring capabilities. From the perspective of feature analysis, the samples to be detected have situations such as large differences within the same species, small differences between similar species, and serious lack of feature information, making the detection extremely difficult. Based on the research on model optimization and compression technologies for inspection robots of apple leaf diseases with limited resources, how to improve the inference speed of the robot's detection is the third challenge in this project.</li>
 </ul>
 
-<h2> ☁️ The demo of detection on the web</h2>
+<h2 id="demo"> ☁️ The demo of detection on the web</h2>
 
 <div style="text-align: center;">
   <video width="640" height="360" controls 
