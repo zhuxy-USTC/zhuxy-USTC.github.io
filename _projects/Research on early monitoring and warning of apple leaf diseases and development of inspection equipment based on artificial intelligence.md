@@ -10,6 +10,7 @@ description: "AI-based early detection system for apple leaf diseases with inspe
 keywords: "<strong>AI diagnosis</strong>, <strong>inspection robot</strong>, <strong>cloud platform</strong>, <strong>disease detection</strong>"
 thumbnail: "http://zhuxy-USTC.github.io/images/apple_disease_thumbnail.jpg"
 demo: "#demo"
+rank: 2021
 ---
 
 <style>

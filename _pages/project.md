@@ -22,7 +22,8 @@ hide_title: true
 
 <h2>🎉 Completed Projects</h2>
 
-{% for post in site.projects reversed %}
+{% assign sorted_projects = site.projects | sort: 'rank' | reverse %}
+{% for post in sorted_projects %}
   {% include archive-single-project.html %}
 {% endfor %}
 

@@ -9,6 +9,7 @@ image: "/images/projects/apple-inspection-robot.jpg"
 description: "Deep learning models for early detection of apple leaf diseases with successful deployment on Jetson TX2 inspection robot."
 keywords: "<strong>deep learning</strong>, <strong>LAD-Net</strong>, <strong>Jetson TX2</strong>, <strong>inspection robot</strong>"
 demo: "#demo"
+rank: 2022
 ---
 
 
