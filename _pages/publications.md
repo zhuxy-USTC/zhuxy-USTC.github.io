@@ -17,7 +17,8 @@ hide_title: true
 ********************************************************
 
 <h2>📝 Published Paper</h2>
-{% for post in site.publications reversed %}
+{% assign sorted_publications = site.publications | sort: 'rank' | reverse %}
+{% for post in sorted_publications %}
   {% include archive-single-publication.html %}
 {% endfor %}
 
@@ -49,5 +50,4 @@ hide_title: true
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
-
 

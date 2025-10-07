@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/2024-01-01-SWattention-designing-fast-and-memory-efficient-attention-for-a-new-Sunway-Supercomputer
 date: 2024-01-01
 venue: 'The Journal of Supercomputing'
+rank: 2024
 badge: 'J. Supercomputing 2024'
 badge_class: 'badge-journal'
 image: '/images/publications/swattention.jpg'

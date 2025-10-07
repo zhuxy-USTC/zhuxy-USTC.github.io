@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/SwFormer-Enabling-Faster-Foundation-Models-on-new-Sunway-Supercomputer-via-Holistic-Kernel-Tiling-and-Scheduling
 date: 2025-03-06
 venue: 'Journal of Computer Science and Technology (JCST)'
+rank: 2025
 badge: 'JCST 2025'
 badge_class: 'badge-journal'
 image: 'https://zhuxy-ustc.github.io/images/publications/swformer.jpg'
