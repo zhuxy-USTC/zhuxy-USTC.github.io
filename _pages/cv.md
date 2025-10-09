@@ -34,23 +34,25 @@ redirect_from:
 
 </div>
 
----
 
+---
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6;">
 
-<h2>✅ Competitions</h2>
+<h2>⭐ Internships</h2>
 <ul>
-    <li>"11th Student RDMA Programming Competition", <b>Third Prize</b> </li>
-    <li>"2022 Mathematical Contest In Modeling(MCM)", <b>Meritorious Winner</b></li>
-    <li>"12th Blue Bridge Cup Competition", Provincial Competition <b>First Prize</b></li>
-    <li>"2021 Group Programming Ladder Tournament", National <b>Third Prize</b></li>
-    <li>"2022 The Competition of Computer Design", <b>First Prize</b> in Northwest Region</li>
-    <li>"12th National Mathematics Competition for College Students", <b>Second Prize</b></li>
+    <li>2019--2020, New Media Center of college, responsible for writing, interview and operation of official account</li>
+    <li>2019--2020 Summer, Baidu AI Talents Camp, learning machine learning and AI framework PaddlePaddle</li>
+    <li>2019 Winter and 2020 Winter, the event about outstanding student coming back to Alma Mater</li>
+    <li>2022 Summer, Tedu Group's Artificial Intelligence Training Project</li>
+    <!-- <li>2024.11, Huawei Kunpeng and Ascend Science, Technology and Education Innovation Excellence Center Special Training Camp</li> -->
+    <li>2025.07, Hong Kong PhD Fellowship Summer Workshop in CUHK<img src="http://zhuxy-USTC.github.io/images/CUHK_logo_01.jpg" style="width:20px; vertical-align:middle; margin-right:6px;"> </li>
+    <li>2025.07--09, Research Assistant in Systems and Networking Lab in HKU<img src="http://zhuxy-USTC.github.io/images/hku-logo-eps_01.jpg" style="width:20px; vertical-align:middle; margin-right:6px;">, supervised by <a href="https://i.cs.hku.hk/~heming/">Prof. Heming Cui</a>,
+focusing on designing a more effective distributed training framework for the unified multimodal
+large model </li>
 </ul>
 </div>
 
 ---
-
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6;">
 
 <h2>🏆 Awards</h2>
@@ -70,21 +72,17 @@ redirect_from:
 </ul>
 </div>
 
-
 ---
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6;">
 
-<h2>⭐ Internships</h2>
+<h2>✅ Competitions</h2>
 <ul>
-    <li>2019--2020, New Media Center of college, responsible for writing, interview and operation of official account</li>
-    <li>2019--2020 Summer, Baidu AI Talents Camp, learning machine learning and AI framework PaddlePaddle</li>
-    <li>2019 Winter and 2020 Winter, the event about outstanding student coming back to Alma Mater</li>
-    <li>2022 Summer, Tedu Group's Artificial Intelligence Training Project</li>
-    <!-- <li>2024.11, Huawei Kunpeng and Ascend Science, Technology and Education Innovation Excellence Center Special Training Camp</li> -->
-    <li>2025.07, Hong Kong PhD Fellowship Summer Workshop in CUHK<img src="http://zhuxy-USTC.github.io/images/CUHK_logo_01.jpg" style="width:20px; vertical-align:middle; margin-right:6px;"> </li>
-    <li>2025.07--09, Research Assistant in Systems and Networking Lab in HKU<img src="http://zhuxy-USTC.github.io/images/hku-logo-eps_01.jpg" style="width:20px; vertical-align:middle; margin-right:6px;">, supervised by <a href="https://i.cs.hku.hk/~heming/">Prof. Heming Cui</a>,
-focusing on designing a more effective distributed training framework for the unified multimodal
-large model </li>
+    <li>"11th Student RDMA Programming Competition", <b>Third Prize</b> </li>
+    <li>"2022 Mathematical Contest In Modeling(MCM)", <b>Meritorious Winner</b></li>
+    <li>"12th Blue Bridge Cup Competition", Provincial Competition <b>First Prize</b></li>
+    <li>"2021 Group Programming Ladder Tournament", National <b>Third Prize</b></li>
+    <li>"2022 The Competition of Computer Design", <b>First Prize</b> in Northwest Region</li>
+    <li>"12th National Mathematics Competition for College Students", <b>Second Prize</b></li>
 </ul>
 </div>
 
