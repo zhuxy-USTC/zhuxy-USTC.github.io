@@ -1,7 +1,7 @@
 ---
 title: "Early Diagnosis of Apple Leaf Pests and Diseases of Artificial Intelligence and Inspection Robots"
 collection: projects
-permalink: /projects/Early Diagnosis of Apple Leaf Pests and Diseases of Artificial Intelligence and Inspection Robots
+permalink: /projects/apple-inspection-robot
 project_type: "Leader; Provincial Innovative Entrepreneurial Training Plan Program (2021 May to 2022 May)"
 badge: "2021-2022"
 badge_class: "badge-project"
