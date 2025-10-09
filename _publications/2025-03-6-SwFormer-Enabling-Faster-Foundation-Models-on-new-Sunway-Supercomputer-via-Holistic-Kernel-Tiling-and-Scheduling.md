@@ -1,7 +1,7 @@
 ---
 title: "SwFormer: Enabling Faster Foundation Models on new Sunway Supercomputer via Holistic Kernel Tiling and Scheduling"
 collection: publications
-permalink: /publication/SwFormer-Enabling-Faster-Foundation-Models-on-new-Sunway-Supercomputer-via-Holistic-Kernel-Tiling-and-Scheduling
+permalink: /publication/SwFormer
 date: 2025-03-06
 venue: 'Journal of Computer Science and Technology (JCST)'
 rank: 2025
