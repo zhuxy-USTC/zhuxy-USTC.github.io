@@ -1,7 +1,7 @@
 ---
 title: "LAD-Net: A Novel Light Weight Model for Early Apple Leaf Pests and Diseases Classification"
 collection: publications
-permalink: /publication/2023-03-01-LAD-Net-A-Novel-Light-Weight-Model-for-Early-Apple-Leaf-Pests-and-Diseases-Classification
+permalink: /publication/LAD-Net
 date: 2023-03-01
 venue: 'IEEE/ACM Transactions on Computational Biology and Bioinformatics'
 rank: 2023

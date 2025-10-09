@@ -1,7 +1,7 @@
 ---
 title: "SWattention: designing fast and memory-efficient attention for a new Sunway Supercomputer"
 collection: publications
-permalink: /publication/2024-01-01-SWattention-designing-fast-and-memory-efficient-attention-for-a-new-Sunway-Supercomputer
+permalink: /publication/SWattention
 date: 2024-01-01
 venue: 'The Journal of Supercomputing'
 rank: 2024

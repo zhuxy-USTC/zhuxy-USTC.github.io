@@ -1,7 +1,7 @@
 ---
 title: "Lightweight identification model for apple leaf diseases and pests based on mobile terminals"
 collection: publications
-permalink: /publication/2022-03-02-Lightweight-identification-model-for-apple-leaf-diseases-and-pests-based-on-mobile-terminals
+permalink: /publication/Lightweight-Apple-Diseases
 date: 2022-03-02
 venue: 'Transactions of the Chinese Society of Agricultural Engineering (TCSAE)'
 rank: 2022
