@@ -1,7 +1,7 @@
 ---
 title: "Research on early monitoring and warning of apple leaf diseases and development of inspection equipment based on artificial intelligence"
 collection: projects
-permalink: /projects/Research on early monitoring and warning of apple leaf diseases and development of inspection equipment based on artificial intelligence
+permalink: /projects/apple-disease-monitoring
 project_type: "Member; Provincial Key Research Program (2021 Jan to 2022 Dec)"
 badge: "2021-2022"
 badge_class: "badge-project"

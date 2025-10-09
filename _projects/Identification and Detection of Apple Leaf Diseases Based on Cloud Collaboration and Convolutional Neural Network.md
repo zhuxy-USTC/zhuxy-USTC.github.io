@@ -1,7 +1,7 @@
 ---
 title: "Identification and Detection of Apple Leaf Diseases Based on Cloud Collaboration and Convolutional Neural Network"
 collection: projects
-permalink: /projects/Identification and Detection of Apple Leaf Diseases Based on Cloud Collaboration and Convolutional Neural Network
+permalink: /projects/apple-disease-cloud-cnn
 project_type: "Member; Provincial Innovative Entrepreneurial Training Plan Program (2020 May to 2021 May)"
 badge: "2020-2021"
 badge_class: "badge-project"
