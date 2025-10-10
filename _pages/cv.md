@@ -40,7 +40,7 @@ redirect_from:
 
 <h2>⭐ Internships</h2>
 
----
+**********************
 
 <ul>
     <li>2019--2020, New Media Center of college, responsible for writing, interview and operation of official account</li>
