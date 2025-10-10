@@ -40,7 +40,7 @@ redirect_from:
 
 <h2>⭐ Internships</h2>
 
-**********************
+<hr>
 
 <ul>
     <li>2019--2020, New Media Center of college, responsible for writing, interview and operation of official account</li>
@@ -59,7 +59,7 @@ large model </li>
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6;">
 
 <h2>🏆 Awards</h2>
----
+<hr>
 <h3>🔥 Scholarships</h3>
 <ul>
     <li>National Scholarship</li>
@@ -79,7 +79,7 @@ large model </li>
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6;">
 
 <h2>✅ Competitions</h2>
----
+<hr>
 <ul>
     <li>"11th Student RDMA Programming Competition", <b>Third Prize</b> </li>
     <li>"2022 Mathematical Contest In Modeling(MCM)", <b>Meritorious Winner</b></li>
@@ -92,7 +92,7 @@ large model </li>
 
 ---
 <h2> ⚙️ Technical Skills</h2>
----
+<hr>
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6;">
 <ul>
     <li><strong>Programming Languages:</strong> C/C++, Python, CUDA, MPI</li>
