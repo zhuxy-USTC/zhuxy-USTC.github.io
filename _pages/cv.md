@@ -35,7 +35,7 @@ redirect_from:
 </div>
 
 
----
+
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6;">
 
 <h2>⭐ Internships</h2>
@@ -55,7 +55,7 @@ large model </li>
 </ul>
 </div>
 
----
+
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6;">
 
 <h2>🏆 Awards</h2>
@@ -75,7 +75,7 @@ large model </li>
 </ul>
 </div>
 
----
+
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6;">
 
 <h2>✅ Competitions</h2>
@@ -90,7 +90,7 @@ large model </li>
 </ul>
 </div>
 
----
+
 <h2> ⚙️ Technical Skills</h2>
 <hr>
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6;">
