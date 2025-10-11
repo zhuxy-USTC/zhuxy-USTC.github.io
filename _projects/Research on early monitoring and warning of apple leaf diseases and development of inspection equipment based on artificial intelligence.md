@@ -7,7 +7,7 @@ badge: "2021-2022"
 badge_class: "badge-project"
 image: "/images/projects/apple-disease-monitoring.png"
 description: "AI-based early detection system for apple leaf diseases with inspection robot development and cloud monitoring platform."
-keywords: "<strong>AI diagnosis</strong>, <strong>inspection robot</strong>, <strong>cloud platform</strong>, <strong>disease detection</strong>"
+keywords: "<strong>AI Diagnosis</strong>, <strong>Inspection Robot</strong>, <strong>Cloud Platform</strong>, <strong>Disease Detection</strong>"
 thumbnail: "http://zhuxy-USTC.github.io/images/apple_disease_thumbnail.jpg"
 demo: "#demo"
 rank: 2021

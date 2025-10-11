@@ -7,7 +7,7 @@ badge: "2021-2022"
 badge_class: "badge-project"
 image: "/images/projects/apple-inspection-robot.jpg"
 description: "Deep learning models for early detection of apple leaf diseases with successful deployment on Jetson TX2 inspection robot."
-keywords: "<strong>deep learning</strong>, <strong>LAD-Net</strong>, <strong>Jetson TX2</strong>, <strong>inspection robot</strong>"
+keywords: "<strong>Deep Learning</strong>, <strong>LAD-Net</strong>, <strong>Jetson TX2</strong>, <strong>Inspection Robot</strong>"
 demo: "#demo"
 rank: 2022
 ---

@@ -7,7 +7,7 @@ badge: "2020-2021"
 badge_class: "badge-project"
 image: "/images/projects/cloud-disease-detection.jpg"
 description: "Cloud-based collaborative platform for apple leaf disease detection using MEAN-SSD model on mobile devices."
-keywords: "<strong>cloud collaboration</strong>, <strong>MEAN-SSD</strong>, <strong>mobile detection</strong>, <strong>CNN</strong>"
+keywords: "<strong>Cloud Collaboration</strong>, <strong>MEAN-SSD</strong>, <strong>Mobile Detection</strong>, <strong>CNN</strong>"
 rank: 2020
 ---
 
