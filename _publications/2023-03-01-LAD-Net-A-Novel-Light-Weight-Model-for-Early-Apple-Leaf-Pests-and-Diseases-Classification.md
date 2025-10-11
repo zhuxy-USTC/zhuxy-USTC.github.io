@@ -12,7 +12,7 @@ authors: '<strong>Xianyu Zhu</strong>, Jinjiang Li, Runchang Jia, Bin Liu, Zhuoh
 author_list: '<strong>Xianyu Zhu¹</strong>, Jinjiang Li¹, Runchang Jia¹, Bin Liu¹, Zhuohan Yao¹, Aihong Yuan², Yingqiu Huo¹, Haixi Zhang¹'
 affiliations: '¹College of Information Engineering, Northwest A&F University, Yangling, China<br>²College of Mechanical and Electronic Engineering, Northwest A&F University, Yangling, China'
 description: 'A lightweight model achieving 98.58% accuracy for apple leaf disease recognition with only 1.25MB size, enabling real-time diagnosis on mobile devices.'
-keywords: '<strong>apple leaf diseases</strong>, <strong>asymmetric convolution</strong>, <strong>real-time inference</strong>, <strong>mobile deployment</strong>'
+keywords: '<strong>Apple Leaf Pests and Diseases</strong>, <strong>Asymmetric Convolution</strong>, <strong>Dilated Convolution</strong>, <strong>Real-Time Inference</strong>, <strong>Convolutional Neural Networks</strong>, <strong>Deep Learning</strong>'
 paperurl: 'http://zhuxy-USTC.github.io/files/LAD-Net.pdf'
 googlescholar: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DHVjR2oAAAAJ&citation_for_view=DHVjR2oAAAAJ:u5HHmVD_uO8C'
 citation: ' Xianyu Zhu,  Jinjiang Li,  Runchang Jia,  Bin Liu,  Zhuohan Yao,  Aihong Yuan,  Yingqiu Huo,  Haixi Zhang, &quot;LAD-Net: A Novel Light Weight Model for Early Apple Leaf Pests and Diseases Classification.&quot; IEEE/ACM Transactions on Computational Biology and Bioinformatics, 2023.'
