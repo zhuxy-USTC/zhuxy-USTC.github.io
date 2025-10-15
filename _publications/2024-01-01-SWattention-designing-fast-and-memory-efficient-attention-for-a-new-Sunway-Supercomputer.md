@@ -15,6 +15,7 @@ description: 'A highly efficient method for computing exact attention on the SW2
 keywords: '<strong>Artificial Intelligence</strong>, <strong>Attention Optimization</strong>, <strong>Parallel Programs</strong>, <strong>Sunway Architecture</strong>'
 paperurl: 'http://zhuxy-USTC.github.io/files/swattention.pdf'
 googlescholar: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2ajuuEAAAAJ&citation_for_view=k2ajuuEAAAAJ:qjMakFHDy7sC'
+doi: 'https://doi.org/10.1007/s11227-024-05890-8'
 citation: ' Ruohan Wu,  Xianyu Zhu,  Junshi Chen,  Sha Liu,  Tianyu Zheng,  Xin Liu,  Hong An, &quot;SWattention: designing fast and memory-efficient attention for a new Sunway Supercomputer.&quot; The Journal of Supercomputing, 2024.'
 bibtex: |
   @article{wu2024swattention,
