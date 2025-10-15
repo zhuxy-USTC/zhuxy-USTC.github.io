@@ -47,6 +47,9 @@
       {% if post.paperurl %}
         <a href="{{ post.paperurl }}"><i class="fas fa-file-pdf"></i> PDF</a>
       {% endif %}
+      {% if post.posterurl %}
+        <a href="{{ post.posterurl }}"><i class="fas fa-image"></i> Poster</a>
+      {% endif %}
       {% if post.doi %}
         <a href="{{ post.doi }}"><i class="fas fa-link"></i> DOI</a>
       {% endif %}
