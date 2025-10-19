@@ -21,7 +21,7 @@ redirect_from:
 <ul style="list-style-type: disc; margin-left: 20px;">
     <li>Master of Computer Science and Technology in School of Computer Science and Technology</li>
     <!-- <li>GPA: 90 (3.87/4.3)</li> -->
-    <li>Lab: <a href="https://acsa.ustc.edu.cn/">Advanced Computer Systems Architecture (ACSA) Laboratory</a><strong><img src="http://zhuxy-USTC.github.io/images/acsa_logo.png" style="width:20px; height:20px; object-fit:contain; vertical-align:middle; margin-right:6px;">, led by <a href="https://cs.ustc.edu.cn/2020/0426/c23235a460072/page.htm">Professor Hong An</a></li>
+    <li>Lab: <a href="https://acsa.ustc.edu.cn/">Advanced Computer Systems Architecture (ACSA) Laboratory</a><img src="http://zhuxy-USTC.github.io/images/acsa_logo.png" style="width:20px; height:20px; object-fit:contain; vertical-align:middle; margin-right:6px;">, led by <a href="https://cs.ustc.edu.cn/2020/0426/c23235a460072/page.htm">Professor Hong An</a></li>
 </ul>
 
 
