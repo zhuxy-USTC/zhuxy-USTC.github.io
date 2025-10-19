@@ -14,6 +14,7 @@ affiliations: '¹College of Information Engineering, Northwest A&F University, Y
 description: 'A novel mobile terminal detector based on YOLOv5 for early detection of apple leaf diseases with improved accuracy and speed.'
 keywords: '<strong>Apple Leaf Diseases</strong>, <strong>Mobile Terminal Detection</strong>, <strong>Convolutional Neural Networks</strong>, <strong>Lightweight Model</strong>'
 paperurl: 'http://zhuxy-USTC.github.io/files/Apple-YOLO.pdf'
+doi: 'https://doi.org/10.1109/COMPSAC54236.2022.00056'
 googlescholar: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DHVjR2oAAAAJ&citation_for_view=DHVjR2oAAAAJ:u5HHmVD_uO8C'
 citation: ' Jinjiang Li,  Xianyu Zhu,  Runchang Jia,  Bin Liu,  Cong Yu, &quot;Apple-YOLO: A novel mobile terminal detector based on YOLOv5 for early apple leaf diseases.&quot; In the proceedings of 2022 IEEE 46th Annual Computers, Software, and Applications Conference (COMPSAC), 2022.'
 bibtex: |
