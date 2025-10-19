@@ -29,7 +29,7 @@ redirect_from:
 <ul style="list-style-type: disc; margin-left: 20px;">
     <li>Bachelor of Computer Science and Technology in College of Information Engineering</li>
     <!-- <li>GPA: 90.5 (3.77/4.0), Rank: 2 / 132</li> -->
-    <li>Lab: <a href="https://acsa.ustc.edu.cn/">Parallel and Visual Processing Laboratory</a>, led by <a href="https://cie.nwsuaf.edu.cn/szdw/js/2014110093/index.htm">Professor Bin Liu</a></li>
+    <li>Lab: <a href="https://cie.nwsuaf.edu.cn/szdw/js/2014110093/index.htm">Parallel and Visual Processing Laboratory</a>, led by <a href="https://cie.nwsuaf.edu.cn/szdw/js/2014110093/index.htm">Professor Bin Liu</a></li>
 </ul>
 
 </div>
