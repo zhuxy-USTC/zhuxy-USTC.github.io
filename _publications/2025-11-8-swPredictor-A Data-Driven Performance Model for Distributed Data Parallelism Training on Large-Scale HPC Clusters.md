@@ -16,7 +16,7 @@ keywords: '<strong>Deep Learning</strong>, <strong>Foundation Model</strong>, <s
 paperurl: 'http://zhuxy-USTC.github.io/files/swPredictor.pdf'
 doi: 'https://jcst.ict.ac.cn/en/article/doi/10.1007/s11390-025-4761-0'
 googlescholar: 'https://scholar.google.com/scholar?q=SwFormer+Enabling+Faster+Foundation+Models+Sunway+Supercomputer'
-citation: ' Ruohan Wu,  Xianyu Zhu,  Junshi Chen,  Hong An &quot;SwFormer: Enabling Faster Foundation Models on new Sunway Supercomputer via Holistic Kernel Tiling and Scheduling.&quot; Journal of Computer Science and Technology(JCST), 2025.'
+citation: ' Xianyu Zhu, Ruohan Wu,  Junshi Chen,  Hong An &quot;swPredictor: A Data-Driven Performance Model for Distributed Data Parallelism Training on Large-Scale HPC Clusters.&quot; Performance Evaluation: An International Journal (PEVA), 2025.'
 bibtex: |
   @article{zhu2025swPredictor,
     title={swPredictor: A Data-Driven Performance Model for Distributed Data Parallelism Training on Large-Scale HPC Clusters},
