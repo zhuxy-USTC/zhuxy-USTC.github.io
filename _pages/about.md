@@ -19,7 +19,7 @@ Before that, I obtained my bachelor’s degree in Computer Science from Northwes
 During my undergraduate studies, I joined the Parallel and Visual Processing Laboratory led by <a href="https://cie.nwsuaf.edu.cn/szdw/js/2014110093/index.htm">Professor Bin Liu</a>.
 <br>
 
-I have published as the <strong>first author</strong> in Performance Evaluation (Elsevier) and IEEE/ACM Transactions on Computational Biology and Bioinformatics (TCBB).
+I have published as the <strong>first author</strong> in Performance Evaluation (PEVA) and IEEE/ACM Transactions on Computational Biology and Bioinformatics (TCBB).
 My research interests lie at the intersection of <strong>high-performance computing</strong>, <strong>machine learning systems</strong>, and <strong>distributed training</strong>. Specifically, I focus on:
 
 <ul>
