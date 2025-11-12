@@ -13,7 +13,6 @@ author_list: 'Bin Liu¹, Runchang Jia¹, <strong>Xianyu Zhu¹</strong>, Cong Yu�
 affiliations: '¹College of Information Engineering, Northwest A&F University, Yangling, China<br>²College of Mechanical and Electronic Engineering, Northwest A&F University, Yangling, China'
 description: 'A lightweight model for mobile terminal-based apple leaf disease identification using ALS-Net architecture.'
 keywords: '<strong>Models</strong>, <strong>Pests and Diseases</strong>, <strong>Apple Leaves</strong>, <strong>Channel Shuffle</strong>, <strong>Knowledge Distillation</strong>, <strong>Lightweight</strong>, <strong>Real-Time Inference on Mobile Terminal</strong>'
-paperurl: 'http://zhuxy-USTC.github.io/files/ALS-Net.pdf'
 doi: 'https://doi.org/10.11975/j.issn.1002-6819.2022.06.015'
 googlescholar: 'https://openurl.ebsco.com/EPDB%3Agcd%3A1%3A28251825/detailv2?sid=ebsco%3Aplink%3Ascholar&id=ebsco%3Agcd%3A157533457&crl=c&link_origin=scholar.google.co.uk'
 citation: ' Bin Liu,  Runchang Jia,  Xianyu Zhu,  Cong Yu,  Zhuohan Yao,  Haixi Zhang,  Dongjian He, &quot;Lightweight identification model for apple leaf diseases and pests based on mobile terminals.&quot; Transactions of the Chinese Society of Agricultural Engineering, 2022.'

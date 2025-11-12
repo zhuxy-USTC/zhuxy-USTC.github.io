@@ -13,7 +13,6 @@ author_list: 'Ruohan Wu¹, <strong>Xianyu Zhu¹</strong>, Junshi Chen¹², Hong 
 affiliations: '¹School of Computer Science and Technology, University of Science and Technology of China, Hefei, China<br>²Laoshan Laboratory, Qingdao, China'
 description: 'A framework designed to accelerate foundation models via intra-op tiling and inter-op scheduling on the new Sunway Supercomputer.'
 keywords: '<strong>Deep Learning</strong>, <strong>Foundation Model</strong>, <strong>Sunway Architecture</strong>, <strong>Fine-Grained Tiling</strong>,<strong>Operator Scheduling</strong>'
-paperurl: 'http://zhuxy-USTC.github.io/files/SwFormer.pdf'
 doi: 'https://jcst.ict.ac.cn/en/article/doi/10.1007/s11390-025-4761-0'
 googlescholar: 'https://scholar.google.com/scholar?q=SwFormer+Enabling+Faster+Foundation+Models+Sunway+Supercomputer'
 citation: ' Ruohan Wu,  Xianyu Zhu,  Junshi Chen,  Hong An &quot;SwFormer: Enabling Faster Foundation Models on new Sunway Supercomputer via Holistic Kernel Tiling and Scheduling.&quot; Journal of Computer Science and Technology(JCST), 2025.'

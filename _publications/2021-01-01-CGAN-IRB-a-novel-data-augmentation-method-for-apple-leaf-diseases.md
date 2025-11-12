@@ -13,7 +13,6 @@ author_list: 'Xinbin Yuan¹, Cong Yu¹, Bin Liu¹, Henan Sun¹, <strong>Xianyu Z
 affiliations: '¹College of Information Engineering, Northwest A&F University, Yangling, China'
 description: 'A novel data augmentation method using Conditional Generative Adversarial Networks with Inverted Residual Block for apple leaf disease detection.'
 keywords: '<strong>Data Augmentation</strong>, <strong>Generative Adversarial Networks</strong>, <strong>Apple Leaf Disease Identification</strong>, <strong>Convolutional Neural Networks</strong>'
-paperurl: 'http://zhuxy-USTC.github.io/files/CGAN-IRB.pdf'
 doi: 'https://doi.org/10.1109/COMPSAC51774.2021.00037'
 googlescholar: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DHVjR2oAAAAJ&citation_for_view=DHVjR2oAAAAJ:u5HHmVD_uO8C'
 citation: ' Xinbin Yuan,  Cong Yu,  Bin Liu,  Henan Sun,  Xianyu Zhu, &quot;CGAN-IRB: a novel data augmentation method for apple leaf diseases.&quot; In the proceedings of 2021 IEEE 45th Annual Computers, Software, and Applications Conference (COMPSAC), 2021.'

@@ -13,7 +13,6 @@ author_list: '<strong>Xianyu Zhu¹</strong>, Jinjiang Li¹, Runchang Jia¹, Bin 
 affiliations: '¹College of Information Engineering, Northwest A&F University, Yangling, China<br>²College of Mechanical and Electronic Engineering, Northwest A&F University, Yangling, China'
 description: 'A lightweight model achieving 98.58% accuracy for apple leaf disease recognition with only 1.25MB size, enabling real-time diagnosis on mobile devices.'
 keywords: '<strong>Apple Leaf Pests and Diseases</strong>, <strong>Asymmetric Convolution</strong>, <strong>Dilated Convolution</strong>, <strong>Real-Time Inference</strong>, <strong>Convolutional Neural Networks</strong>, <strong>Deep Learning</strong>'
-paperurl: 'http://zhuxy-USTC.github.io/files/LAD-Net.pdf'
 posterurl: 'http://zhuxy-USTC.github.io/poster/LAD-Net-poster.pdf'
 doi: 'https://doi.org/10.1109/TCBB.2022.3191854'
 googlescholar: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DHVjR2oAAAAJ&citation_for_view=DHVjR2oAAAAJ:u5HHmVD_uO8C'

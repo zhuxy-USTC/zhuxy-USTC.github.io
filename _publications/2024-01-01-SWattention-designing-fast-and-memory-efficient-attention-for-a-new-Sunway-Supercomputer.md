@@ -13,7 +13,6 @@ author_list: 'Ruohan Wu¹, <strong>Xianyu Zhu¹</strong>, Junshi Chen¹², Sha L
 affiliations: '¹School of Computer Science and Technology, University of Science and Technology of China, Hefei, China<br>²Laoshan Laboratory, Qingdao, China'
 description: 'A highly efficient method for computing exact attention on the SW26010pro processor with two-level parallel task partition strategy.'
 keywords: '<strong>Artificial Intelligence</strong>, <strong>Attention Optimization</strong>, <strong>Parallel Programs</strong>, <strong>Sunway Architecture</strong>'
-paperurl: 'http://zhuxy-USTC.github.io/files/swattention.pdf'
 googlescholar: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k2ajuuEAAAAJ&citation_for_view=k2ajuuEAAAAJ:qjMakFHDy7sC'
 doi: 'https://doi.org/10.1007/s11227-024-05890-8'
 citation: ' Ruohan Wu,  Xianyu Zhu,  Junshi Chen,  Sha Liu,  Tianyu Zheng,  Xin Liu,  Hong An, &quot;SWattention: designing fast and memory-efficient attention for a new Sunway Supercomputer.&quot; The Journal of Supercomputing, 2024.'

@@ -13,7 +13,6 @@ author_list: '<strong>Xianyu Zhu¹</strong>, Ruohan Wu¹, Junshi Chen¹², Hong 
 affiliations: '¹School of Computer Science and Technology, University of Science and Technology of China, Hefei, China<br>²Laoshan Laboratory, Qingdao, China'
 description: 'A framework designed to accelerate foundation models via intra-op tiling and inter-op scheduling on the new Sunway Supercomputer.'
 keywords: '<strong>High-Performance Computing</strong>, <strong>Performance Modeling</strong>, <strong>Deep Learning</strong>, <strong>Distributed Training</strong>'
-paperurl: 'http://zhuxy-USTC.github.io/files/swPredictor.pdf'
 posterurl: 'http://zhuxy-USTC.github.io/poster/swPredictor-poster.pdf'
 doi: 'https://doi.org/10.1016/j.peva.2025.102530'
 googlescholar: 'https://www.sciencedirect.com/science/article/pii/S0166531625000641'
