@@ -14,8 +14,9 @@ affiliations: '¹School of Computer Science and Technology, University of Scienc
 description: 'A framework designed to accelerate foundation models via intra-op tiling and inter-op scheduling on the new Sunway Supercomputer.'
 keywords: '<strong>High-Performance Computing</strong>, <strong>Performance Modeling</strong>, <strong>Deep Learning</strong>, <strong>Distributed Training</strong>'
 paperurl: 'http://zhuxy-USTC.github.io/files/swPredictor.pdf'
-doi: 'https://jcst.ict.ac.cn/en/article/doi/10.1007/s11390-025-4761-0'
-googlescholar: 'https://scholar.google.com/scholar?q=SwFormer+Enabling+Faster+Foundation+Models+Sunway+Supercomputer'
+posterurl: 'http://zhuxy-USTC.github.io/poster/swPredictor-poster.pdf'
+doi: 'https://doi.org/10.1016/j.peva.2025.102530'
+googlescholar: 'https://www.sciencedirect.com/science/article/pii/S0166531625000641'
 citation: ' Xianyu Zhu, Ruohan Wu,  Junshi Chen,  Hong An &quot;swPredictor: A Data-Driven Performance Model for Distributed Data Parallelism Training on Large-Scale HPC Clusters.&quot; Performance Evaluation: An International Journal (PEVA), 2025.'
 bibtex: |
   @article{zhu2025swPredictor,
