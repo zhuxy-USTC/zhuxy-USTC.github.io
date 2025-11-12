@@ -666,11 +666,11 @@ hr {
 .paper-box {
   display: flex !important;
   justify-content: left !important;
-  align-items: flex-start !important;
+  align-items: center !important;
   flex-direction: row !important;
   flex-wrap: wrap !important;
   border-bottom: 1px #efefef solid !important;
-  padding: 0.5em 0 2em 0 !important;
+  padding: 0.5em 0 0.5em 0 !important;
   margin-bottom: 1em !important;
 }
 
